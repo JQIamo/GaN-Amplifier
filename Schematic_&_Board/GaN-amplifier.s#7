@@ -280,7 +280,7 @@
 <parts>
 <part name="D1" library="qkdlab_alessandro" deviceset="BAS16TW" device=""/>
 <part name="D2" library="qkdlab_alessandro" deviceset="BAS16TW" device=""/>
-<part name="T1" library="qkdlab_alessandro" deviceset="PMOS-FDC3535" device="SUPERSOT-6"/>
+<part name="T1" library="qkdlab_alessandro" deviceset="PMOS-FDC3535" device="SUPERSOT-6" value="FDC3535"/>
 <part name="T2" library="qkdlab_alessandro" deviceset="NPN_MMBTA06FSCT" device=""/>
 <part name="D3" library="qkdlab_alessandro" deviceset="BAS16TW" device=""/>
 </parts>
@@ -292,92 +292,12 @@
 <instance part="D1" gate="G$1" x="77.47" y="38.1" rot="R90"/>
 <instance part="D2" gate="G$1" x="77.47" y="58.42" rot="R90"/>
 <instance part="T1" gate="G$1" x="110.49" y="107.95"/>
-<instance part="T2" gate="G$1" x="76.2" y="106.68"/>
+<instance part="T2" gate="G$1" x="83.82" y="105.41"/>
 <instance part="D3" gate="G$1" x="77.47" y="78.74" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<wire x1="85.09" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="83.82" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="C2"/>
-<wire x1="86.36" y1="81.28" x2="69.85" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="81.28" x2="69.85" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A3"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="A2"/>
-<wire x1="85.09" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="78.74" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="76.2" x2="69.85" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="C1"/>
-<wire x1="69.85" y1="76.2" x2="69.85" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="A1"/>
-<wire x1="85.09" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="73.66" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C3"/>
-<wire x1="86.36" y1="68.58" x2="69.85" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="68.58" x2="69.85" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A3"/>
-<wire x1="85.09" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="63.5" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C2"/>
-<wire x1="86.36" y1="60.96" x2="69.85" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="60.96" x2="69.85" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A2"/>
-<wire x1="85.09" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="58.42" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C1"/>
-<wire x1="86.36" y1="55.88" x2="69.85" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="55.88" x2="69.85" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A1"/>
-<wire x1="85.09" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="53.34" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C3"/>
-<wire x1="86.36" y1="48.26" x2="69.85" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="48.26" x2="69.85" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="A3"/>
-<wire x1="85.09" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="43.18" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C2"/>
-<wire x1="86.36" y1="40.64" x2="69.85" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="40.64" x2="69.85" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="A2"/>
-<wire x1="85.09" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="38.1" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C1"/>
-<wire x1="86.36" y1="35.56" x2="69.85" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="35.56" x2="69.85" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
