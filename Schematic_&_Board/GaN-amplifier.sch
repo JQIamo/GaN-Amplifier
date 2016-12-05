@@ -2372,6 +2372,10 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="P+7" library="supply1" deviceset="+24V" device=""/>
 <part name="R14" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2M"/>
 <part name="R15" library="jqi_passives" deviceset="R_SMD" device="R0603" value="54.9k"/>
+<part name="P+9" library="supply1" deviceset="+5V" device=""/>
+<part name="R16" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY2" library="supply2" deviceset="-8V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2430,7 +2434,7 @@ I_hys=10uA</text>
 <instance part="C15" gate="G$1" x="66.04" y="121.92"/>
 <instance part="C16" gate="G$1" x="76.2" y="123.19"/>
 <instance part="R4" gate="G$1" x="85.09" y="123.19" rot="R90"/>
-<instance part="U4" gate="G$1" x="76.2" y="218.44"/>
+<instance part="U4" gate="G$1" x="200.66" y="128.27"/>
 <instance part="Q1" gate="G$1" x="34.29" y="66.04" rot="MR180"/>
 <instance part="R5" gate="G$1" x="31.75" y="83.82" rot="R90"/>
 <instance part="R9" gate="G$1" x="21.59" y="58.42" rot="R90"/>
@@ -2444,7 +2448,7 @@ I_hys=10uA</text>
 <instance part="R11" gate="G$1" x="91.44" y="86.36" rot="R180"/>
 <instance part="R12" gate="G$1" x="59.69" y="71.12" rot="R180"/>
 <instance part="GND9" gate="1" x="100.33" y="57.15"/>
-<instance part="T3" gate="G$1" x="90.17" y="236.22"/>
+<instance part="T3" gate="G$1" x="170.18" y="130.81" rot="R90"/>
 <instance part="U7" gate="G$1" x="133.35" y="124.46"/>
 <instance part="P+6" gate="1" x="93.98" y="135.89"/>
 <instance part="GND10" gate="1" x="123.19" y="97.79"/>
@@ -2452,6 +2456,10 @@ I_hys=10uA</text>
 <instance part="P+7" gate="1" x="143.51" y="138.43"/>
 <instance part="R14" gate="G$1" x="143.51" y="110.49" rot="R270"/>
 <instance part="R15" gate="G$1" x="133.35" y="102.87"/>
+<instance part="P+9" gate="1" x="161.29" y="139.7"/>
+<instance part="R16" gate="G$1" x="184.15" y="133.35" rot="R180"/>
+<instance part="GND11" gate="1" x="190.5" y="114.3"/>
+<instance part="SUPPLY2" gate="G$1" x="212.09" y="139.7" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2575,6 +2583,12 @@ I_hys=10uA</text>
 <wire x1="123.19" y1="102.87" x2="123.19" y2="100.33" width="0.1524" layer="91"/>
 <wire x1="128.27" y1="102.87" x2="123.19" y2="102.87" width="0.1524" layer="91"/>
 <junction x="123.19" y="102.87"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="P$2"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="193.04" y1="123.19" x2="190.5" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="123.19" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -2701,6 +2715,12 @@ I_hys=10uA</text>
 <pinref part="T1" gate="G$1" pin="D"/>
 <wire x1="93.98" y1="133.35" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="129.54" x2="97.79" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<pinref part="T3" gate="G$1" pin="D"/>
+<wire x1="161.29" y1="137.16" x2="161.29" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="133.35" x2="165.1" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2855,6 +2875,12 @@ I_hys=10uA</text>
 <wire x1="125.73" y1="91.44" x2="125.73" y2="88.9" width="0.1524" layer="91"/>
 <junction x="119.38" y="91.44"/>
 </segment>
+<segment>
+<pinref part="SUPPLY2" gate="G$1" pin="-8V"/>
+<pinref part="U4" gate="G$1" pin="P$4"/>
+<wire x1="212.09" y1="137.16" x2="212.09" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="212.09" y1="133.35" x2="208.28" y2="133.35" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VPIN_DET" class="0">
 <segment>
@@ -2901,6 +2927,11 @@ I_hys=10uA</text>
 <pinref part="U6" gate="A" pin="OUT3"/>
 <wire x1="8.89" y1="120.65" x2="1.27" y2="120.65" width="0.1524" layer="91"/>
 <label x="0" y="120.65" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="T3" gate="G$1" pin="G"/>
+<wire x1="172.72" y1="128.27" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
+<label x="172.72" y="118.11" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VGG_DET" class="0">
@@ -2961,6 +2992,20 @@ I_hys=10uA</text>
 <wire x1="40.64" y1="299.72" x2="40.64" y2="307.34" width="0.1524" layer="91"/>
 <junction x="40.64" y="299.72"/>
 <label x="40.64" y="302.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="T3" gate="G$1" pin="S"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="133.35" x2="179.07" y2="133.35" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="U4" gate="G$1" pin="P$1"/>
+<wire x1="189.23" y1="133.35" x2="193.04" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
