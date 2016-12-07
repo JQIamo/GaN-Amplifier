@@ -2252,8 +2252,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k"/>
-<part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k"/>
-<part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k"/>
+<part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="866"/>
+<part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.42k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -2262,6 +2262,9 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <text x="-46.99" y="93.98" size="1.778" layer="97">Vout is actually -7.75V to avoid potentially exceeding HMC1099 rating.</text>
 <text x="-29.21" y="62.23" size="1.778" layer="97">R6=R7*(Vout/1.176-1)</text>
 <text x="73.66" y="175.26" size="1.778" layer="97">connect to front rocker switch</text>
+<text x="73.66" y="44.45" size="1.778" layer="97">V(on,pinch)=0.61V*(R10/R11)
+V(off,pinch)=(0.61V-I_hys*R12)*(R10/R11)
+I_hys=10uA</text>
 </plain>
 <instances>
 <instance part="P+1" gate="1" x="-53.34" y="143.51"/>
@@ -2729,4 +2732,10 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

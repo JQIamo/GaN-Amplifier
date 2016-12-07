@@ -569,14 +569,6 @@ www.minicircuits.com&lt;br&gt;
 </library>
 <library name="transistor-jqi">
 <packages>
-<package name="4-LEAD_SOP">
-<wire x1="-1.8288" y1="1.524" x2="-1.8288" y2="-1.4986" width="0.127" layer="21"/>
-<smd name="P$1" x="-1.27" y="-1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$2" x="1.27" y="-1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$3" x="1.27" y="1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$4" x="-1.27" y="1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<text x="-1.0922" y="-0.6858" size="0.6096" layer="21" rot="R90">1</text>
-</package>
 <package name="D2PACK">
 <description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
 INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
@@ -602,6 +594,15 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <rectangle x1="1.8288" y1="-8.1534" x2="3.2512" y2="-6.731" layer="51"/>
 <rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
 <rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
+</package>
+<package name="4-LEAD_SOP">
+<wire x1="-1.8288" y1="1.524" x2="-1.8288" y2="-1.4986" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.27" y="-1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
+<smd name="P$2" x="1.27" y="-1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
+<smd name="P$3" x="1.27" y="1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
+<smd name="P$4" x="-1.27" y="1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
+<text x="-1.0922" y="-0.6858" size="0.6096" layer="21" rot="R90">1</text>
+<text x="-1.27" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -998,7 +999,6 @@ design rules under a new name.</description>
 <element name="U2" library="rf-jqi" package="HCP-32-2" value="HMC1099" x="-76.2" y="-151.13">
 <attribute name="ANALOGDEVICES" value="HMC1099" x="-76.2" y="-151.13" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U4" library="transistor-jqi" package="4-LEAD_SOP" value="CPC1117NTR" x="-85.09" y="-160.02"/>
 <element name="T1" library="transistor-jqi" package="D2PACK" value="" x="-67.31" y="-173.99"/>
 <element name="T2" library="transistor-jqi" package="D2PACK" value="" x="-67.31" y="-199.39"/>
 <element name="IC1" library="regulator-jqi" package="TO263-5" value="LT3080" x="-68.58" y="-223.52"/>
@@ -1027,6 +1027,7 @@ design rules under a new name.</description>
 <element name="C15" library="jqi_passives" package="C_MLCC_0603" value="100n" x="-83.82" y="-299.72"/>
 <element name="C16" library="jqi_passives" package="C_MLCC_0603" value="150n" x="-83.82" y="-303.53"/>
 <element name="R4" library="jqi_passives" package="R_0603" value="49.9k" x="-85.09" y="-307.34"/>
+<element name="U4" library="transistor-jqi" package="4-LEAD_SOP" value="CPC1117NTR" x="-92.71" y="-304.8"/>
 </elements>
 <signals>
 <signal name="GND">
