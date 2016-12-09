@@ -1128,7 +1128,7 @@ design rules under a new name.</description>
 <element name="C19" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="-100.33" y="-394.97"/>
 <element name="R19" library="jqi_passives" package="R_0603" value="200" x="-100.33" y="-398.78"/>
 <element name="R20" library="jqi_passives" package="R_0603" value="100" x="-100.33" y="-402.59"/>
-<element name="R21" library="rlc-jqi" package="3269P" value="" x="-93.98" y="-410.21"/>
+<element name="R21" library="rlc-jqi" package="3269P" value="500" x="-93.98" y="-410.21"/>
 </elements>
 <signals>
 <signal name="GND">

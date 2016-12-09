@@ -374,7 +374,7 @@ UsedLibrary="//elwood.nist.gov/685/users/dsb1/My Documents/GitHub/bipolar-mosfet
 
 [Win_1]
 Type="Board Editor"
-Loc="-8 -30 591 369"
+Loc="0 0 599 399"
 State=0
 Number=2
 File="Schematic_&_Board/GaN-amplifier.brd"

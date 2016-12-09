@@ -2473,7 +2473,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="R20" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100"/>
 <part name="SUPPLY3" library="supply2" deviceset="-8V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R21" library="rlc-jqi" deviceset="BOURNS-3269P" device=""/>
+<part name="R21" library="rlc-jqi" deviceset="BOURNS-3269P" device="" value="500"/>
 </parts>
 <sheets>
 <sheet>

@@ -2376,8 +2376,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="R16" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="-8V" device=""/>
-<part name="R17" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
-<part name="R18" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
+<part name="R17" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k"/>
+<part name="R18" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2385,8 +2385,18 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <text x="-46.99" y="93.98" size="1.778" layer="97">Vout is actually -7.75V to avoid potentially exceeding HMC1099 rating.</text>
 <text x="-29.21" y="62.23" size="1.778" layer="97">R6=R7*(Vout/1.176-1)</text>
 <text x="60.96" y="146.05" size="1.778" layer="97">connect to front rocker switch</text>
-<text x="73.66" y="44.45" size="1.778" layer="97">V(on,pinch)=0.61V*(R10/R11)
-V(off,pinch)=(0.61V-I_hys*R12)*(R10/R11)
+<text x="73.66" y="44.45" size="1.778" layer="97">V(on,pinch)=0.61V*(R10/R11)=-7V
+V(off,pinch)=(0.61V-I_hys*R12)*(R10/R11)=-6.5V
+I_hys=10uA</text>
+<text x="130.81" y="86.36" size="1.778" layer="97">V(on,DD)=22.2V
+V(off,DD)=2.2V
+R14=[V(on,DD)-V(off,DD)]/I_hys
+R15=R14*0.61V/[V(on,DD)-0.61V]
+I_hys=10uA</text>
+<text x="173.99" y="144.78" size="1.778" layer="97">V(on,GG)=3V
+V(off,GG)=1V
+R17=[V(on,GG)-V(off,GG)]/I_hys
+R18=R14*0.61V/[V(on,GG)-0.61V]
 I_hys=10uA</text>
 </plain>
 <instances>
