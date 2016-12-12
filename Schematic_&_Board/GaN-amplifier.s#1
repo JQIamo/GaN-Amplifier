@@ -2831,6 +2831,7 @@ R17=[V(on,GG)-V(off,GG)]/I_hys
 R18=R14*0.61V/[V(on,GG)-0.61V]
 I_hys=10uA</text>
 <text x="210.82" y="76.2" size="1.778" layer="97">connect to RF enable on AOM driver board</text>
+<text x="149.86" y="204.47" size="1.778" layer="97">1 V/A output</text>
 </plain>
 <instances>
 <instance part="P+1" gate="1" x="-53.34" y="143.51"/>
@@ -2927,8 +2928,8 @@ I_hys=10uA</text>
 <instance part="C22" gate="G$1" x="99.06" y="199.39" rot="R270"/>
 <instance part="GND15" gate="1" x="110.49" y="204.47" rot="MR0"/>
 <instance part="GND16" gate="1" x="123.19" y="181.61" rot="MR0"/>
-<instance part="R25" gate="G$1" x="85.09" y="184.15"/>
-<instance part="R26" gate="G$1" x="88.9" y="194.31" rot="R90"/>
+<instance part="R25" gate="G$1" x="83.82" y="184.15"/>
+<instance part="R26" gate="G$1" x="83.82" y="194.31" rot="R180"/>
 <instance part="R27" gate="G$1" x="130.81" y="189.23" rot="R180"/>
 <instance part="R28" gate="G$1" x="130.81" y="208.28" rot="R180"/>
 <instance part="X3" gate="G$1" x="152.4" y="200.66" rot="R180"/>
@@ -3704,21 +3705,13 @@ I_hys=10uA</text>
 <pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="R26" gate="G$1" pin="1"/>
-<pinref part="U5" gate="G$1" pin="-IN"/>
-<wire x1="88.9" y1="189.23" x2="88.9" y2="186.69" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="186.69" x2="92.71" y2="186.69" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="+IN"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="92.71" y1="184.15" x2="91.44" y2="184.15" width="0.1524" layer="91"/>
 <pinref part="T5" gate="G$1" pin="D"/>
-<wire x1="91.44" y1="184.15" x2="90.17" y2="184.15" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="184.15" x2="88.9" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="181.61" x2="143.51" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="177.8" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="177.8" x2="91.44" y2="184.15" width="0.1524" layer="91"/>
@@ -3755,17 +3748,7 @@ I_hys=10uA</text>
 <segment>
 <pinref part="R29" gate="G$1" pin="V$2"/>
 <pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="184.15" x2="80.01" y2="184.15" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="199.39" x2="88.9" y2="201.93" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="201.93" x2="81.28" y2="201.93" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="V$1"/>
-<wire x1="81.28" y1="201.93" x2="81.28" y2="194.31" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="194.31" x2="76.2" y2="194.31" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="184.15" x2="78.74" y2="184.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -3809,6 +3792,22 @@ I_hys=10uA</text>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="0" y1="220.98" x2="5.08" y2="220.98" width="0.1524" layer="91"/>
 <junction x="0" y="220.98"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="V$1"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="194.31" x2="78.74" y2="194.31" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="194.31" x2="91.44" y2="194.31" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="194.31" x2="91.44" y2="186.69" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="-IN"/>
+<wire x1="91.44" y1="186.69" x2="92.71" y2="186.69" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

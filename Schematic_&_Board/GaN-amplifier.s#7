@@ -2376,6 +2376,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="R16" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="-8V" device=""/>
+<part name="R17" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
+<part name="R18" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2460,6 +2462,8 @@ I_hys=10uA</text>
 <instance part="R16" gate="G$1" x="184.15" y="133.35" rot="R180"/>
 <instance part="GND11" gate="1" x="190.5" y="114.3"/>
 <instance part="SUPPLY2" gate="G$1" x="212.09" y="139.7" rot="R180"/>
+<instance part="R17" gate="G$1" x="176.53" y="121.92" rot="R270"/>
+<instance part="R18" gate="G$1" x="176.53" y="105.41" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -2589,6 +2593,11 @@ I_hys=10uA</text>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="193.04" y1="123.19" x2="190.5" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="123.19" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="176.53" y1="100.33" x2="185.42" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="100.33" x2="185.42" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="123.19" x2="190.5" y2="123.19" width="0.1524" layer="91"/>
+<junction x="190.5" y="123.19"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -2940,6 +2949,15 @@ I_hys=10uA</text>
 <wire x1="8.89" y1="130.81" x2="1.27" y2="130.81" width="0.1524" layer="91"/>
 <label x="0" y="130.81" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="176.53" y1="116.84" x2="176.53" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="113.03" x2="176.53" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="113.03" x2="166.37" y2="113.03" width="0.1524" layer="91"/>
+<junction x="176.53" y="113.03"/>
+<label x="165.1" y="113.03" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RF_DET" class="0">
 <segment>
@@ -2998,7 +3016,11 @@ I_hys=10uA</text>
 <segment>
 <pinref part="T3" gate="G$1" pin="S"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="133.35" x2="179.07" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="133.35" x2="176.53" y2="133.35" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="176.53" y1="133.35" x2="179.07" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="127" x2="176.53" y2="133.35" width="0.1524" layer="91"/>
+<junction x="176.53" y="133.35"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -3006,6 +3028,31 @@ I_hys=10uA</text>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="U4" gate="G$1" pin="P$1"/>
 <wire x1="189.23" y1="133.35" x2="193.04" y2="133.35" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VGG" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="P$3"/>
+<wire x1="208.28" y1="123.19" x2="212.09" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="212.09" y1="123.19" x2="212.09" y2="113.03" width="0.1524" layer="91"/>
+<label x="212.09" y="113.03" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="-1.27" y1="234.95" x2="-5.08" y2="234.95" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="234.95" x2="-5.08" y2="240.03" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-1.27" y1="228.6" x2="-5.08" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="228.6" x2="-5.08" y2="234.95" width="0.1524" layer="91"/>
+<junction x="-5.08" y="234.95"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="-1.27" y1="222.25" x2="-5.08" y2="222.25" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="222.25" x2="-5.08" y2="228.6" width="0.1524" layer="91"/>
+<junction x="-5.08" y="228.6"/>
+<wire x1="-5.08" y1="222.25" x2="-5.08" y2="215.9" width="0.1524" layer="91"/>
+<junction x="-5.08" y="222.25"/>
+<label x="-5.08" y="215.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

@@ -1081,8 +1081,8 @@ design rules under a new name.</description>
 <element name="R14" library="jqi_passives" package="R_0603" value="2M" x="-100.33" y="-375.92"/>
 <element name="R15" library="jqi_passives" package="R_0603" value="54.9k" x="-100.33" y="-379.73"/>
 <element name="R16" library="jqi_passives" package="R_0603" value="1k" x="-100.33" y="-383.54"/>
-<element name="R17" library="jqi_passives" package="R_0603" value="1k" x="-100.33" y="-387.35"/>
-<element name="R18" library="jqi_passives" package="R_0603" value="1k" x="-100.33" y="-391.16"/>
+<element name="R17" library="jqi_passives" package="R_0603" value="200k" x="-100.33" y="-387.35"/>
+<element name="R18" library="jqi_passives" package="R_0603" value="51k" x="-100.33" y="-391.16"/>
 </elements>
 <signals>
 <signal name="GND">

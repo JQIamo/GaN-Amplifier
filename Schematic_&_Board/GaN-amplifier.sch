@@ -1443,6 +1443,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.2192" y1="1.7272" x2="0.7112" y2="1.7272" width="0.0254" layer="21"/>
 <wire x1="0.7112" y1="1.7272" x2="0.7112" y2="0.7112" width="0.0254" layer="21"/>
 </package>
+<package name="1008">
+<smd name="P$1" x="-1.143" y="0" dx="2.54" dy="1.016" layer="1" rot="R90"/>
+<smd name="P$2" x="1.143" y="0" dx="2.54" dy="1.016" layer="1" rot="R90"/>
+<text x="-1.8288" y="1.4605" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-1.27" y1="1.016" x2="-1.27" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.016" x2="-0.762" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="-1.016" x2="0.762" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-1.016" x2="1.27" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.016" x2="1.27" y2="1.016" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="0.762" y2="1.016" width="0.127" layer="21"/>
+<wire x1="0.762" y1="1.016" x2="-0.762" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="0.762" y1="1.016" x2="0.762" y2="-1.016" width="0.127" layer="21"/>
+<text x="-1.905" y="-2.794" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -1475,6 +1491,25 @@ In this library the device names are the same as the pin names of the symbols, t
 <technologies>
 <technology name="">
 <attribute name="COILCRAFT" value="0906"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1008AF-XX" prefix="L" uservalue="yes">
+<description>low resistance, high current, 1008 chip inductor</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1008">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COILCRAFT" value="1008AF"/>
 </technology>
 </technologies>
 </device>
@@ -2810,6 +2845,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="C25" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p"/>
 <part name="C26" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p"/>
 <part name="L2" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0402" value="5.6n"/>
+<part name="L3" library="coilcraft-jqi" deviceset="1008AF-XX" device="" value="0.9u"/>
 </parts>
 <sheets>
 <sheet>
@@ -2941,6 +2977,7 @@ I_hys=10uA</text>
 <instance part="C25" gate="G$1" x="96.52" y="215.9" rot="MR0"/>
 <instance part="C26" gate="G$1" x="0" y="212.09" rot="MR0"/>
 <instance part="L2" gate="G$1" x="12.7" y="220.98"/>
+<instance part="L3" gate="G$1" x="66.04" y="208.28"/>
 </instances>
 <busses>
 </busses>
@@ -3780,7 +3817,11 @@ I_hys=10uA</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="220.98" x2="78.74" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="220.98" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="220.98" x2="78.74" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="215.9" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
+<junction x="66.04" y="220.98"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -3808,6 +3849,13 @@ I_hys=10uA</text>
 <wire x1="91.44" y1="194.31" x2="91.44" y2="186.69" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="-IN"/>
 <wire x1="91.44" y1="186.69" x2="92.71" y2="186.69" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="I$1"/>
+<pinref part="L3" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="194.31" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
