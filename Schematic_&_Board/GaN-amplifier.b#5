@@ -1237,7 +1237,7 @@ design rules under a new name.</description>
 <element name="L3" library="coilcraft-jqi" package="1008" value="0.9u" x="35.56" y="19.05">
 <attribute name="COILCRAFT" value="1008AF" x="35.56" y="19.05" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP3" library="pinhead" package="1X03" value="" x="6.35" y="-10.16"/>
+<element name="JP3" library="pinhead" package="1X03" value="" x="27.94" y="6.35"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1414,7 +1414,7 @@ design rules under a new name.</description>
 <wire x1="7.6454" y1="12.0396" x2="7.6454" y2="12.0396" width="0" layer="19" extent="1-16"/>
 <wire x1="7.6454" y1="3.2004" x2="7.6454" y2="12.0396" width="0" layer="19" extent="1-16"/>
 <wire x1="7.6454" y1="3.2004" x2="7.6454" y2="3.2004" width="0" layer="19" extent="1-16"/>
-<wire x1="6.35" y1="-10.16" x2="7.6454" y2="3.2004" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="6.35" x2="7.6454" y2="3.2004" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="C11" pad="P$2"/>
@@ -1437,7 +1437,7 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="3"/>
 <wire x1="19.73" y1="30.87" x2="115.57" y2="45.44" width="0" layer="19" extent="1-1"/>
 <wire x1="17.78" y1="30.87" x2="19.73" y2="30.87" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="-10.16" x2="17.78" y2="30.87" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="6.35" x2="17.78" y2="30.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+24V">
 <contactref element="IC1" pad="5"/>
@@ -1448,7 +1448,7 @@ design rules under a new name.</description>
 <wire x1="155.6512" y1="66.4718" x2="155.6512" y2="68.1736" width="0" layer="19" extent="1-1"/>
 <wire x1="89.54" y1="76.2" x2="155.6512" y2="68.1736" width="0" layer="19" extent="1-1"/>
 <wire x1="50.8" y1="13.02" x2="89.54" y2="76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="-10.16" x2="50.8" y2="13.02" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="6.35" x2="50.8" y2="13.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC1" pad="2"/>
