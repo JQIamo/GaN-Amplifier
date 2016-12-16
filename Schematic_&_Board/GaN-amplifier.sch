@@ -395,6 +395,70 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <text x="2.286" y="1.016" size="1.27" layer="25">&gt;NAME</text>
 <text x="2.286" y="-1.016" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="C_POL_0805">
+<wire x1="-1.54" y1="0.925" x2="1.54" y2="0.925" width="0.127" layer="21"/>
+<wire x1="1.54" y1="0.925" x2="1.54" y2="-0.925" width="0.127" layer="21"/>
+<wire x1="1.54" y1="-0.925" x2="-1.54" y2="-0.925" width="0.127" layer="21"/>
+<wire x1="-1.54" y1="-0.925" x2="-1.54" y2="0.925" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="0.9" x2="-1.9" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="0.9" x2="-1.9" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-0.9" x2="-1.8" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-0.9" x2="-1.8" y2="0.9" width="0.127" layer="21"/>
+<smd name="P$1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="P$2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<text x="-1.6" y="1" size="1.016" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="C_POL_1206">
+<wire x1="-2.125" y1="1.125" x2="2.125" y2="1.125" width="0.127" layer="21"/>
+<wire x1="2.125" y1="1.125" x2="2.125" y2="-1.125" width="0.127" layer="21"/>
+<wire x1="2.125" y1="-1.125" x2="-2.125" y2="-1.125" width="0.127" layer="21"/>
+<wire x1="-2.125" y1="-1.125" x2="-2.125" y2="1.125" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="1.1" x2="-2.4" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.5" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.1" x2="-2.5" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.1" x2="-2.4" y2="1.1" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
+<smd name="P$2" x="1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
+<text x="-2.2" y="1.3" size="1.016" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="PANASONIC_F">
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="1" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="1" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-1" x2="4.1" y2="-1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.1016" layer="21" curve="-153.684915"/>
+<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.1016" layer="21" curve="153.684915"/>
+<circle x="0" y="0" radius="4" width="0.001" layer="51"/>
+<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
+<smd name="-" x="-3.55" y="0" dx="4" dy="1.6" layer="1"/>
+<smd name="+" x="3.55" y="0" dx="4" dy="1.6" layer="1"/>
+<text x="-1.75" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.75" y="-2.375" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.85" y1="-0.45" x2="-3.9" y2="0.45" layer="51"/>
+<rectangle x1="3.9" y1="-0.45" x2="4.85" y2="0.45" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.25" y="3.2"/>
+<vertex x="-3" y="2.5"/>
+<vertex x="-3.6" y="1.5"/>
+<vertex x="-3.85" y="0.65"/>
+<vertex x="-3.85" y="-0.65"/>
+<vertex x="-3.55" y="-1.6"/>
+<vertex x="-2.95" y="-2.55"/>
+<vertex x="-2.25" y="-3.2"/>
+<vertex x="-2.25" y="3.15"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="R_SMD">
@@ -438,6 +502,21 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <text x="-5.08" y="-2.54" size="1.524" layer="96">&gt;VALUE</text>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="C_POL_SMD">
+<wire x1="-1.905" y1="0" x2="0" y2="0" width="0.3048" layer="94"/>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.3048" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-1.0161" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.0161" x2="0" y2="-5.08" width="0.3048" layer="94"/>
+<wire x1="0" y1="-1" x2="1.8542" y2="-1.8542" width="0.3048" layer="94" curve="-37.878455"/>
+<wire x1="-1.8319" y1="-1.8504" x2="0" y2="-1.0161" width="0.3048" layer="94" curve="-37.376965"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.3048" layer="94"/>
+<text x="1.016" y="0.635" size="1.524" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.524" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -689,6 +768,40 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C_POL_SMD" prefix="C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="C_POL_SMD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CPOL_0805" package="C_POL_0805">
+<connects>
+<connect gate="G$1" pin="+" pad="P$1"/>
+<connect gate="G$1" pin="-" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CPOL_1206" package="C_POL_1206">
+<connects>
+<connect gate="G$1" pin="+" pad="P$1"/>
+<connect gate="G$1" pin="-" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F" package="PANASONIC_F">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2943,6 +3056,8 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
 <part name="P-2" library="supply1" deviceset="-24V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="C27" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220u"/>
+<part name="C28" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220u"/>
 </parts>
 <sheets>
 <sheet>
@@ -3076,9 +3191,11 @@ I_hys=10uA</text>
 <instance part="L2" gate="G$1" x="12.7" y="220.98"/>
 <instance part="L3" gate="G$1" x="62.23" y="208.28"/>
 <instance part="JP3" gate="A" x="-11.43" y="181.61"/>
-<instance part="P+11" gate="1" x="-20.32" y="189.23"/>
-<instance part="P-2" gate="1" x="-20.32" y="173.99"/>
+<instance part="P+11" gate="1" x="-21.59" y="195.58"/>
+<instance part="P-2" gate="1" x="-21.59" y="167.64"/>
 <instance part="GND18" gate="1" x="-27.94" y="176.53"/>
+<instance part="C27" gate="G$1" x="-21.59" y="177.8"/>
+<instance part="C28" gate="G$1" x="-21.59" y="187.96"/>
 </instances>
 <busses>
 </busses>
@@ -3295,7 +3412,13 @@ I_hys=10uA</text>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="-27.94" y1="179.07" x2="-27.94" y2="181.61" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="181.61" x2="-13.97" y2="181.61" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="181.61" x2="-21.59" y2="181.61" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="+"/>
+<wire x1="-21.59" y1="181.61" x2="-13.97" y2="181.61" width="0.1524" layer="91"/>
+<wire x1="-21.59" y1="180.34" x2="-21.59" y2="181.61" width="0.1524" layer="91"/>
+<junction x="-21.59" y="181.61"/>
+<pinref part="C28" gate="G$1" pin="-"/>
+<wire x1="-21.59" y1="181.61" x2="-21.59" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -3337,10 +3460,14 @@ I_hys=10uA</text>
 <junction x="-38.1" y="86.36"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="C27" gate="G$1" pin="-"/>
 <pinref part="P-2" gate="1" pin="-24V"/>
-<wire x1="-13.97" y1="179.07" x2="-20.32" y2="179.07" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="179.07" x2="-20.32" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="-21.59" y1="172.72" x2="-21.59" y2="171.45" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="-21.59" y1="171.45" x2="-21.59" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-21.59" y1="171.45" x2="-13.97" y2="171.45" width="0.1524" layer="91"/>
+<wire x1="-13.97" y1="171.45" x2="-13.97" y2="179.07" width="0.1524" layer="91"/>
+<junction x="-21.59" y="171.45"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -3364,10 +3491,14 @@ I_hys=10uA</text>
 <wire x1="143.51" y1="129.54" x2="140.97" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="C28" gate="G$1" pin="+"/>
 <pinref part="P+11" gate="1" pin="+24V"/>
-<wire x1="-13.97" y1="184.15" x2="-20.32" y2="184.15" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="184.15" x2="-20.32" y2="186.69" width="0.1524" layer="91"/>
+<wire x1="-21.59" y1="190.5" x2="-21.59" y2="191.77" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="-21.59" y1="191.77" x2="-21.59" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="-21.59" y1="191.77" x2="-13.97" y2="191.77" width="0.1524" layer="91"/>
+<wire x1="-13.97" y1="191.77" x2="-13.97" y2="184.15" width="0.1524" layer="91"/>
+<junction x="-21.59" y="191.77"/>
 </segment>
 </net>
 <net name="N$1" class="0">
