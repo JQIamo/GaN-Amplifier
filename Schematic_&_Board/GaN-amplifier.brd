@@ -1308,11 +1308,21 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="regulator-jqi" package="DGN" value="TPS7A30XX" x="26.67" y="16.002" rot="R90"/>
-<element name="C2" library="jqi_passives" package="C_MLCC_1210" value="10u" x="89.408" y="28.702" rot="R270"/>
-<element name="C3" library="jqi_passives" package="C_MLCC_1210" value="10u" x="93.218" y="28.702" rot="R270"/>
-<element name="C6" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="96.012" y="29.464" rot="R270"/>
-<element name="C7" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="100.33" y="20.32" rot="R90"/>
+<element name="U1" library="regulator-jqi" package="DGN" value="TPS7A30XX" x="26.67" y="16.002" rot="R90">
+<attribute name="PARTNO" value="296-27750-1-ND" x="26.67" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C2" library="jqi_passives" package="C_MLCC_1210" value="10u" x="89.408" y="28.702" rot="R270">
+<attribute name="PARTNO" value="587-1818-1-ND" x="89.408" y="28.702" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C3" library="jqi_passives" package="C_MLCC_1210" value="10u" x="93.218" y="28.702" rot="R270">
+<attribute name="PARTNO" value="587-1818-1-ND" x="93.218" y="28.702" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C6" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="96.012" y="29.464" rot="R270">
+<attribute name="PARTNO" value="1276-1110-1-ND" x="96.012" y="29.464" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C7" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="100.33" y="20.32" rot="R90">
+<attribute name="PARTNO" value="1276-1110-1-ND" x="100.33" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C8" library="jqi_passives" package="C_MLCC_1206" value="10u" x="32.512" y="17.018" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.768" y="16.088" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
@@ -1327,150 +1337,248 @@ design rules under a new name.</description>
 </element>
 <element name="R6" library="jqi_passives" package="R_0402" value="56k" x="29.972" y="16.002" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.48" y="13.808" size="1.016" layer="25" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="P56.0KLCT-ND" x="29.972" y="16.002" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="jqi_passives" package="R_0402" value="10k" x="29.972" y="18.288" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.226" y="19.396" size="1.016" layer="25" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="P10.0KLCT-ND" x="29.972" y="18.288" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R8" library="jqi_passives" package="R_0603" value="68.1" x="104.648" y="21.336"/>
+<element name="R8" library="jqi_passives" package="R_0603" value="68.1" x="104.648" y="21.336">
+<attribute name="PARTNO" value="P68.1HCT-ND" x="104.648" y="21.336" size="1.778" layer="27" display="off"/>
+</element>
 <element name="L1" library="coilcraft-jqi" package="0906" value="5.4 nH" x="105.41" y="33.274" rot="R90">
 <attribute name="COILCRAFT" value="0906" x="105.41" y="33.274" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="0906-5JLB" x="105.41" y="33.274" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U2" library="rf-jqi" package="HCP-32-2" value="HMC1099" x="105.41" y="25.4">
 <attribute name="ANALOGDEVICES" value="HMC1099" x="105.41" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="HMC1099LP5DE" x="105.41" y="25.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="T1" library="transistor-jqi" package="D2PACK" value="IRL3714S" x="57.404" y="40.64"/>
-<element name="T2" library="transistor-jqi" package="D2PACK" value="IRL3714S" x="25.4" y="7.62" rot="R90"/>
-<element name="IC1" library="regulator-jqi" package="TO263-5" value="LT3080" x="15.24" y="39.37"/>
-<element name="C1" library="jqi_passives" package="C_MLCC_0805" value="10u" x="21.082" y="33.6296"/>
-<element name="R1" library="jqi_passives" package="R_0603" value="499k" x="12.192" y="30.48" rot="R90"/>
-<element name="C12" library="jqi_passives" package="C_MLCC_0805" value="10u" x="22.86" y="40.894" rot="R270"/>
+<element name="T1" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="57.404" y="40.64">
+<attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="57.404" y="40.64" size="1.778" layer="27" display="off"/>
+</element>
+<element name="T2" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="25.4" y="7.62" rot="R90">
+<attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="25.4" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="IC1" library="regulator-jqi" package="TO263-5" value="LT3080" x="15.24" y="39.37">
+<attribute name="PARTNO" value="LT3080EQ#PBF-ND" x="15.24" y="39.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C1" library="jqi_passives" package="C_MLCC_0805" value="10u" x="21.082" y="33.6296">
+<attribute name="PARTNO" value="445-14417-1-ND" x="21.082" y="33.6296" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R1" library="jqi_passives" package="R_0603" value="499k" x="12.192" y="30.48" rot="R90">
+<attribute name="PARTNO" value="P499KHCT-ND" x="12.192" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C12" library="jqi_passives" package="C_MLCC_0805" value="10u" x="22.86" y="40.894" rot="R270">
+<attribute name="PARTNO" value="445-14417-1-ND" x="22.86" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="C13" library="jqi_passives" package="C_MLCC_0603" value="100n" x="13.716" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.516" y="31.018" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="PARTNO" value="1276-1936-1-ND" x="13.716" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U3" library="linear-technology-jqi" package="TSOT-23_S5" value="LT1783" x="43.18" y="7.62" smashed="yes" rot="R270">
 <attribute name="COPYRIGHT" value="Copyright C 2016 Accelerated Designs. All rights reserved" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Linear Technologies" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="lt1783hs5" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.529" y="9.525" size="0.762" layer="25"/>
+<attribute name="PARTNO" value="LT1783HS5#TRMPBFCT-ND" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="linear-technology-jqi" package="SSOP-16_GN" value="LTC2924" x="58.42" y="12.7" smashed="yes" rot="R270">
 <attribute name="VENDOR" value="Linear Technology" x="58.42" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ltc2924ign" x="58.42" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="61.341" y="11.049" size="0.762" layer="25"/>
+<attribute name="PARTNO" value="LTC2924IGN#PBF-ND" x="58.42" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="jqi_passives" package="R_0603" value="10k" x="54.102" y="7.874" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.048" y="6.566" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P10.0KHCT-ND" x="54.102" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="jqi_passives" package="R_0603" value="10k" x="52.324" y="7.874" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.524" y="6.928" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="PARTNO" value="P10.0KHCT-ND" x="52.324" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="55.88" y="6.858" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.326" y="4.356" size="1.016" layer="25" font="vector"/>
+<attribute name="PARTNO" value="1276-1936-1-ND" x="55.88" y="6.858" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="JP1" library="pinhead" package="1X02" value="" x="68.58" y="10.16" rot="R180"/>
-<element name="C15" library="jqi_passives" package="C_MLCC_0603" value="200n" x="57.658" y="6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.12" y="3.848" size="1.016" layer="25" font="vector"/>
+<element name="JP1" library="pinhead" package="1X02" value="" x="68.58" y="10.16" rot="R180">
+<attribute name="PARTNO" value="A1921-ND" x="68.58" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C15" library="jqi_passives" package="C_MLCC_0603" value="200n" x="57.658" y="6.223" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.12" y="3.721" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C16" library="jqi_passives" package="C_MLCC_0603" value="150n" x="59.436" y="6.858" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.422" y="5.372" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="R4" library="jqi_passives" package="R_0603" value="49.9k" x="61.722" y="7.874" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.684" y="9.614" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P49.9KHCT-ND" x="61.722" y="7.874" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U4" library="transistor-jqi" package="4-LEAD_SOP" value="CPC1117NTR" x="77.47" y="16.256"/>
+<element name="U4" library="transistor-jqi" package="4-LEAD_SOP" value="CPC1117NTR" x="77.47" y="16.256">
+<attribute name="PARTNO" value="CLA268CT-ND" x="77.47" y="16.256" size="1.778" layer="27" display="off"/>
+</element>
 <element name="Q1" library="transistor-pnp" package="SOT23-BEC" value="MMBT3906LT1SMD" x="38.862" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.957" y="8.509" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="R5" library="jqi_passives" package="R_0603" value="1M" x="37.592" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.062" y="12.77" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="PARTNO" value="P1.00MHCT-ND" x="37.592" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="jqi_passives" package="R_0603" value="100k" x="39.37" y="5.08" smashed="yes">
 <attribute name="NAME" x="38.678" y="3.086" size="1.016" layer="25" font="vector"/>
+<attribute name="PARTNO" value="P100KHCT-ND" x="39.37" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C17" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="45.72" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.46" y="6.32" size="1.016" layer="25" font="vector" rot="R90"/>
+<element name="C17" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="45.72" y="7.8105" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.46" y="6.5105" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="PARTNO" value="1276-1936-1-ND" x="45.72" y="7.8105" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C18" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="43.942" y="11.176" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.226" y="13.17" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="1276-1936-1-ND" x="43.942" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="jqi_passives" package="R_0603" value="10k" x="42.164" y="4.064" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.964" y="1.562" size="1.016" layer="25" font="vector"/>
+<attribute name="PARTNO" value="P10.0KHCT-ND" x="42.164" y="4.064" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="jqi_passives" package="R_0603" value="866" x="48.26" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.984" y="6.312" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P866HCT-ND" x="48.26" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R12" library="jqi_passives" package="R_0603" value="4.42k" x="49.53" y="10.16"/>
-<element name="T3" library="transistor-jqi" package="D2PACK" value="IRL3714S" x="44.577" y="40.64"/>
-<element name="U7" library="transistor-jqi" package="6-LEAD_SMT" value="LCA701S" x="68.834" y="24.384" rot="R90"/>
+<element name="R12" library="jqi_passives" package="R_0603" value="4.42k" x="49.53" y="10.16">
+<attribute name="PARTNO" value="P4.42KHCT-ND" x="49.53" y="10.16" size="1.778" layer="27" display="off"/>
+</element>
+<element name="T3" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="44.577" y="40.64">
+<attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="44.577" y="40.64" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U7" library="transistor-jqi" package="6-LEAD_SMT" value="LCA701S" x="68.834" y="24.384" rot="R90">
+<attribute name="PARTNO" value="849-LCA701S" x="68.834" y="24.384" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="R13" library="jqi_passives" package="R_0603" value="1k" x="62.738" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.192" y="30.95" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P1.00KHCT-ND" x="62.738" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R14" library="jqi_passives" package="R_0603" value="2M" x="61.722" y="26.924" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.176" y="26.124" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P2.00MHCT-ND" x="61.722" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R15" library="jqi_passives" package="R_0603" value="54.9k" x="58.928" y="26.924"/>
+<element name="R15" library="jqi_passives" package="R_0603" value="54.9k" x="58.928" y="26.924">
+<attribute name="PARTNO" value="P54.9KHCT-ND" x="58.928" y="26.924" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R16" library="jqi_passives" package="R_0603" value="1k" x="49.784" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.492" y="33.744" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P1.00KHCT-ND" x="49.784" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R17" library="jqi_passives" package="R_0603" value="200k" x="49.276" y="29.464" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.33" y="30.918" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="PARTNO" value="P200KHCT-ND" x="49.276" y="29.464" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R18" library="jqi_passives" package="R_0603" value="51k" x="49.276" y="26.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.282" y="28.124" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="PARTNO" value="P51.0KHCT-ND" x="49.276" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R19" library="jqi_passives" package="R_0603" value="2k" x="76.454" y="6.35"/>
-<element name="R20" library="jqi_passives" package="R_0603" value="1k" x="87.884" y="9.906"/>
-<element name="T4" library="transistor-jqi" package="D2PACK" value="IRL3714S" x="31.75" y="40.64"/>
+<element name="R19" library="jqi_passives" package="R_0603" value="4.02k" x="76.454" y="6.35">
+<attribute name="PARTNO" value="TNP4.02KAACT-ND" x="76.454" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R20" library="jqi_passives" package="R_0603" value="2k" x="87.884" y="9.906">
+<attribute name="PARTNO" value="541-1726-1-ND" x="87.884" y="9.906" size="1.778" layer="27" display="off"/>
+</element>
+<element name="T4" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="31.75" y="40.64">
+<attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="31.75" y="40.64" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R22" library="jqi_passives" package="R_0603" value="1k" x="36.83" y="30.988" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.3" y="32.328" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="PARTNO" value="P1.00KHCT-ND" x="36.83" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R23" library="jqi_passives" package="R_0603" value="200k" x="38.608" y="30.988" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.408" y="32.442" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="PARTNO" value="P200KHCT-ND" x="38.608" y="30.988" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R24" library="jqi_passives" package="R_0603" value="51k" x="38.608" y="26.924" rot="R270"/>
-<element name="JP2" library="pinhead" package="1X02" value="" x="32.766" y="26.416" rot="R180"/>
+<element name="R24" library="jqi_passives" package="R_0603" value="51k" x="38.608" y="26.924" rot="R270">
+<attribute name="PARTNO" value="P51.0KHCT-ND" x="38.608" y="26.924" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP2" library="pinhead" package="1X02" value="" x="32.766" y="26.416" rot="R180">
+<attribute name="PARTNO" value="A1921-ND" x="32.766" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U5" library="linear-technology-jqi" package="TSOT-23_S5" value="LT6015" x="93.472" y="41.656" smashed="yes">
 <attribute name="NAME" x="95.377" y="41.275" size="0.762" layer="25"/>
+<attribute name="PARTNO" value="LT6015HS5#TRMPBFCT-ND" x="93.472" y="41.656" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T5" library="transistor-jqi" package="PG-SOT-223" value="BSP89" x="84.836" y="40.132" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.154" y="37.7952" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="87.376" y="41.4528" size="1.27" layer="27" rot="R180"/>
+<attribute name="PARTNO" value="BSP89H6327XTSA1CT-ND" x="84.836" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C22" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="93.472" y="44.196"/>
-<element name="R25" library="jqi_passives" package="R_0603" value="200" x="98.044" y="35.052" rot="R90"/>
-<element name="R26" library="jqi_passives" package="R_0603" value="200" x="100.838" y="35.052" rot="R270"/>
-<element name="R27" library="jqi_passives" package="R_0603" value="100" x="89.662" y="43.18"/>
-<element name="R28" library="jqi_passives" package="R_0603" value="4k" x="82.55" y="45.72" rot="R90"/>
-<element name="X3" library="connector-jqi" package="BNC-V" value="BNC-V" x="72.644" y="40.64" rot="R90"/>
-<element name="R29" library="rlc-jqi" package="1206_KELVIN" value="0.05" x="98.044" y="32.512"/>
-<element name="C23" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="105.41" y="45.466" rot="R270"/>
-<element name="C24" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="105.41" y="5.334" rot="R270"/>
-<element name="C25" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="35.56"/>
-<element name="C26" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="17.018"/>
-<element name="L2" library="jqi_passives" package="R_0402" value="5.6n" x="105.41" y="19.304" rot="R90"/>
+<element name="C22" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="93.472" y="44.196">
+<attribute name="PARTNO" value="1276-1936-1-ND" x="93.472" y="44.196" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R25" library="jqi_passives" package="R_0603" value="200" x="98.044" y="35.052" rot="R90">
+<attribute name="PARTNO" value="541-3049-1-ND" x="98.044" y="35.052" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R26" library="jqi_passives" package="R_0603" value="200" x="100.838" y="35.052" rot="R270">
+<attribute name="PARTNO" value="541-3049-1-ND" x="100.838" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R27" library="jqi_passives" package="R_0603" value="100" x="89.662" y="43.18">
+<attribute name="PARTNO" value="P100HCT-ND" x="89.662" y="43.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R28" library="jqi_passives" package="R_0603" value="4.02k" x="82.55" y="45.72" rot="R90">
+<attribute name="PARTNO" value="TNP4.02KAACT-ND" x="82.55" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="X3" library="connector-jqi" package="BNC-V" value="BNC-V" x="72.644" y="40.64" rot="R90">
+<attribute name="PARTNO" value="A32262-ND" x="72.644" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R29" library="rlc-jqi" package="1206_KELVIN" value="0.05" x="98.044" y="32.512">
+<attribute name="PARTNO" value="LVK12R050DERCT-ND" x="98.044" y="32.512" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C23" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="105.41" y="45.466" rot="R270">
+<attribute name="PARTNO" value="1276-1110-1-ND" x="105.41" y="45.466" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C24" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="105.41" y="5.334" rot="R270">
+<attribute name="PARTNO" value="1276-1110-1-ND" x="105.41" y="5.334" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C25" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="35.56">
+<attribute name="PARTNO" value="581-600S3R3CT" x="106.172" y="35.56" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C26" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="17.018">
+<attribute name="PARTNO" value="581-600S3R3CT" x="106.172" y="17.018" size="1.778" layer="27" display="off"/>
+</element>
+<element name="L2" library="jqi_passives" package="R_0402" value="5.6n" x="105.41" y="19.304" rot="R90">
+<attribute name="PARTNO" value="0402CS-5N6XJLU" x="105.41" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="L3" library="coilcraft-jqi" package="1008" value="0.9u" x="104.267" y="30.353" rot="R180">
 <attribute name="COILCRAFT" value="1008AF" x="104.267" y="30.353" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="1008AF-901XKLC" x="104.267" y="30.353" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP3" library="pinhead" package="1X03" value="" x="7.7724" y="25.4" rot="R180"/>
+<element name="JP3" library="pinhead" package="1X03" value="" x="7.7724" y="25.4" rot="R180">
+<attribute name="PARTNO" value="A19470-ND" x="7.7724" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="C27" library="jqi_passives" package="PANASONIC_F" value="220u" x="8.89" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.188" y="19.588" size="1.016" layer="25"/>
 <attribute name="VALUE" x="6.515" y="16.99" size="1.016" layer="27" rot="R270"/>
+<attribute name="PARTNO" value="PCE3955CT-ND" x="8.89" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C28" library="jqi_passives" package="PANASONIC_F" value="220u" x="21.59" y="25.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.192" y="28.928" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="23.34" y="27.775" size="1.016" layer="27" rot="R180"/>
+<attribute name="PARTNO" value="PCE3955CT-ND" x="21.59" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R21" library="jqi_passives" package="RJ24" value="5k" x="81.534" y="9.906" rot="R180"/>
+<element name="R21" library="jqi_passives" package="RJ24" value="10k" x="81.534" y="9.906" rot="R180">
+<attribute name="PARTNO" value="804-1093-ND" x="81.534" y="9.906" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="J1" library="connector-jqi" package="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" value="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" x="105.41" y="50.8" rot="R90"/>
 <element name="J2" library="connector-jqi" package="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" value="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" x="105.41" y="-0.254" rot="R270"/>
 <element name="U8" library="linear-technology-jqi" package="SO-8_S" value="LTC1152IS8TRPBF" x="87.884" y="18.542">
 <attribute name="VENDOR" value="Linear Technology" x="87.884" y="18.542" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ltc1152is8#trpbf" x="87.884" y="18.542" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTC1152IS8#PBF-ND" x="87.884" y="18.542" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="jqi_passives" package="C_MLCC_0603" value="1u" x="97.536" y="20.32" rot="R90"/>
 <element name="C5" library="jqi_passives" package="C_MLCC_0603" value="1n" x="92.71" y="17.018" rot="R90"/>
-<element name="R30" library="jqi_passives" package="R_0603" value="50" x="81.534" y="17.018" rot="R90"/>
-<element name="C29" library="jqi_passives" package="C_MLCC_0603" value="100n" x="86.106" y="14.986" rot="R180"/>
+<element name="R30" library="jqi_passives" package="R_0603" value="50" x="81.534" y="17.018" rot="R90">
+<attribute name="PARTNO" value="P49.9HCT-ND" x="81.534" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C29" library="jqi_passives" package="C_MLCC_0603" value="100n" x="86.106" y="14.986" rot="R180">
+<attribute name="PARTNO" value="1276-1936-1-ND" x="86.106" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1604,7 +1712,7 @@ design rules under a new name.</description>
 <via x="115.8875" y="44.958" extent="1-16" drill="3.6576"/>
 <via x="115.8875" y="5.842" extent="1-16" drill="3.6576"/>
 <via x="47.244" y="4.318" extent="1-16" drill="0.3048"/>
-<via x="45.974" y="11.43" extent="1-16" drill="0.3048"/>
+<via x="45.72" y="12.192" extent="1-16" drill="0.3048"/>
 <via x="36.068" y="13.716" extent="1-16" drill="0.3048"/>
 <via x="31.242" y="19.812" extent="1-16" drill="0.3048"/>
 <wire x1="58.7375" y1="11.684" x2="58.674" y2="11.684" width="0.4064" layer="1"/>
@@ -1618,7 +1726,7 @@ design rules under a new name.</description>
 <via x="53.086" y="19.812" extent="1-16" drill="0.3048"/>
 <via x="63.5" y="19.304" extent="1-16" drill="0.3048"/>
 <via x="64.008" y="11.43" extent="1-16" drill="0.3048"/>
-<via x="54.864" y="11.43" extent="1-16" drill="0.3048"/>
+<via x="52.324" y="10.414" extent="1-16" drill="0.3048"/>
 <via x="42.672" y="19.558" extent="1-16" drill="0.3048"/>
 <via x="49.022" y="23.876" extent="1-16" drill="0.3048"/>
 <via x="44.45" y="31.75" extent="1-16" drill="0.3048"/>
@@ -1734,6 +1842,59 @@ design rules under a new name.</description>
 <vertex x="110.49" y="50.8"/>
 <vertex x="100.33" y="50.8"/>
 </polygon>
+<via x="106.68" y="1.8288" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="1.8288" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="3.0988" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="3.0988" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="4.3688" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="4.3688" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="5.6388" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="5.6388" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="7.1628" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="7.1628" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="8.4328" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="8.4328" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="9.7028" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="9.7028" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="10.9728" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="12.2428" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="13.5128" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="14.7828" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="15.7988" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="10.9728" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="12.2428" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="13.5128" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="14.7828" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="16.3068" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="18.0848" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="21.8948" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="19.8628" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="20.1168" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="18.3388" extent="1-16" drill="0.3048"/>
+<via x="106.934" y="29.0068" extent="1-16" drill="0.3048"/>
+<via x="106.934" y="31.0388" extent="1-16" drill="0.3048"/>
+<via x="107.188" y="34.0868" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="35.6108" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="36.8808" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="36.8808" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="38.4048" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="38.4048" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="39.9288" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="39.9288" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="41.4528" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="41.4528" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="42.9768" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="42.9768" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="44.5008" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="44.5008" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="46.0248" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="46.0248" extent="1-16" drill="0.3048"/>
+<via x="106.426" y="47.2948" extent="1-16" drill="0.3048"/>
+<via x="104.394" y="47.2948" extent="1-16" drill="0.3048"/>
+<via x="104.14" y="48.8188" extent="1-16" drill="0.3048"/>
+<via x="106.68" y="48.8188" extent="1-16" drill="0.3048"/>
+<via x="52.07" y="16.51" extent="1-16" drill="0.3048"/>
+<via x="62.23" y="16.002" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$15">
 <contactref element="C11" pad="P$2"/>
@@ -1831,9 +1992,7 @@ design rules under a new name.</description>
 <wire x1="44.704" y1="42.164" x2="56.896" y2="42.164" width="1.27" layer="1"/>
 <wire x1="56.896" y1="42.164" x2="57.404" y2="42.672" width="1.27" layer="1"/>
 <wire x1="22.86" y1="41.844" x2="22.86" y2="41.91" width="1.27" layer="1"/>
-<wire x1="44.13" y1="6.477" x2="45.327" y2="6.477" width="0.6096" layer="1"/>
-<wire x1="45.327" y1="6.477" x2="45.72" y2="6.87" width="0.6096" layer="1"/>
-<wire x1="45.72" y1="6.87" x2="45.72" y2="5.842" width="0.6096" layer="1"/>
+<wire x1="45.72" y1="7.0605" x2="45.72" y2="5.842" width="0.6096" layer="1"/>
 <via x="45.72" y="5.842" extent="1-16" drill="0.6"/>
 <wire x1="45.72" y1="5.842" x2="44.196" y2="7.366" width="1.27" layer="16"/>
 <wire x1="44.196" y1="7.366" x2="34.29" y2="7.366" width="1.27" layer="16"/>
@@ -1864,6 +2023,8 @@ design rules under a new name.</description>
 <via x="94.234" y="46.228" extent="1-16" drill="0.6"/>
 <wire x1="94.234" y1="46.228" x2="94.234" y2="44.208" width="1.27" layer="1"/>
 <wire x1="94.234" y1="44.208" x2="94.222" y2="44.196" width="1.27" layer="1"/>
+<wire x1="45.72" y1="7.0605" x2="45.1365" y2="6.477" width="0.6096" layer="1"/>
+<wire x1="45.1365" y1="6.477" x2="44.13" y2="6.477" width="0.6096" layer="1"/>
 <wire x1="44.45" y1="42.418" x2="44.577" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="43.18" x2="32.258" y2="42.418" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1901,8 +2062,8 @@ design rules under a new name.</description>
 <signal name="N$7">
 <contactref element="U6" pad="12"/>
 <contactref element="C15" pad="P$1"/>
-<wire x1="58.1025" y1="7.5445" x2="58.1025" y2="10.2362" width="0.4064" layer="1"/>
-<wire x1="58.1025" y1="7.5445" x2="57.658" y2="7.1" width="0.4064" layer="1"/>
+<wire x1="58.1025" y1="7.4175" x2="58.1025" y2="10.2362" width="0.4064" layer="1"/>
+<wire x1="58.1025" y1="7.4175" x2="57.658" y2="6.973" width="0.4064" layer="1"/>
 </signal>
 <signal name="VPIN_EN">
 <contactref element="U6" pad="5"/>
@@ -1983,10 +2144,10 @@ design rules under a new name.</description>
 <contactref element="R11" pad="P$2"/>
 <contactref element="U3" pad="1"/>
 <contactref element="R12" pad="P$1"/>
-<wire x1="44.13" y1="8.763" x2="45.527" y2="10.16" width="0.4064" layer="1"/>
-<wire x1="45.527" y1="10.16" x2="48.26" y2="10.16" width="0.4064" layer="1"/>
+<wire x1="44.13" y1="10.16" x2="48.26" y2="10.16" width="0.4064" layer="1"/>
 <wire x1="48.26" y1="10.16" x2="48.78" y2="10.16" width="0.4064" layer="1"/>
 <wire x1="48.26" y1="8.37" x2="48.26" y2="10.16" width="0.4064" layer="1"/>
+<wire x1="44.13" y1="8.763" x2="44.13" y2="10.16" width="0.4064" layer="1"/>
 </signal>
 <signal name="-8V">
 <contactref element="T2" pad="2"/>
@@ -2007,12 +2168,12 @@ design rules under a new name.</description>
 <contactref element="R12" pad="P$2"/>
 <contactref element="U6" pad="1"/>
 <wire x1="50.28" y1="10.16" x2="50.292" y2="10.172" width="0.4064" layer="1"/>
-<wire x1="50.292" y1="10.172" x2="50.292" y2="12.446" width="0.4064" layer="1"/>
-<via x="50.292" y="12.446" extent="1-16" drill="0.6"/>
-<wire x1="50.292" y1="12.446" x2="62.484" y2="12.446" width="0.4064" layer="15"/>
-<via x="62.484" y="12.446" extent="1-16" drill="0.6"/>
-<wire x1="62.484" y1="12.446" x2="62.484" y2="13.3223" width="0.4064" layer="1"/>
+<wire x1="50.292" y1="10.172" x2="50.292" y2="11.938" width="0.4064" layer="1"/>
+<via x="50.292" y="11.938" extent="1-16" drill="0.6"/>
+<via x="62.484" y="11.938" extent="1-16" drill="0.6"/>
+<wire x1="62.484" y1="11.938" x2="62.484" y2="13.3223" width="0.4064" layer="1"/>
 <wire x1="62.484" y1="13.3223" x2="60.6425" y2="15.1638" width="0.4064" layer="1"/>
+<wire x1="50.292" y1="11.938" x2="62.484" y2="11.938" width="0.4064" layer="15"/>
 </signal>
 <signal name="VDD_EN">
 <contactref element="U6" pad="6"/>
@@ -2246,35 +2407,41 @@ design rules under a new name.</description>
 <signal name="N$30">
 <contactref element="C23" pad="P$1"/>
 <contactref element="J1" pad="P$1"/>
-<wire x1="105.41" y1="46.216" x2="105.41" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="105.41" y1="49.53" x2="105.41" y2="46.216" width="0.381" layer="1"/>
 </signal>
 <signal name="N$31">
 <contactref element="C24" pad="P$2"/>
 <contactref element="J2" pad="P$1"/>
-<wire x1="105.41" y1="1.016" x2="105.41" y2="4.584" width="0" layer="19" extent="1-1"/>
+<wire x1="105.41" y1="4.584" x2="105.41" y2="1.016" width="0.381" layer="1"/>
 </signal>
 <signal name="N$33">
 <contactref element="L1" pad="P$2"/>
 <contactref element="C23" pad="P$2"/>
 <contactref element="C25" pad="P$1"/>
-<wire x1="105.422" y1="35.56" x2="105.41" y2="44.716" width="0" layer="19" extent="1-1"/>
-<wire x1="104.902" y1="34.1884" x2="105.422" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="105.41" y1="44.716" x2="105.422" y2="44.716" width="0.381" layer="1"/>
+<wire x1="105.422" y1="44.716" x2="105.422" y2="35.56" width="0.381" layer="1"/>
+<wire x1="105.422" y1="35.56" x2="105.422" y2="34.1884" width="0.381" layer="1"/>
+<wire x1="105.422" y1="34.1884" x2="104.902" y2="34.1884" width="0.381" layer="1"/>
 </signal>
 <signal name="N$34">
 <contactref element="U2" pad="21"/>
 <contactref element="U2" pad="20"/>
 <contactref element="L1" pad="P$1"/>
 <contactref element="L3" pad="P$1"/>
-<wire x1="105.41" y1="30.353" x2="105.918" y2="32.3596" width="0" layer="19" extent="1-1"/>
-<wire x1="105.16" y1="27.65" x2="105.41" y2="30.353" width="0" layer="19" extent="1-1"/>
-<wire x1="105.66" y1="27.65" x2="105.16" y2="27.65" width="0" layer="19" extent="1-1"/>
+<wire x1="105.918" y1="32.3596" x2="105.41" y2="32.3596" width="0.381" layer="1"/>
+<wire x1="105.41" y1="32.3596" x2="105.41" y2="30.353" width="0.381" layer="1"/>
+<wire x1="105.41" y1="30.353" x2="105.41" y2="27.65" width="0.381" layer="1"/>
+<wire x1="105.41" y1="27.65" x2="105.16" y2="27.65" width="0.381" layer="1"/>
+<wire x1="105.66" y1="27.65" x2="105.16" y2="27.65" width="0.381" layer="1"/>
 </signal>
 <signal name="N$35">
 <contactref element="C24" pad="P$1"/>
 <contactref element="C26" pad="P$1"/>
 <contactref element="L2" pad="P$1"/>
-<wire x1="105.422" y1="17.018" x2="105.41" y2="18.804" width="0" layer="19" extent="1-1"/>
-<wire x1="105.41" y1="6.084" x2="105.422" y2="17.018" width="0" layer="19" extent="1-1"/>
+<wire x1="105.41" y1="18.804" x2="105.422" y2="18.804" width="0.381" layer="1"/>
+<wire x1="105.422" y1="18.804" x2="105.422" y2="17.018" width="0.381" layer="1"/>
+<wire x1="105.422" y1="17.018" x2="105.41" y2="17.018" width="0.381" layer="1"/>
+<wire x1="105.41" y1="17.018" x2="105.41" y2="6.084" width="0.381" layer="1"/>
 </signal>
 <signal name="N$29">
 <contactref element="R26" pad="P$1"/>
@@ -2309,9 +2476,11 @@ design rules under a new name.</description>
 <contactref element="U2" pad="4"/>
 <contactref element="U2" pad="5"/>
 <contactref element="L2" pad="P$2"/>
-<wire x1="105.66" y1="23.15" x2="105.16" y2="23.15" width="0" layer="19" extent="1-1"/>
-<wire x1="105.398" y1="21.336" x2="105.16" y2="23.15" width="0" layer="19" extent="1-1"/>
-<wire x1="105.41" y1="19.804" x2="105.398" y2="21.336" width="0" layer="19" extent="1-1"/>
+<wire x1="105.66" y1="23.15" x2="105.16" y2="23.15" width="0.381" layer="1"/>
+<wire x1="105.16" y1="23.15" x2="105.398" y2="23.15" width="0.381" layer="1"/>
+<wire x1="105.398" y1="23.15" x2="105.398" y2="21.336" width="0.381" layer="1"/>
+<wire x1="105.398" y1="21.336" x2="105.41" y2="21.336" width="0.381" layer="1"/>
+<wire x1="105.41" y1="21.336" x2="105.41" y2="19.804" width="0.381" layer="1"/>
 </signal>
 <signal name="N$32">
 <contactref element="U8" pad="5"/>
