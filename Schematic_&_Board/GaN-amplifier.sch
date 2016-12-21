@@ -1274,38 +1274,6 @@ www.minicircuits.com&lt;br&gt;
 <smd name="6" x="0.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="7" x="1.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="8" x="1.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-1.3125" y1="-2.5625" x2="-1.1875" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="-1.8125" y1="-2.5625" x2="-1.6875" y2="-2.3125" layer="1" rot="R270"/>
-<rectangle x1="-0.8125" y1="-2.5625" x2="-0.6875" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="-0.3125" y1="-2.5625" x2="-0.1875" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="0.1875" y1="-2.5625" x2="0.3125" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="0.6875" y1="-2.5625" x2="0.8125" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="1.1875" y1="-2.5625" x2="1.3125" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="1.6875" y1="-2.5625" x2="1.8125" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="-1.8125" x2="2.5625" y2="-1.6875" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="-1.3125" x2="2.5625" y2="-1.1875" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="-0.8125" x2="2.5625" y2="-0.6875" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="-0.3125" x2="2.5625" y2="-0.1875" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="0.1875" x2="2.5625" y2="0.3125" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="0.6875" x2="2.5625" y2="0.8125" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="1.1875" x2="2.5625" y2="1.3125" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="1.6875" x2="2.5625" y2="1.8125" layer="1" rot="R90"/>
-<rectangle x1="1.6875" y1="2.3125" x2="1.8125" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="1.1875" y1="2.3125" x2="1.3125" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="0.6875" y1="2.3125" x2="0.8125" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="0.1875" y1="2.3125" x2="0.3125" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-0.3125" y1="2.3125" x2="-0.1875" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-0.8125" y1="2.3125" x2="-0.6875" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-1.3125" y1="2.3125" x2="-1.1875" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-1.8125" y1="2.3125" x2="-1.6875" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="1.6875" x2="-2.3125" y2="1.8125" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="1.1875" x2="-2.3125" y2="1.3125" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="0.6875" x2="-2.3125" y2="0.8125" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="0.1875" x2="-2.3125" y2="0.3125" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="-0.3125" x2="-2.3125" y2="-0.1875" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="-0.8125" x2="-2.3125" y2="-0.6875" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="-1.3125" x2="-2.3125" y2="-1.1875" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="-1.8125" x2="-2.3125" y2="-1.6875" layer="1" rot="R90"/>
 <wire x1="-1.75" y1="-2.375" x2="-1.75" y2="-2.125" width="0.5" layer="29"/>
 <rectangle x1="-1.875" y1="-2.75" x2="-1.625" y2="-2.25" layer="29" rot="R90"/>
 <wire x1="-1.25" y1="-2.375" x2="-1.25" y2="-2.125" width="0.5" layer="29"/>
@@ -1435,15 +1403,15 @@ www.minicircuits.com&lt;br&gt;
 <wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.25" layer="31"/>
 <rectangle x1="-2.5" y1="-1.875" x2="-2.375" y2="-1.625" layer="31"/>
 <smd name="33" x="0" y="0" dx="3.15" dy="3.15" layer="1" rot="R90" thermals="no" cream="no"/>
-<pad name="34" x="0" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="35" x="-1" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="36" x="-1" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="37" x="0" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="38" x="1" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="39" x="1" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="40" x="1" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="41" x="0" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="42" x="-1" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="34" x="0" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="35" x="-1" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="36" x="-1" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="37" x="0" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="38" x="1" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="39" x="1" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="40" x="1" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="41" x="0" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="42" x="-1" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
@@ -1466,6 +1434,198 @@ www.minicircuits.com&lt;br&gt;
 <rectangle x1="0.25" y1="-1.5" x2="0.75" y2="-1" layer="31"/>
 <rectangle x1="-0.75" y1="-1.5" x2="-0.25" y2="-1" layer="31"/>
 <rectangle x1="-1.5" y1="-1.5" x2="-1" y2="-1" layer="31"/>
+<polygon width="0.005" layer="1">
+<vertex x="-1.875" y="2.5"/>
+<vertex x="-1.625" y="2.5"/>
+<vertex x="-1.625" y="2.125"/>
+<vertex x="-1.875" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-1.375" y="2.5"/>
+<vertex x="-1.125" y="2.5"/>
+<vertex x="-1.125" y="2.125"/>
+<vertex x="-1.375" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.875" y="2.5"/>
+<vertex x="-0.625" y="2.5"/>
+<vertex x="-0.625" y="2.125"/>
+<vertex x="-0.875" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.375" y="2.5"/>
+<vertex x="-0.125" y="2.5"/>
+<vertex x="-0.125" y="2.125"/>
+<vertex x="-0.375" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.125" y="2.5"/>
+<vertex x="0.375" y="2.5"/>
+<vertex x="0.375" y="2.125"/>
+<vertex x="0.125" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.625" y="2.5"/>
+<vertex x="0.875" y="2.5"/>
+<vertex x="0.875" y="2.125"/>
+<vertex x="0.625" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.125" y="2.5"/>
+<vertex x="1.375" y="2.5"/>
+<vertex x="1.375" y="2.125"/>
+<vertex x="1.125" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.625" y="2.5"/>
+<vertex x="1.875" y="2.5"/>
+<vertex x="1.875" y="2.125"/>
+<vertex x="1.625" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-1.875" y="-2.125"/>
+<vertex x="-1.625" y="-2.125"/>
+<vertex x="-1.625" y="-2.5"/>
+<vertex x="-1.875" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-1.375" y="-2.125"/>
+<vertex x="-1.125" y="-2.125"/>
+<vertex x="-1.125" y="-2.5"/>
+<vertex x="-1.375" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.875" y="-2.125"/>
+<vertex x="-0.625" y="-2.125"/>
+<vertex x="-0.625" y="-2.5"/>
+<vertex x="-0.875" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.375" y="-2.125"/>
+<vertex x="-0.125" y="-2.125"/>
+<vertex x="-0.125" y="-2.5"/>
+<vertex x="-0.375" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.625" y="-2.125"/>
+<vertex x="0.875" y="-2.125"/>
+<vertex x="0.875" y="-2.5"/>
+<vertex x="0.625" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.125" y="-2.125"/>
+<vertex x="0.375" y="-2.125"/>
+<vertex x="0.375" y="-2.5"/>
+<vertex x="0.125" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.125" y="-2.125"/>
+<vertex x="1.375" y="-2.125"/>
+<vertex x="1.375" y="-2.5"/>
+<vertex x="1.125" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.625" y="-2.125"/>
+<vertex x="1.875" y="-2.125"/>
+<vertex x="1.875" y="-2.5"/>
+<vertex x="1.625" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.125" y="-1.875"/>
+<vertex x="2.125" y="-1.625"/>
+<vertex x="2.5" y="-1.625"/>
+<vertex x="2.5" y="-1.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.125" y="-1.375"/>
+<vertex x="2.125" y="-1.125"/>
+<vertex x="2.5" y="-1.125"/>
+<vertex x="2.5" y="-1.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.125" y="-0.875"/>
+<vertex x="2.125" y="-0.625"/>
+<vertex x="2.5" y="-0.625"/>
+<vertex x="2.5" y="-0.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.125" y="-0.375"/>
+<vertex x="2.125" y="-0.125"/>
+<vertex x="2.5" y="-0.125"/>
+<vertex x="2.5" y="-0.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.125" y="0.125"/>
+<vertex x="2.125" y="0.375"/>
+<vertex x="2.5" y="0.375"/>
+<vertex x="2.5" y="0.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.125" y="0.625"/>
+<vertex x="2.125" y="0.875"/>
+<vertex x="2.5" y="0.875"/>
+<vertex x="2.5" y="0.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.125" y="1.125"/>
+<vertex x="2.125" y="1.375"/>
+<vertex x="2.5" y="1.375"/>
+<vertex x="2.5" y="1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.125" y="1.625"/>
+<vertex x="2.125" y="1.875"/>
+<vertex x="2.5" y="1.875"/>
+<vertex x="2.5" y="1.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.5" y="1.625"/>
+<vertex x="-2.5" y="1.875"/>
+<vertex x="-2.125" y="1.875"/>
+<vertex x="-2.125" y="1.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.5" y="1.125"/>
+<vertex x="-2.5" y="1.375"/>
+<vertex x="-2.125" y="1.375"/>
+<vertex x="-2.125" y="1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.5" y="0.625"/>
+<vertex x="-2.5" y="0.875"/>
+<vertex x="-2.125" y="0.875"/>
+<vertex x="-2.125" y="0.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.5" y="0.125"/>
+<vertex x="-2.5" y="0.375"/>
+<vertex x="-2.125" y="0.375"/>
+<vertex x="-2.125" y="0.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.5" y="-0.375"/>
+<vertex x="-2.5" y="-0.125"/>
+<vertex x="-2.125" y="-0.125"/>
+<vertex x="-2.125" y="-0.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.5" y="-0.875"/>
+<vertex x="-2.5" y="-0.625"/>
+<vertex x="-2.125" y="-0.625"/>
+<vertex x="-2.125" y="-0.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.5" y="-1.375"/>
+<vertex x="-2.5" y="-1.125"/>
+<vertex x="-2.125" y="-1.125"/>
+<vertex x="-2.125" y="-1.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.5" y="-1.875"/>
+<vertex x="-2.5" y="-1.625"/>
+<vertex x="-2.125" y="-1.625"/>
+<vertex x="-2.125" y="-1.875"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -2800,7 +2960,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="0906-5JLB"/>
 </part>
 <part name="U2" library="rf-jqi" deviceset="HMC1099" device="" value="HMC1099">
-<attribute name="PARTNO" value="HMC1099LP5DE"/>
+<attribute name="PARTNO" value="584-HMC1099LP5DE"/>
 </part>
 <part name="T1" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
 <attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
