@@ -3056,8 +3056,8 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
 <part name="P-2" library="supply1" deviceset="-24V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="C27" library="jqi_passives" deviceset="C_POL_SMD" device="F"/>
-<part name="C28" library="jqi_passives" deviceset="C_POL_SMD" device="F"/>
+<part name="C27" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220u"/>
+<part name="C28" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220u"/>
 </parts>
 <sheets>
 <sheet>

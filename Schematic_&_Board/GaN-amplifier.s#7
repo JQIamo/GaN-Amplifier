@@ -2350,6 +2350,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <wire x1="1.016" y1="-0.3556" x2="1.016" y2="0.3556" width="0.1524" layer="21"/>
 <wire x1="1.016" y1="1.5748" x2="-1.016" y2="1.5748" width="0.1524" layer="21"/>
 <text x="-1.9812" y="1.3208" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-0.635" y="1.905" size="0.762" layer="25">&gt;NAME</text>
 </package>
 <package name="SSOP-16_GN">
 <smd name="1" x="-2.4638" y="2.2225" dx="1.9812" dy="0.3556" layer="1"/>
@@ -2449,6 +2450,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <vertex x="3.7084" y="-1.397"/>
 </polygon>
 <text x="-3.302" y="2.4384" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-1.905" y="3.175" size="0.762" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2516,6 +2518,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="LTC2924IGN" prefix="U" uservalue="yes">
+<description>LTC2924, quad power supply sequencer</description>
 <gates>
 <gate name="A" symbol="LTC2924IGN" x="0" y="0"/>
 </gates>

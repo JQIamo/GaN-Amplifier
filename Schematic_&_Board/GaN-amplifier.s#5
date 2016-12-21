@@ -3760,13 +3760,15 @@ I_hys=10uA</text>
 <net name="N$30" class="0">
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="115.57" y1="220.98" x2="106.68" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="P$1"/>
+<wire x1="113.03" y1="220.98" x2="106.68" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="C24" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="220.98" x2="-12.7" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="220.98" x2="-12.7" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$33" class="0">

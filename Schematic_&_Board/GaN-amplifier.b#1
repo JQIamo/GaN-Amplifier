@@ -1337,9 +1337,11 @@ design rules under a new name.</description>
 </element>
 <element name="R6" library="jqi_passives" package="R_0402" value="56k" x="29.972" y="16.002" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.48" y="13.808" size="1.016" layer="25" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="P56.0KLCT-ND" x="29.972" y="16.002" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="jqi_passives" package="R_0402" value="10k" x="29.972" y="18.288" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.226" y="19.396" size="1.016" layer="25" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="P10.0KLCT-ND" x="29.972" y="18.288" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R8" library="jqi_passives" package="R_0603" value="68.1" x="104.648" y="21.336">
 <attribute name="PARTNO" value="P68.1HCT-ND" x="104.648" y="21.336" size="1.778" layer="27" display="off"/>
@@ -1364,7 +1366,9 @@ design rules under a new name.</description>
 <element name="C1" library="jqi_passives" package="C_MLCC_0805" value="10u" x="21.082" y="33.6296">
 <attribute name="PARTNO" value="445-14417-1-ND" x="21.082" y="33.6296" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="jqi_passives" package="R_0603" value="499k" x="12.192" y="30.48" rot="R90"/>
+<element name="R1" library="jqi_passives" package="R_0603" value="499k" x="12.192" y="30.48" rot="R90">
+<attribute name="PARTNO" value="P499KHCT-ND" x="12.192" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C12" library="jqi_passives" package="C_MLCC_0805" value="10u" x="22.86" y="40.894" rot="R270">
 <attribute name="PARTNO" value="445-14417-1-ND" x="22.86" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -1387,9 +1391,11 @@ design rules under a new name.</description>
 </element>
 <element name="R2" library="jqi_passives" package="R_0603" value="10k" x="54.102" y="7.874" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.048" y="6.566" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P10.0KHCT-ND" x="54.102" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="jqi_passives" package="R_0603" value="10k" x="52.324" y="7.874" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.524" y="6.928" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="PARTNO" value="P10.0KHCT-ND" x="52.324" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="55.88" y="6.858" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.326" y="4.356" size="1.016" layer="25" font="vector"/>
@@ -1406,6 +1412,7 @@ design rules under a new name.</description>
 </element>
 <element name="R4" library="jqi_passives" package="R_0603" value="49.9k" x="61.722" y="7.874" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.684" y="9.614" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P49.9KHCT-ND" x="61.722" y="7.874" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U4" library="transistor-jqi" package="4-LEAD_SOP" value="CPC1117NTR" x="77.47" y="16.256">
 <attribute name="PARTNO" value="CLA268CT-ND" x="77.47" y="16.256" size="1.778" layer="27" display="off"/>
@@ -1415,9 +1422,11 @@ design rules under a new name.</description>
 </element>
 <element name="R5" library="jqi_passives" package="R_0603" value="1M" x="37.592" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.062" y="12.77" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="PARTNO" value="P1.00MHCT-ND" x="37.592" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="jqi_passives" package="R_0603" value="100k" x="39.37" y="5.08" smashed="yes">
 <attribute name="NAME" x="38.678" y="3.086" size="1.016" layer="25" font="vector"/>
+<attribute name="PARTNO" value="P100KHCT-ND" x="39.37" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C17" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="45.72" y="7.8105" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.46" y="6.5105" size="1.016" layer="25" font="vector" rot="R90"/>
@@ -1429,11 +1438,15 @@ design rules under a new name.</description>
 </element>
 <element name="R10" library="jqi_passives" package="R_0603" value="10k" x="42.164" y="4.064" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.964" y="1.562" size="1.016" layer="25" font="vector"/>
+<attribute name="PARTNO" value="P10.0KHCT-ND" x="42.164" y="4.064" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="jqi_passives" package="R_0603" value="866" x="48.26" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.984" y="6.312" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P866HCT-ND" x="48.26" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R12" library="jqi_passives" package="R_0603" value="4.42k" x="49.53" y="10.16"/>
+<element name="R12" library="jqi_passives" package="R_0603" value="4.42k" x="49.53" y="10.16">
+<attribute name="PARTNO" value="P4.42KHCT-ND" x="49.53" y="10.16" size="1.778" layer="27" display="off"/>
+</element>
 <element name="T3" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="44.577" y="40.64">
 <attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="44.577" y="40.64" size="1.778" layer="27" display="off"/>
 </element>
@@ -1442,19 +1455,26 @@ design rules under a new name.</description>
 </element>
 <element name="R13" library="jqi_passives" package="R_0603" value="1k" x="62.738" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.192" y="30.95" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P1.00KHCT-ND" x="62.738" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R14" library="jqi_passives" package="R_0603" value="2M" x="61.722" y="26.924" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.176" y="26.124" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P2.00MHCT-ND" x="61.722" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R15" library="jqi_passives" package="R_0603" value="54.9k" x="58.928" y="26.924"/>
+<element name="R15" library="jqi_passives" package="R_0603" value="54.9k" x="58.928" y="26.924">
+<attribute name="PARTNO" value="P54.9KHCT-ND" x="58.928" y="26.924" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R16" library="jqi_passives" package="R_0603" value="1k" x="49.784" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.492" y="33.744" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="PARTNO" value="P1.00KHCT-ND" x="49.784" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R17" library="jqi_passives" package="R_0603" value="200k" x="49.276" y="29.464" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.33" y="30.918" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="PARTNO" value="P200KHCT-ND" x="49.276" y="29.464" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R18" library="jqi_passives" package="R_0603" value="51k" x="49.276" y="26.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.282" y="28.124" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="PARTNO" value="P51.0KHCT-ND" x="49.276" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R19" library="jqi_passives" package="R_0603" value="4.02k" x="76.454" y="6.35">
 <attribute name="PARTNO" value="TNP4.02KAACT-ND" x="76.454" y="6.35" size="1.778" layer="27" display="off"/>
@@ -1467,11 +1487,15 @@ design rules under a new name.</description>
 </element>
 <element name="R22" library="jqi_passives" package="R_0603" value="1k" x="36.83" y="30.988" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.3" y="32.328" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="PARTNO" value="P1.00KHCT-ND" x="36.83" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R23" library="jqi_passives" package="R_0603" value="200k" x="38.608" y="30.988" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.408" y="32.442" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="PARTNO" value="P200KHCT-ND" x="38.608" y="30.988" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R24" library="jqi_passives" package="R_0603" value="51k" x="38.608" y="26.924" rot="R270"/>
+<element name="R24" library="jqi_passives" package="R_0603" value="51k" x="38.608" y="26.924" rot="R270">
+<attribute name="PARTNO" value="P51.0KHCT-ND" x="38.608" y="26.924" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="JP2" library="pinhead" package="1X02" value="" x="32.766" y="26.416" rot="R180">
 <attribute name="PARTNO" value="A1921-ND" x="32.766" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -1493,7 +1517,9 @@ design rules under a new name.</description>
 <element name="R26" library="jqi_passives" package="R_0603" value="200" x="100.838" y="35.052" rot="R270">
 <attribute name="PARTNO" value="541-3049-1-ND" x="100.838" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R27" library="jqi_passives" package="R_0603" value="100" x="89.662" y="43.18"/>
+<element name="R27" library="jqi_passives" package="R_0603" value="100" x="89.662" y="43.18">
+<attribute name="PARTNO" value="P100HCT-ND" x="89.662" y="43.18" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R28" library="jqi_passives" package="R_0603" value="4.02k" x="82.55" y="45.72" rot="R90">
 <attribute name="PARTNO" value="TNP4.02KAACT-ND" x="82.55" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1510,10 +1536,10 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="1276-1110-1-ND" x="105.41" y="5.334" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C25" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="35.56">
-<attribute name="PARTNO" value="ATC600S3R3CT250" x="106.172" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="581-600S3R3CT" x="106.172" y="35.56" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C26" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="17.018">
-<attribute name="PARTNO" value="ATC600S3R3CT250" x="106.172" y="17.018" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="581-600S3R3CT" x="106.172" y="17.018" size="1.778" layer="27" display="off"/>
 </element>
 <element name="L2" library="jqi_passives" package="R_0402" value="5.6n" x="105.41" y="19.304" rot="R90">
 <attribute name="PARTNO" value="0402CS-5N6XJLU" x="105.41" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1547,7 +1573,9 @@ design rules under a new name.</description>
 </element>
 <element name="C4" library="jqi_passives" package="C_MLCC_0603" value="1u" x="97.536" y="20.32" rot="R90"/>
 <element name="C5" library="jqi_passives" package="C_MLCC_0603" value="1n" x="92.71" y="17.018" rot="R90"/>
-<element name="R30" library="jqi_passives" package="R_0603" value="50" x="81.534" y="17.018" rot="R90"/>
+<element name="R30" library="jqi_passives" package="R_0603" value="50" x="81.534" y="17.018" rot="R90">
+<attribute name="PARTNO" value="P49.9HCT-ND" x="81.534" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C29" library="jqi_passives" package="C_MLCC_0603" value="100n" x="86.106" y="14.986" rot="R180">
 <attribute name="PARTNO" value="1276-1936-1-ND" x="86.106" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
