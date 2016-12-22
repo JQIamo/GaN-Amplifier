@@ -980,20 +980,20 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <library name="regulator-jqi">
 <packages>
 <package name="DGN">
-<smd name="OUT" x="0" y="0" dx="0.4" dy="1.6" layer="1"/>
-<smd name="FB" x="0.65" y="0" dx="0.4" dy="1.6" layer="1"/>
-<smd name="NC" x="1.3" y="0" dx="0.4" dy="1.6" layer="1"/>
-<smd name="GND1" x="1.95" y="0" dx="0.4" dy="1.6" layer="1"/>
-<smd name="EN" x="1.95" y="4.2" dx="0.4" dy="1.6" layer="1"/>
-<smd name="NR/SS" x="1.3" y="4.2" dx="0.4" dy="1.6" layer="1"/>
-<smd name="DNC" x="0.65" y="4.2" dx="0.4" dy="1.6" layer="1"/>
-<smd name="IN" x="0" y="4.2" dx="0.4" dy="1.6" layer="1"/>
-<smd name="GND" x="0.975" y="2.1" dx="1.55" dy="1.9" layer="1" rot="R90"/>
-<wire x1="-0.2" y1="0.4" x2="2.5" y2="0.4" width="0.1" layer="21"/>
-<wire x1="2.5" y1="0.4" x2="2.5" y2="3.75" width="0.1" layer="21"/>
-<wire x1="2.5" y1="3.75" x2="-0.5" y2="3.75" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="3.75" x2="-0.5" y2="0.6" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="0.6" x2="-0.2" y2="0.4" width="0.1" layer="21"/>
+<smd name="OUT" x="0" y="0" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="FB" x="0" y="-0.65" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="NC" x="0" y="-1.3" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="GND1" x="0" y="-1.95" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="EN" x="4.2" y="-1.95" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="NR/SS" x="4.2" y="-1.3" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="DNC" x="4.2" y="-0.65" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="IN" x="4.2" y="0" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="GND" x="2.1" y="-0.975" dx="1.55" dy="1.9" layer="1"/>
+<wire x1="0.4" y1="0.2" x2="0.4" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="0.4" y1="-2.5" x2="3.75" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="3.75" y1="-2.5" x2="3.75" y2="0.5" width="0.1" layer="21"/>
+<wire x1="3.75" y1="0.5" x2="0.6" y2="0.5" width="0.1" layer="21"/>
+<wire x1="0.6" y1="0.5" x2="0.4" y2="0.2" width="0.1" layer="21"/>
 </package>
 <package name="TO263-5">
 <description>&lt;b&gt;TO-263&lt;/b&gt;</description>
@@ -1242,70 +1242,54 @@ www.minicircuits.com&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="HCP-32-2">
-<smd name="9" x="2.25" y="-1.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="10" x="2.25" y="-1.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="11" x="2.25" y="-0.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="12" x="2.25" y="-0.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="13" x="2.25" y="0.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="14" x="2.25" y="0.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="15" x="2.25" y="1.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="16" x="2.25" y="1.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="17" x="1.75" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="18" x="1.25" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="19" x="0.75" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="20" x="0.25" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="21" x="-0.25" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="22" x="-0.75" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="23" x="-1.25" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="24" x="-1.75" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="25" x="-2.25" y="1.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="26" x="-2.25" y="1.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="27" x="-2.25" y="0.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="28" x="-2.25" y="0.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="29" x="-2.25" y="-0.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="30" x="-2.25" y="-0.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="31" x="-2.25" y="-1.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="32" x="-2.25" y="-1.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="1" x="-1.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="-1.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="-0.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="4" x="-0.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="5" x="0.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="6" x="0.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="7" x="1.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="8" x="1.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-1.3125" y1="-2.5625" x2="-1.1875" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="-1.8125" y1="-2.5625" x2="-1.6875" y2="-2.3125" layer="1" rot="R270"/>
-<rectangle x1="-0.8125" y1="-2.5625" x2="-0.6875" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="-0.3125" y1="-2.5625" x2="-0.1875" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="0.1875" y1="-2.5625" x2="0.3125" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="0.6875" y1="-2.5625" x2="0.8125" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="1.1875" y1="-2.5625" x2="1.3125" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="1.6875" y1="-2.5625" x2="1.8125" y2="-2.3125" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="-1.8125" x2="2.5625" y2="-1.6875" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="-1.3125" x2="2.5625" y2="-1.1875" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="-0.8125" x2="2.5625" y2="-0.6875" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="-0.3125" x2="2.5625" y2="-0.1875" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="0.1875" x2="2.5625" y2="0.3125" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="0.6875" x2="2.5625" y2="0.8125" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="1.1875" x2="2.5625" y2="1.3125" layer="1" rot="R90"/>
-<rectangle x1="2.3125" y1="1.6875" x2="2.5625" y2="1.8125" layer="1" rot="R90"/>
-<rectangle x1="1.6875" y1="2.3125" x2="1.8125" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="1.1875" y1="2.3125" x2="1.3125" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="0.6875" y1="2.3125" x2="0.8125" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="0.1875" y1="2.3125" x2="0.3125" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-0.3125" y1="2.3125" x2="-0.1875" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-0.8125" y1="2.3125" x2="-0.6875" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-1.3125" y1="2.3125" x2="-1.1875" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-1.8125" y1="2.3125" x2="-1.6875" y2="2.5625" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="1.6875" x2="-2.3125" y2="1.8125" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="1.1875" x2="-2.3125" y2="1.3125" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="0.6875" x2="-2.3125" y2="0.8125" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="0.1875" x2="-2.3125" y2="0.3125" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="-0.3125" x2="-2.3125" y2="-0.1875" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="-0.8125" x2="-2.3125" y2="-0.6875" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="-1.3125" x2="-2.3125" y2="-1.1875" layer="1" rot="R90"/>
-<rectangle x1="-2.5625" y1="-1.8125" x2="-2.3125" y2="-1.6875" layer="1" rot="R90"/>
+<smd name="9" x="-1.75" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="10" x="-1.25" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="11" x="-0.75" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="12" x="-0.25" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="13" x="0.25" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="14" x="0.75" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="15" x="1.25" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="16" x="1.75" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="17" x="2.25" y="-1.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="18" x="2.25" y="-1.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="19" x="2.25" y="-0.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="20" x="2.25" y="-0.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="21" x="2.25" y="0.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="22" x="2.25" y="0.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="23" x="2.25" y="1.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="24" x="2.25" y="1.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="25" x="1.75" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="26" x="1.25" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="27" x="0.75" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="28" x="0.25" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="29" x="-0.25" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="30" x="-0.75" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="31" x="-1.25" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="32" x="-1.75" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-2.25" y="1.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="-2.25" y="1.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="-2.25" y="0.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="-2.25" y="0.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="-2.25" y="-0.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="6" x="-2.25" y="-0.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="7" x="-2.25" y="-1.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="8" x="-2.25" y="-1.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<wire x1="-2.375" y1="1.75" x2="-2.125" y2="1.75" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="1.5" x2="-2.375" y2="2" layer="29"/>
+<wire x1="-2.375" y1="1.25" x2="-2.125" y2="1.25" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="1" x2="-2.375" y2="1.5" layer="29"/>
+<wire x1="-2.375" y1="0.75" x2="-2.125" y2="0.75" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="0.5" x2="-2.375" y2="1" layer="29"/>
+<wire x1="-2.375" y1="0.25" x2="-2.125" y2="0.25" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="0" x2="-2.375" y2="0.5" layer="29"/>
+<wire x1="-2.375" y1="-0.25" x2="-2.125" y2="-0.25" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="-0.5" x2="-2.375" y2="0" layer="29"/>
+<wire x1="-2.375" y1="-0.75" x2="-2.125" y2="-0.75" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="-1" x2="-2.375" y2="-0.5" layer="29"/>
+<wire x1="-2.375" y1="-1.25" x2="-2.125" y2="-1.25" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="-1.5" x2="-2.375" y2="-1" layer="29"/>
+<wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="-2" x2="-2.375" y2="-1.5" layer="29"/>
 <wire x1="-1.75" y1="-2.375" x2="-1.75" y2="-2.125" width="0.5" layer="29"/>
 <rectangle x1="-1.875" y1="-2.75" x2="-1.625" y2="-2.25" layer="29" rot="R90"/>
 <wire x1="-1.25" y1="-2.375" x2="-1.25" y2="-2.125" width="0.5" layer="29"/>
@@ -1354,22 +1338,22 @@ www.minicircuits.com&lt;br&gt;
 <rectangle x1="-1.375" y1="2.25" x2="-1.125" y2="2.75" layer="29" rot="R270"/>
 <wire x1="-1.75" y1="2.375" x2="-1.75" y2="2.125" width="0.5" layer="29"/>
 <rectangle x1="-1.875" y1="2.25" x2="-1.625" y2="2.75" layer="29" rot="R270"/>
-<wire x1="-2.375" y1="1.75" x2="-2.125" y2="1.75" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="1.5" x2="-2.375" y2="2" layer="29"/>
-<wire x1="-2.375" y1="1.25" x2="-2.125" y2="1.25" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="1" x2="-2.375" y2="1.5" layer="29"/>
-<wire x1="-2.375" y1="0.75" x2="-2.125" y2="0.75" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="0.5" x2="-2.375" y2="1" layer="29"/>
-<wire x1="-2.375" y1="0.25" x2="-2.125" y2="0.25" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="0" x2="-2.375" y2="0.5" layer="29"/>
-<wire x1="-2.375" y1="-0.25" x2="-2.125" y2="-0.25" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="-0.5" x2="-2.375" y2="0" layer="29"/>
-<wire x1="-2.375" y1="-0.75" x2="-2.125" y2="-0.75" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="-1" x2="-2.375" y2="-0.5" layer="29"/>
-<wire x1="-2.375" y1="-1.25" x2="-2.125" y2="-1.25" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="-1.5" x2="-2.375" y2="-1" layer="29"/>
-<wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="-2" x2="-2.375" y2="-1.5" layer="29"/>
+<wire x1="-2.375" y1="1.75" x2="-2.125" y2="1.75" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="1.625" x2="-2.375" y2="1.875" layer="31"/>
+<wire x1="-2.375" y1="1.25" x2="-2.125" y2="1.25" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="1.125" x2="-2.375" y2="1.375" layer="31"/>
+<wire x1="-2.375" y1="0.75" x2="-2.125" y2="0.75" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="0.625" x2="-2.375" y2="0.875" layer="31"/>
+<wire x1="-2.375" y1="0.25" x2="-2.125" y2="0.25" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="0.125" x2="-2.375" y2="0.375" layer="31"/>
+<wire x1="-2.375" y1="-0.25" x2="-2.125" y2="-0.25" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="-0.375" x2="-2.375" y2="-0.125" layer="31"/>
+<wire x1="-2.375" y1="-0.75" x2="-2.125" y2="-0.75" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="-0.875" x2="-2.375" y2="-0.625" layer="31"/>
+<wire x1="-2.375" y1="-1.25" x2="-2.125" y2="-1.25" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="-1.375" x2="-2.375" y2="-1.125" layer="31"/>
+<wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="-1.875" x2="-2.375" y2="-1.625" layer="31"/>
 <wire x1="-1.75" y1="-2.375" x2="-1.75" y2="-2.125" width="0.25" layer="31"/>
 <rectangle x1="-1.8125" y1="-2.5625" x2="-1.6875" y2="-2.3125" layer="31" rot="R90"/>
 <wire x1="-1.25" y1="-2.375" x2="-1.25" y2="-2.125" width="0.25" layer="31"/>
@@ -1418,54 +1402,230 @@ www.minicircuits.com&lt;br&gt;
 <rectangle x1="-1.3125" y1="2.3125" x2="-1.1875" y2="2.5625" layer="31" rot="R270"/>
 <wire x1="-1.75" y1="2.375" x2="-1.75" y2="2.125" width="0.25" layer="31"/>
 <rectangle x1="-1.8125" y1="2.3125" x2="-1.6875" y2="2.5625" layer="31" rot="R270"/>
-<wire x1="-2.375" y1="1.75" x2="-2.125" y2="1.75" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="1.625" x2="-2.375" y2="1.875" layer="31"/>
-<wire x1="-2.375" y1="1.25" x2="-2.125" y2="1.25" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="1.125" x2="-2.375" y2="1.375" layer="31"/>
-<wire x1="-2.375" y1="0.75" x2="-2.125" y2="0.75" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="0.625" x2="-2.375" y2="0.875" layer="31"/>
-<wire x1="-2.375" y1="0.25" x2="-2.125" y2="0.25" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="0.125" x2="-2.375" y2="0.375" layer="31"/>
-<wire x1="-2.375" y1="-0.25" x2="-2.125" y2="-0.25" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="-0.375" x2="-2.375" y2="-0.125" layer="31"/>
-<wire x1="-2.375" y1="-0.75" x2="-2.125" y2="-0.75" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="-0.875" x2="-2.375" y2="-0.625" layer="31"/>
-<wire x1="-2.375" y1="-1.25" x2="-2.125" y2="-1.25" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="-1.375" x2="-2.375" y2="-1.125" layer="31"/>
-<wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="-1.875" x2="-2.375" y2="-1.625" layer="31"/>
-<smd name="33" x="0" y="0" dx="3.15" dy="3.15" layer="1" rot="R90" thermals="no" cream="no"/>
-<pad name="34" x="0" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="35" x="-1" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="36" x="-1" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="37" x="0" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="38" x="1" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="39" x="1" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="40" x="1" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="41" x="0" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="42" x="-1" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<smd name="33" x="0" y="0" dx="3.15" dy="3.15" layer="1" thermals="no" cream="no"/>
+<pad name="34" x="0" y="0" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="35" x="0" y="1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="36" x="-1" y="1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="37" x="-1" y="0" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="38" x="-1" y="-1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="39" x="0" y="-1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="40" x="1" y="-1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="41" x="1" y="0" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="42" x="1" y="1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-2.25" y="-2.25" radius="0.125" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<circle x="-2.25" y="2.25" radius="0.125" width="0.127" layer="21"/>
 <text x="-2.5" y="2.75" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.5" y1="1" x2="-1" y2="1.5" layer="31"/>
-<rectangle x1="1" y1="1" x2="1.5" y2="1.5" layer="31"/>
-<rectangle x1="0.25" y1="1" x2="0.75" y2="1.5" layer="31"/>
-<rectangle x1="-0.75" y1="1" x2="-0.25" y2="1.5" layer="31"/>
-<rectangle x1="1" y1="0.25" x2="1.5" y2="0.75" layer="31"/>
-<rectangle x1="0.25" y1="0.25" x2="0.75" y2="0.75" layer="31"/>
-<rectangle x1="-0.75" y1="0.25" x2="-0.25" y2="0.75" layer="31"/>
-<rectangle x1="-1.5" y1="0.25" x2="-1" y2="0.75" layer="31"/>
-<rectangle x1="-1.5" y1="-0.75" x2="-1" y2="-0.25" layer="31"/>
-<rectangle x1="-0.75" y1="-0.75" x2="-0.25" y2="-0.25" layer="31"/>
-<rectangle x1="0.25" y1="-0.75" x2="0.75" y2="-0.25" layer="31"/>
-<rectangle x1="1" y1="-0.75" x2="1.5" y2="-0.25" layer="31"/>
-<rectangle x1="1" y1="-1.5" x2="1.5" y2="-1" layer="31"/>
-<rectangle x1="0.25" y1="-1.5" x2="0.75" y2="-1" layer="31"/>
-<rectangle x1="-0.75" y1="-1.5" x2="-0.25" y2="-1" layer="31"/>
-<rectangle x1="-1.5" y1="-1.5" x2="-1" y2="-1" layer="31"/>
+<rectangle x1="1" y1="1" x2="1.5" y2="1.5" layer="31" rot="R270"/>
+<rectangle x1="1" y1="-1.5" x2="1.5" y2="-1" layer="31" rot="R270"/>
+<rectangle x1="1" y1="-0.75" x2="1.5" y2="-0.25" layer="31" rot="R270"/>
+<rectangle x1="1" y1="0.25" x2="1.5" y2="0.75" layer="31" rot="R270"/>
+<rectangle x1="0.25" y1="-1.5" x2="0.75" y2="-1" layer="31" rot="R270"/>
+<rectangle x1="0.25" y1="-0.75" x2="0.75" y2="-0.25" layer="31" rot="R270"/>
+<rectangle x1="0.25" y1="0.25" x2="0.75" y2="0.75" layer="31" rot="R270"/>
+<rectangle x1="0.25" y1="1" x2="0.75" y2="1.5" layer="31" rot="R270"/>
+<rectangle x1="-0.75" y1="1" x2="-0.25" y2="1.5" layer="31" rot="R270"/>
+<rectangle x1="-0.75" y1="0.25" x2="-0.25" y2="0.75" layer="31" rot="R270"/>
+<rectangle x1="-0.75" y1="-0.75" x2="-0.25" y2="-0.25" layer="31" rot="R270"/>
+<rectangle x1="-0.75" y1="-1.5" x2="-0.25" y2="-1" layer="31" rot="R270"/>
+<rectangle x1="-1.5" y1="-1.5" x2="-1" y2="-1" layer="31" rot="R270"/>
+<rectangle x1="-1.5" y1="-0.75" x2="-1" y2="-0.25" layer="31" rot="R270"/>
+<rectangle x1="-1.5" y1="0.25" x2="-1" y2="0.75" layer="31" rot="R270"/>
+<rectangle x1="-1.5" y1="1" x2="-1" y2="1.5" layer="31" rot="R270"/>
+<polygon width="0.005" layer="1">
+<vertex x="2.5" y="1.875"/>
+<vertex x="2.5" y="1.625"/>
+<vertex x="2.125" y="1.625"/>
+<vertex x="2.125" y="1.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.5" y="1.375"/>
+<vertex x="2.5" y="1.125"/>
+<vertex x="2.125" y="1.125"/>
+<vertex x="2.125" y="1.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.5" y="0.875"/>
+<vertex x="2.5" y="0.625"/>
+<vertex x="2.125" y="0.625"/>
+<vertex x="2.125" y="0.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.5" y="0.375"/>
+<vertex x="2.5" y="0.125"/>
+<vertex x="2.125" y="0.125"/>
+<vertex x="2.125" y="0.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.5" y="-0.125"/>
+<vertex x="2.5" y="-0.375"/>
+<vertex x="2.125" y="-0.375"/>
+<vertex x="2.125" y="-0.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.5" y="-0.625"/>
+<vertex x="2.5" y="-0.875"/>
+<vertex x="2.125" y="-0.875"/>
+<vertex x="2.125" y="-0.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.5" y="-1.125"/>
+<vertex x="2.5" y="-1.375"/>
+<vertex x="2.125" y="-1.375"/>
+<vertex x="2.125" y="-1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="2.5" y="-1.625"/>
+<vertex x="2.5" y="-1.875"/>
+<vertex x="2.125" y="-1.875"/>
+<vertex x="2.125" y="-1.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="1.875"/>
+<vertex x="-2.125" y="1.625"/>
+<vertex x="-2.5" y="1.625"/>
+<vertex x="-2.5" y="1.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="1.375"/>
+<vertex x="-2.125" y="1.125"/>
+<vertex x="-2.5" y="1.125"/>
+<vertex x="-2.5" y="1.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="0.875"/>
+<vertex x="-2.125" y="0.625"/>
+<vertex x="-2.5" y="0.625"/>
+<vertex x="-2.5" y="0.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="0.375"/>
+<vertex x="-2.125" y="0.125"/>
+<vertex x="-2.5" y="0.125"/>
+<vertex x="-2.5" y="0.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="-0.625"/>
+<vertex x="-2.125" y="-0.875"/>
+<vertex x="-2.5" y="-0.875"/>
+<vertex x="-2.5" y="-0.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="-0.125"/>
+<vertex x="-2.125" y="-0.375"/>
+<vertex x="-2.5" y="-0.375"/>
+<vertex x="-2.5" y="-0.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="-1.125"/>
+<vertex x="-2.125" y="-1.375"/>
+<vertex x="-2.5" y="-1.375"/>
+<vertex x="-2.5" y="-1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="-1.625"/>
+<vertex x="-2.125" y="-1.875"/>
+<vertex x="-2.5" y="-1.875"/>
+<vertex x="-2.5" y="-1.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-1.875" y="-2.125"/>
+<vertex x="-1.625" y="-2.125"/>
+<vertex x="-1.625" y="-2.5"/>
+<vertex x="-1.875" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-1.375" y="-2.125"/>
+<vertex x="-1.125" y="-2.125"/>
+<vertex x="-1.125" y="-2.5"/>
+<vertex x="-1.375" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.875" y="-2.125"/>
+<vertex x="-0.625" y="-2.125"/>
+<vertex x="-0.625" y="-2.5"/>
+<vertex x="-0.875" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.375" y="-2.125"/>
+<vertex x="-0.125" y="-2.125"/>
+<vertex x="-0.125" y="-2.5"/>
+<vertex x="-0.375" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.125" y="-2.125"/>
+<vertex x="0.375" y="-2.125"/>
+<vertex x="0.375" y="-2.5"/>
+<vertex x="0.125" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.625" y="-2.125"/>
+<vertex x="0.875" y="-2.125"/>
+<vertex x="0.875" y="-2.5"/>
+<vertex x="0.625" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.125" y="-2.125"/>
+<vertex x="1.375" y="-2.125"/>
+<vertex x="1.375" y="-2.5"/>
+<vertex x="1.125" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.625" y="-2.125"/>
+<vertex x="1.875" y="-2.125"/>
+<vertex x="1.875" y="-2.5"/>
+<vertex x="1.625" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.625" y="2.5"/>
+<vertex x="1.875" y="2.5"/>
+<vertex x="1.875" y="2.125"/>
+<vertex x="1.625" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="1.125" y="2.5"/>
+<vertex x="1.375" y="2.5"/>
+<vertex x="1.375" y="2.125"/>
+<vertex x="1.125" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.625" y="2.5"/>
+<vertex x="0.875" y="2.5"/>
+<vertex x="0.875" y="2.125"/>
+<vertex x="0.625" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.125" y="2.5"/>
+<vertex x="0.375" y="2.5"/>
+<vertex x="0.375" y="2.125"/>
+<vertex x="0.125" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.375" y="2.5"/>
+<vertex x="-0.125" y="2.5"/>
+<vertex x="-0.125" y="2.125"/>
+<vertex x="-0.375" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-0.875" y="2.5"/>
+<vertex x="-0.625" y="2.5"/>
+<vertex x="-0.625" y="2.125"/>
+<vertex x="-0.875" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-1.375" y="2.5"/>
+<vertex x="-1.125" y="2.5"/>
+<vertex x="-1.125" y="2.125"/>
+<vertex x="-1.375" y="2.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-1.875" y="2.5"/>
+<vertex x="-1.625" y="2.5"/>
+<vertex x="-1.625" y="2.125"/>
+<vertex x="-1.875" y="2.125"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -1537,31 +1697,31 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
 </package>
 <package name="4-LEAD_SOP">
-<wire x1="-1.8288" y1="1.524" x2="-1.8288" y2="-1.4986" width="0.127" layer="21"/>
-<smd name="P$1" x="-1.27" y="-1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$2" x="1.27" y="-1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$3" x="1.27" y="1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$4" x="-1.27" y="1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<text x="-1.0922" y="-0.6858" size="0.6096" layer="21" rot="R90">1</text>
+<wire x1="1.524" y1="1.8288" x2="-1.4986" y2="1.8288" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.397" y="1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
+<smd name="P$2" x="-1.397" y="-1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
+<smd name="P$3" x="1.397" y="-1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
+<smd name="P$4" x="1.397" y="1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
+<text x="-0.6858" y="1.0922" size="0.6096" layer="21">1</text>
 <text x="-1.27" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="6-LEAD_SMT">
-<smd name="2" x="0" y="-4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="1" x="-2.54" y="-4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="2.54" y="-4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="5" x="0" y="4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="6" x="-2.54" y="4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="2.54" y="4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="-0.5" x2="-3" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="0.5" x2="-3" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0.127" layer="21" curve="-180"/>
-<text x="-3.2" y="5.7" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-7" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-2.6" y="-2.1" radius="0.2" width="0.127" layer="21"/>
+<smd name="2" x="-4.45" y="0" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="1" x="-4.45" y="2.54" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="3" x="-4.45" y="-2.54" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="5" x="4.45" y="0" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="6" x="4.45" y="2.54" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="4" x="4.45" y="-2.54" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<wire x1="2.5" y1="3" x2="2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="3" x2="-0.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="3" x2="0.5" y2="3" width="0.127" layer="21"/>
+<wire x1="0.5" y1="3" x2="2.5" y2="3" width="0.127" layer="21"/>
+<wire x1="0.5" y1="3" x2="-0.5" y2="3" width="0.127" layer="21" curve="-180"/>
+<text x="-3.2" y="3.16" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4.46" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="1.905" size="0.762" layer="21">1</text>
 </package>
 <package name="PG-SOT-223">
 <description>&lt;b&gt;Small Outline Transistor; 4 leads&lt;/b&gt; Wave soldering&lt;p&gt;
@@ -2757,35 +2917,43 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <parts>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="U1" library="regulator-jqi" deviceset="TPS7A30XX" device="">
-<attribute name="PARTNO" value="296-27750-1-ND"/>
+<attribute name="PARTNO" value="TPS7A3001DGNR"/>
 </part>
 <part name="P-1" library="supply1" deviceset="-24V" device=""/>
 <part name="C2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="587-1818-1-ND"/>
+<attribute name="PARTNO" value="UMK325C7106MM-T"/>
 </part>
 <part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="587-1818-1-ND"/>
+<attribute name="PARTNO" value="UMK325C7106MM-T"/>
 </part>
 <part name="C6" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="1276-1110-1-ND"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
 </part>
 <part name="C7" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="1276-1110-1-ND"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="-8V" device=""/>
-<part name="C8" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u"/>
-<part name="C9" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u"/>
-<part name="C10" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n"/>
-<part name="C11" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n"/>
+<part name="C8" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u">
+<attribute name="PARTNO" value="GMK316AB7106KL-TR"/>
+</part>
+<part name="C9" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u">
+<attribute name="PARTNO" value="GMK316AB7106KL-TR"/>
+</part>
+<part name="C10" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n">
+<attribute name="PARTNO" value="CL05B103KB5NNNC"/>
+</part>
+<part name="C11" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n">
+<attribute name="PARTNO" value="CL05B103KB5NNNC"/>
+</part>
 <part name="R6" library="jqi_passives" deviceset="R_SMD" device="R0402" value="56k">
-<attribute name="PARTNO" value="P56.0KLCT-ND"/>
+<attribute name="PARTNO" value="ERJ-2RKF5602X"/>
 </part>
 <part name="R7" library="jqi_passives" deviceset="R_SMD" device="R0402" value="10k">
-<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+<attribute name="PARTNO" value="ERJ-2RKF1002X"/>
 </part>
 <part name="R8" library="jqi_passives" deviceset="R_SMD" device="R0603" value="68.1">
-<attribute name="PARTNO" value="P68.1HCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF68R1V"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="coilcraft-jqi" deviceset="0906-XX" device="" value="5.4 nH">
@@ -2795,181 +2963,187 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="HMC1099LP5DE"/>
 </part>
 <part name="T1" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
+<attribute name="PARTNO" value="IPB080N03L G"/>
 </part>
 <part name="T2" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
+<attribute name="PARTNO" value="IPB080N03L G"/>
 </part>
 <part name="IC1" library="regulator-jqi" deviceset="LT3080" device="">
-<attribute name="PARTNO" value="LT3080EQ#PBF-ND"/>
+<attribute name="PARTNO" value="LT3080EQ#PBF"/>
 </part>
 <part name="C1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0805" value="10u">
-<attribute name="PARTNO" value="445-14417-1-ND"/>
+<attribute name="PARTNO" value="C2012X5R1V106K085AC"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="499k">
-<attribute name="PARTNO" value="P499KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF4993V"/>
 </part>
 <part name="C12" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0805" value="10u">
-<attribute name="PARTNO" value="445-14417-1-ND"/>
+<attribute name="PARTNO" value="C2012X5R1V106K085AC"/>
 </part>
 <part name="C13" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100n">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="U3" library="linear-technology-jqi" deviceset="LT1783HS5" device="" value="LT1783">
-<attribute name="PARTNO" value="LT1783HS5#TRMPBFCT-ND"/>
+<attribute name="PARTNO" value="LT1783HS5#TRMPBF"/>
 </part>
 <part name="U6" library="linear-technology-jqi" deviceset="LTC2924IGN" device="" value="LTC2924">
-<attribute name="PARTNO" value="LTC2924IGN#PBF-ND"/>
+<attribute name="PARTNO" value="LTC2924IGN#PBF"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
 </part>
 <part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
 </part>
 <part name="C14" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="">
-<attribute name="PARTNO" value="A1921-ND"/>
+<attribute name="PARTNO" value="640456-2"/>
 </part>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="C15" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="200n"/>
-<part name="C16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="150n"/>
+<part name="C15" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="220n">
+<attribute name="PARTNO" value="CL10B224KP8NNNC"/>
+</part>
+<part name="C16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="150n">
+<attribute name="PARTNO" value="CL10B154KP8NNNC"/>
+</part>
 <part name="R4" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9k">
-<attribute name="PARTNO" value="P49.9KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF4992V"/>
 </part>
 <part name="U4" library="transistor-jqi" deviceset="CPC1117NTR" device="" value="CPC1117NTR">
-<attribute name="PARTNO" value="CLA268CT-ND"/>
+<attribute name="PARTNO" value="CPC1117NTR"/>
 </part>
-<part name="Q1" library="transistor-pnp" deviceset="MMBT3906*" device="SMD" technology="LT1"/>
+<part name="Q1" library="transistor-pnp" deviceset="MMBT3906*" device="SMD" technology="LT1">
+<attribute name="PARTNO" value="MMBT3906LT1G"/>
+</part>
 <part name="R5" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1M">
-<attribute name="PARTNO" value="P1.00MHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1004V"/>
 </part>
 <part name="R9" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100k">
-<attribute name="PARTNO" value="P100KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1003V"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="C17" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="C18" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
 </part>
 <part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="866">
-<attribute name="PARTNO" value="P866HCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF8660V"/>
 </part>
 <part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.42k">
-<attribute name="PARTNO" value="P4.42KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF4421V"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="T3" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
+<attribute name="PARTNO" value="IPB080N03L G"/>
 </part>
 <part name="U7" library="transistor-jqi" deviceset="LCA701S" device="" value="LCA701S">
-<attribute name="PARTNO" value="849-LCA701S"/>
+<attribute name="PARTNO" value="LCA701S"/>
 </part>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R13" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
-<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V"/>
 </part>
 <part name="P+7" library="supply1" deviceset="+24V" device=""/>
 <part name="R14" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2M">
-<attribute name="PARTNO" value="P2.00MHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF2004V"/>
 </part>
 <part name="R15" library="jqi_passives" deviceset="R_SMD" device="R0603" value="54.9k">
-<attribute name="PARTNO" value="P54.9KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF5492V"/>
 </part>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="R16" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
-<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="-8V" device=""/>
 <part name="R17" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k">
-<attribute name="PARTNO" value="P200KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF2003V"/>
 </part>
 <part name="R18" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k">
-<attribute name="PARTNO" value="P51.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF5102V"/>
 </part>
 <part name="R19" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.02k">
-<attribute name="PARTNO" value="TNP4.02KAACT-ND"/>
+<attribute name="PARTNO" value="TNPW06034K02BEEA"/>
 </part>
 <part name="R20" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2k">
-<attribute name="PARTNO" value="541-1726-1-ND"/>
+<attribute name="PARTNO" value="TNPW06032K00BXEN"/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="-8V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="T4" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
+<attribute name="PARTNO" value="IPB080N03L G"/>
 </part>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="R22" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
-<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R23" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k">
-<attribute name="PARTNO" value="P200KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF2003V"/>
 </part>
 <part name="R24" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k">
-<attribute name="PARTNO" value="P51.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF5102V"/>
 </part>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="">
-<attribute name="PARTNO" value="A1921-ND"/>
+<attribute name="PARTNO" value="640456-2"/>
 </part>
 <part name="U5" library="linear-technology-jqi" deviceset="LT6015HS5" device="" value="LT6015">
-<attribute name="PARTNO" value="LT6015HS5#TRMPBFCT-ND"/>
+<attribute name="PARTNO" value="LT6015HS5#TRMPBF"/>
 </part>
 <part name="T5" library="transistor-jqi" deviceset="BSP89" device="" value="BSP89">
-<attribute name="PARTNO" value="BSP89H6327XTSA1CT-ND"/>
+<attribute name="PARTNO" value="BSP89H6327XTSA1"/>
 </part>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="C22" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R25" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200">
-<attribute name="PARTNO" value="541-3049-1-ND"/>
+<attribute name="PARTNO" value="TNPW0603200RBEEA"/>
 </part>
 <part name="R26" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200">
-<attribute name="PARTNO" value="541-3049-1-ND"/>
+<attribute name="PARTNO" value="TNPW0603200RBEEA"/>
 </part>
 <part name="R27" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100">
-<attribute name="PARTNO" value="P100HCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1000V"/>
 </part>
 <part name="R28" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.02k">
-<attribute name="PARTNO" value="TNP4.02KAACT-ND"/>
+<attribute name="PARTNO" value="TNPW06034K02BEEA"/>
 </part>
 <part name="X3" library="connector-jqi" deviceset="BNC" device="-V">
-<attribute name="PARTNO" value="A32262-ND"/>
+<attribute name="PARTNO" value="5227222-3"/>
 </part>
 <part name="R29" library="rlc-jqi" deviceset="RES_KELVIN" device="" value="0.05">
-<attribute name="PARTNO" value="LVK12R050DERCT-ND"/>
+<attribute name="PARTNO" value="LVK12R050DER"/>
 </part>
 <part name="C23" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="1276-1110-1-ND"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
 </part>
 <part name="C24" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="1276-1110-1-ND"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">
-<attribute name="PARTNO" value="581-600S3R3CT"/>
+<attribute name="PARTNO" value="600S3R3CT250XT"/>
 </part>
 <part name="C26" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">
-<attribute name="PARTNO" value="581-600S3R3CT"/>
+<attribute name="PARTNO" value="600S3R3CT250XT"/>
 </part>
 <part name="L2" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0402" value="5.6n">
 <attribute name="PARTNO" value="0402CS-5N6XJLU"/>
@@ -2978,34 +3152,42 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="1008AF-901XKLC"/>
 </part>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X3" device="">
-<attribute name="PARTNO" value="A19470-ND"/>
+<attribute name="PARTNO" value="640456-3"/>
 </part>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
 <part name="P-2" library="supply1" deviceset="-24V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C27" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220u">
-<attribute name="PARTNO" value="PCE3955CT-ND"/>
+<attribute name="PARTNO" value="EEE-1VA221UP"/>
 </part>
 <part name="C28" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220u">
-<attribute name="PARTNO" value="PCE3955CT-ND"/>
+<attribute name="PARTNO" value="EEE-1VA221UP"/>
 </part>
 <part name="R21" library="jqi_passives" deviceset="R_TRIM" device="" value="10k">
-<attribute name="PARTNO" value="804-1093-ND"/>
+<attribute name="PARTNO" value="Y006910K0000J9L"/>
 </part>
-<part name="J1" library="connector-jqi" deviceset="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" device=""/>
-<part name="J2" library="connector-jqi" deviceset="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" device=""/>
+<part name="J1" library="connector-jqi" deviceset="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" device="">
+<attribute name="PARTNO" value="142-0701-851"/>
+</part>
+<part name="J2" library="connector-jqi" deviceset="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" device="">
+<attribute name="PARTNO" value="142-0701-851"/>
+</part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="U8" library="linear-technology-jqi" deviceset="LTC1152IS8TRPBF" device="">
-<attribute name="PARTNO" value="LTC1152IS8#PBF-ND"/>
+<attribute name="PARTNO" value="LTC1152IS8#PBF"/>
 </part>
-<part name="C4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1u"/>
-<part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1n"/>
+<part name="C4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1u">
+<attribute name="PARTNO" value="CL10B105KA8NNNC"/>
+</part>
+<part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1n">
+<attribute name="PARTNO" value="CL10B102KA8NNNC"/>
+</part>
 <part name="R30" library="jqi_passives" deviceset="R_SMD" device="R0603" value="50">
-<attribute name="PARTNO" value="P49.9HCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF49R9V"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100n">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -3051,10 +3233,18 @@ I_hys=10uA</text>
 </instance>
 <instance part="GND4" gate="1" x="100.33" y="172.72"/>
 <instance part="SUPPLY1" gate="G$1" x="125.73" y="86.36"/>
-<instance part="C8" gate="G$1" x="11.43" y="86.36"/>
-<instance part="C9" gate="G$1" x="-53.34" y="82.55"/>
-<instance part="C10" gate="G$1" x="-38.1" y="72.39"/>
-<instance part="C11" gate="G$1" x="-7.62" y="87.63"/>
+<instance part="C8" gate="G$1" x="11.43" y="86.36">
+<attribute name="PARTNO" x="11.43" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="-53.34" y="82.55">
+<attribute name="PARTNO" x="-53.34" y="82.55" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="-38.1" y="72.39">
+<attribute name="PARTNO" x="-38.1" y="72.39" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="-7.62" y="87.63">
+<attribute name="PARTNO" x="-7.62" y="87.63" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R6" gate="G$1" x="0" y="86.36" rot="R90">
 <attribute name="PARTNO" x="0" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3115,15 +3305,21 @@ I_hys=10uA</text>
 <attribute name="PARTNO" x="58.42" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="49.53" y="153.67"/>
-<instance part="C15" gate="G$1" x="66.04" y="121.92"/>
-<instance part="C16" gate="G$1" x="76.2" y="123.19"/>
+<instance part="C15" gate="G$1" x="66.04" y="121.92">
+<attribute name="PARTNO" x="66.04" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C16" gate="G$1" x="76.2" y="123.19">
+<attribute name="PARTNO" x="76.2" y="123.19" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R4" gate="G$1" x="85.09" y="123.19" rot="R90">
 <attribute name="PARTNO" x="85.09" y="123.19" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="G$1" x="200.66" y="128.27">
 <attribute name="PARTNO" x="200.66" y="128.27" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Q1" gate="G$1" x="34.29" y="66.04" rot="MR180"/>
+<instance part="Q1" gate="G$1" x="34.29" y="66.04" rot="MR180">
+<attribute name="PARTNO" x="34.29" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R5" gate="G$1" x="31.75" y="83.82" rot="R90">
 <attribute name="PARTNO" x="31.75" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3269,14 +3465,22 @@ I_hys=10uA</text>
 <instance part="R21" gate="G$1" x="-24.13" y="181.61" rot="R270">
 <attribute name="PARTNO" x="-24.13" y="181.61" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="173.99" y="220.98"/>
-<instance part="J2" gate="G$1" x="35.56" y="220.98" rot="R180"/>
+<instance part="J1" gate="G$1" x="173.99" y="220.98">
+<attribute name="PARTNO" x="173.99" y="220.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J2" gate="G$1" x="35.56" y="220.98" rot="R180">
+<attribute name="PARTNO" x="35.56" y="220.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND17" gate="1" x="49.53" y="229.87" rot="MR0"/>
 <instance part="U8" gate="A" x="16.51" y="184.15">
 <attribute name="PARTNO" x="16.51" y="184.15" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="90.17" y="191.77" rot="R90"/>
-<instance part="C5" gate="G$1" x="64.77" y="172.72" rot="R180"/>
+<instance part="C4" gate="G$1" x="90.17" y="191.77" rot="R90">
+<attribute name="PARTNO" x="90.17" y="191.77" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="64.77" y="172.72" rot="R180">
+<attribute name="PARTNO" x="64.77" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R30" gate="G$1" x="-10.16" y="179.07" rot="MR180">
 <attribute name="PARTNO" x="-10.16" y="179.07" size="1.778" layer="96" display="off"/>
 </instance>

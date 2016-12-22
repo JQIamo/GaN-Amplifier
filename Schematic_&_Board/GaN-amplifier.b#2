@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -457,6 +457,24 @@
 <vertex x="106.934" y="23.876"/>
 <vertex x="119.38" y="23.876"/>
 </polygon>
+<text x="60.452" y="4.318" size="0.635" layer="22" rot="MR0">No Fault</text>
+<text x="65.024" y="9.144" size="0.635" layer="22" rot="MR0">Sequencing</text>
+<text x="11.938" y="23.368" size="1.016" layer="22" rot="MR90">+24V</text>
+<text x="2.54" y="23.622" size="1.016" layer="22" rot="MR90">-24V</text>
+<text x="9.144" y="27.432" size="1.016" layer="22" rot="MR0">GND</text>
+<text x="71.882" y="7.112" size="1.016" layer="22" rot="MR0">On/Off</text>
+<text x="36.83" y="28.702" size="0.762" layer="22" rot="MR0">RF enable</text>
+<text x="79.756" y="32.004" size="1.016" layer="22" rot="MR0">Idd Monitor</text>
+<text x="74.676" y="5.334" size="0.635" layer="22" rot="MR0">connect to front
+rocker switch</text>
+<text x="87.376" y="15.494" size="1.016" layer="22" rot="MR90">Install heatsink on pad</text>
+<text x="109.728" y="14.986" size="1.778" layer="22" rot="MR270">RF in</text>
+<text x="109.728" y="44.704" size="1.778" layer="22" rot="MR270">RF out</text>
+<text x="30.988" y="21.336" size="1.016" layer="22" rot="MR90">GND</text>
+<text x="33.528" y="21.336" size="1.016" layer="22" rot="MR90">+5V</text>
+<text x="79.756" y="30.226" size="1.016" layer="22" rot="MR0">1 V/A</text>
+<text x="91.694" y="5.588" size="0.762" layer="22" rot="MR0">Set for quiescent
+Idd = 100 mA</text>
 </plain>
 <libraries>
 <library name="jqi_passives">
@@ -530,44 +548,6 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <smd name="P$2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
 <text x="-1.6" y="1" size="1.016" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="PANASONIC_F">
-<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="-4.1" y1="1" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
-<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="21"/>
-<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="1.8" x2="4.1" y2="1" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="-1" x2="4.1" y2="-1.8" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="21"/>
-<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.1016" layer="21" curve="-153.684915"/>
-<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.1016" layer="21" curve="153.684915"/>
-<circle x="0" y="0" radius="4" width="0.001" layer="51"/>
-<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
-<smd name="-" x="-3.55" y="0" dx="4" dy="1.6" layer="1"/>
-<smd name="+" x="3.55" y="0" dx="4" dy="1.6" layer="1"/>
-<text x="-1.75" y="1.3" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.75" y="-2.375" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.85" y1="-0.45" x2="-3.9" y2="0.45" layer="51"/>
-<rectangle x1="3.9" y1="-0.45" x2="4.85" y2="0.45" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-2.25" y="3.2"/>
-<vertex x="-3" y="2.5"/>
-<vertex x="-3.6" y="1.5"/>
-<vertex x="-3.85" y="0.65"/>
-<vertex x="-3.85" y="-0.65"/>
-<vertex x="-3.55" y="-1.6"/>
-<vertex x="-2.95" y="-2.55"/>
-<vertex x="-2.25" y="-3.2"/>
-<vertex x="-2.25" y="3.15"/>
-</polygon>
-</package>
 <package name="RJ24">
 <wire x1="-4.572" y1="-2.159" x2="4.572" y2="-2.159" width="0.1524" layer="21"/>
 <wire x1="4.572" y1="2.159" x2="4.572" y2="-2.159" width="0.1524" layer="21"/>
@@ -603,20 +583,20 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <library name="regulator-jqi">
 <packages>
 <package name="DGN">
-<smd name="OUT" x="0" y="0" dx="0.4" dy="1.6" layer="1"/>
-<smd name="FB" x="0.65" y="0" dx="0.4" dy="1.6" layer="1"/>
-<smd name="NC" x="1.3" y="0" dx="0.4" dy="1.6" layer="1"/>
-<smd name="GND1" x="1.95" y="0" dx="0.4" dy="1.6" layer="1"/>
-<smd name="EN" x="1.95" y="4.2" dx="0.4" dy="1.6" layer="1"/>
-<smd name="NR/SS" x="1.3" y="4.2" dx="0.4" dy="1.6" layer="1"/>
-<smd name="DNC" x="0.65" y="4.2" dx="0.4" dy="1.6" layer="1"/>
-<smd name="IN" x="0" y="4.2" dx="0.4" dy="1.6" layer="1"/>
-<smd name="GND" x="0.975" y="2.1" dx="1.55" dy="1.9" layer="1" rot="R90"/>
-<wire x1="-0.2" y1="0.4" x2="2.5" y2="0.4" width="0.1" layer="21"/>
-<wire x1="2.5" y1="0.4" x2="2.5" y2="3.75" width="0.1" layer="21"/>
-<wire x1="2.5" y1="3.75" x2="-0.5" y2="3.75" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="3.75" x2="-0.5" y2="0.6" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="0.6" x2="-0.2" y2="0.4" width="0.1" layer="21"/>
+<smd name="OUT" x="0" y="0" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="FB" x="0" y="-0.65" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="NC" x="0" y="-1.3" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="GND1" x="0" y="-1.95" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="EN" x="4.2" y="-1.95" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="NR/SS" x="4.2" y="-1.3" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="DNC" x="4.2" y="-0.65" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="IN" x="4.2" y="0" dx="0.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="GND" x="2.1" y="-0.975" dx="1.55" dy="1.9" layer="1"/>
+<wire x1="0.4" y1="0.2" x2="0.4" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="0.4" y1="-2.5" x2="3.75" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="3.75" y1="-2.5" x2="3.75" y2="0.5" width="0.1" layer="21"/>
+<wire x1="3.75" y1="0.5" x2="0.6" y2="0.5" width="0.1" layer="21"/>
+<wire x1="0.6" y1="0.5" x2="0.4" y2="0.2" width="0.1" layer="21"/>
 </package>
 <package name="TO263-5">
 <description>&lt;b&gt;TO-263&lt;/b&gt;</description>
@@ -704,38 +684,54 @@ www.minicircuits.com&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="HCP-32-2">
-<smd name="9" x="2.25" y="-1.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="10" x="2.25" y="-1.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="11" x="2.25" y="-0.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="12" x="2.25" y="-0.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="13" x="2.25" y="0.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="14" x="2.25" y="0.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="15" x="2.25" y="1.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="16" x="2.25" y="1.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="17" x="1.75" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="18" x="1.25" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="19" x="0.75" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="20" x="0.25" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="21" x="-0.25" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="22" x="-0.75" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="23" x="-1.25" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="24" x="-1.75" y="2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="25" x="-2.25" y="1.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="26" x="-2.25" y="1.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="27" x="-2.25" y="0.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="28" x="-2.25" y="0.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="29" x="-2.25" y="-0.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="30" x="-2.25" y="-0.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="31" x="-2.25" y="-1.25" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="32" x="-2.25" y="-1.75" dx="0.25" dy="0.5" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="1" x="-1.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="-1.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="-0.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="4" x="-0.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="5" x="0.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="6" x="0.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="7" x="1.25" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="8" x="1.75" y="-2.25" dx="0.5" dy="0.25" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="9" x="-1.75" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="10" x="-1.25" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="11" x="-0.75" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="12" x="-0.25" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="13" x="0.25" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="14" x="0.75" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="15" x="1.25" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="16" x="1.75" y="-2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="17" x="2.25" y="-1.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="18" x="2.25" y="-1.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="19" x="2.25" y="-0.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="20" x="2.25" y="-0.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="21" x="2.25" y="0.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="22" x="2.25" y="0.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="23" x="2.25" y="1.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="24" x="2.25" y="1.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="25" x="1.75" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="26" x="1.25" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="27" x="0.75" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="28" x="0.25" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="29" x="-0.25" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="30" x="-0.75" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="31" x="-1.25" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="32" x="-1.75" y="2.25" dx="0.25" dy="0.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-2.25" y="1.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="-2.25" y="1.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="-2.25" y="0.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="-2.25" y="0.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="-2.25" y="-0.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="6" x="-2.25" y="-0.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="7" x="-2.25" y="-1.25" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="8" x="-2.25" y="-1.75" dx="0.5" dy="0.25" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<wire x1="-2.375" y1="1.75" x2="-2.125" y2="1.75" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="1.5" x2="-2.375" y2="2" layer="29"/>
+<wire x1="-2.375" y1="1.25" x2="-2.125" y2="1.25" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="1" x2="-2.375" y2="1.5" layer="29"/>
+<wire x1="-2.375" y1="0.75" x2="-2.125" y2="0.75" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="0.5" x2="-2.375" y2="1" layer="29"/>
+<wire x1="-2.375" y1="0.25" x2="-2.125" y2="0.25" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="0" x2="-2.375" y2="0.5" layer="29"/>
+<wire x1="-2.375" y1="-0.25" x2="-2.125" y2="-0.25" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="-0.5" x2="-2.375" y2="0" layer="29"/>
+<wire x1="-2.375" y1="-0.75" x2="-2.125" y2="-0.75" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="-1" x2="-2.375" y2="-0.5" layer="29"/>
+<wire x1="-2.375" y1="-1.25" x2="-2.125" y2="-1.25" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="-1.5" x2="-2.375" y2="-1" layer="29"/>
+<wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.5" layer="29"/>
+<rectangle x1="-2.625" y1="-2" x2="-2.375" y2="-1.5" layer="29"/>
 <wire x1="-1.75" y1="-2.375" x2="-1.75" y2="-2.125" width="0.5" layer="29"/>
 <rectangle x1="-1.875" y1="-2.75" x2="-1.625" y2="-2.25" layer="29" rot="R90"/>
 <wire x1="-1.25" y1="-2.375" x2="-1.25" y2="-2.125" width="0.5" layer="29"/>
@@ -784,22 +780,22 @@ www.minicircuits.com&lt;br&gt;
 <rectangle x1="-1.375" y1="2.25" x2="-1.125" y2="2.75" layer="29" rot="R270"/>
 <wire x1="-1.75" y1="2.375" x2="-1.75" y2="2.125" width="0.5" layer="29"/>
 <rectangle x1="-1.875" y1="2.25" x2="-1.625" y2="2.75" layer="29" rot="R270"/>
-<wire x1="-2.375" y1="1.75" x2="-2.125" y2="1.75" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="1.5" x2="-2.375" y2="2" layer="29"/>
-<wire x1="-2.375" y1="1.25" x2="-2.125" y2="1.25" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="1" x2="-2.375" y2="1.5" layer="29"/>
-<wire x1="-2.375" y1="0.75" x2="-2.125" y2="0.75" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="0.5" x2="-2.375" y2="1" layer="29"/>
-<wire x1="-2.375" y1="0.25" x2="-2.125" y2="0.25" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="0" x2="-2.375" y2="0.5" layer="29"/>
-<wire x1="-2.375" y1="-0.25" x2="-2.125" y2="-0.25" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="-0.5" x2="-2.375" y2="0" layer="29"/>
-<wire x1="-2.375" y1="-0.75" x2="-2.125" y2="-0.75" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="-1" x2="-2.375" y2="-0.5" layer="29"/>
-<wire x1="-2.375" y1="-1.25" x2="-2.125" y2="-1.25" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="-1.5" x2="-2.375" y2="-1" layer="29"/>
-<wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.5" layer="29"/>
-<rectangle x1="-2.625" y1="-2" x2="-2.375" y2="-1.5" layer="29"/>
+<wire x1="-2.375" y1="1.75" x2="-2.125" y2="1.75" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="1.625" x2="-2.375" y2="1.875" layer="31"/>
+<wire x1="-2.375" y1="1.25" x2="-2.125" y2="1.25" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="1.125" x2="-2.375" y2="1.375" layer="31"/>
+<wire x1="-2.375" y1="0.75" x2="-2.125" y2="0.75" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="0.625" x2="-2.375" y2="0.875" layer="31"/>
+<wire x1="-2.375" y1="0.25" x2="-2.125" y2="0.25" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="0.125" x2="-2.375" y2="0.375" layer="31"/>
+<wire x1="-2.375" y1="-0.25" x2="-2.125" y2="-0.25" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="-0.375" x2="-2.375" y2="-0.125" layer="31"/>
+<wire x1="-2.375" y1="-0.75" x2="-2.125" y2="-0.75" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="-0.875" x2="-2.375" y2="-0.625" layer="31"/>
+<wire x1="-2.375" y1="-1.25" x2="-2.125" y2="-1.25" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="-1.375" x2="-2.375" y2="-1.125" layer="31"/>
+<wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.25" layer="31"/>
+<rectangle x1="-2.5" y1="-1.875" x2="-2.375" y2="-1.625" layer="31"/>
 <wire x1="-1.75" y1="-2.375" x2="-1.75" y2="-2.125" width="0.25" layer="31"/>
 <rectangle x1="-1.8125" y1="-2.5625" x2="-1.6875" y2="-2.3125" layer="31" rot="R90"/>
 <wire x1="-1.25" y1="-2.375" x2="-1.25" y2="-2.125" width="0.25" layer="31"/>
@@ -848,101 +844,133 @@ www.minicircuits.com&lt;br&gt;
 <rectangle x1="-1.3125" y1="2.3125" x2="-1.1875" y2="2.5625" layer="31" rot="R270"/>
 <wire x1="-1.75" y1="2.375" x2="-1.75" y2="2.125" width="0.25" layer="31"/>
 <rectangle x1="-1.8125" y1="2.3125" x2="-1.6875" y2="2.5625" layer="31" rot="R270"/>
-<wire x1="-2.375" y1="1.75" x2="-2.125" y2="1.75" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="1.625" x2="-2.375" y2="1.875" layer="31"/>
-<wire x1="-2.375" y1="1.25" x2="-2.125" y2="1.25" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="1.125" x2="-2.375" y2="1.375" layer="31"/>
-<wire x1="-2.375" y1="0.75" x2="-2.125" y2="0.75" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="0.625" x2="-2.375" y2="0.875" layer="31"/>
-<wire x1="-2.375" y1="0.25" x2="-2.125" y2="0.25" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="0.125" x2="-2.375" y2="0.375" layer="31"/>
-<wire x1="-2.375" y1="-0.25" x2="-2.125" y2="-0.25" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="-0.375" x2="-2.375" y2="-0.125" layer="31"/>
-<wire x1="-2.375" y1="-0.75" x2="-2.125" y2="-0.75" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="-0.875" x2="-2.375" y2="-0.625" layer="31"/>
-<wire x1="-2.375" y1="-1.25" x2="-2.125" y2="-1.25" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="-1.375" x2="-2.375" y2="-1.125" layer="31"/>
-<wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.25" layer="31"/>
-<rectangle x1="-2.5" y1="-1.875" x2="-2.375" y2="-1.625" layer="31"/>
-<smd name="33" x="0" y="0" dx="3.15" dy="3.15" layer="1" rot="R90" thermals="no" cream="no"/>
-<pad name="34" x="0" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="35" x="-1" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="36" x="-1" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="37" x="0" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="38" x="1" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="39" x="1" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="40" x="1" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="41" x="0" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="42" x="-1" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<smd name="33" x="0" y="0" dx="3.15" dy="3.15" layer="1" thermals="no" cream="no"/>
+<pad name="34" x="0" y="0" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="35" x="0" y="1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="36" x="-1" y="1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="37" x="-1" y="0" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="38" x="-1" y="-1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="39" x="0" y="-1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="40" x="1" y="-1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="41" x="1" y="0" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="42" x="1" y="1" drill="0.3048" diameter="1" shape="square" stop="no" thermals="no"/>
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-2.25" y="-2.25" radius="0.125" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<circle x="-2.25" y="2.25" radius="0.125" width="0.127" layer="21"/>
 <text x="-2.5" y="2.75" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.5" y1="1" x2="-1" y2="1.5" layer="31"/>
-<rectangle x1="1" y1="1" x2="1.5" y2="1.5" layer="31"/>
-<rectangle x1="0.25" y1="1" x2="0.75" y2="1.5" layer="31"/>
-<rectangle x1="-0.75" y1="1" x2="-0.25" y2="1.5" layer="31"/>
-<rectangle x1="1" y1="0.25" x2="1.5" y2="0.75" layer="31"/>
-<rectangle x1="0.25" y1="0.25" x2="0.75" y2="0.75" layer="31"/>
-<rectangle x1="-0.75" y1="0.25" x2="-0.25" y2="0.75" layer="31"/>
-<rectangle x1="-1.5" y1="0.25" x2="-1" y2="0.75" layer="31"/>
-<rectangle x1="-1.5" y1="-0.75" x2="-1" y2="-0.25" layer="31"/>
-<rectangle x1="-0.75" y1="-0.75" x2="-0.25" y2="-0.25" layer="31"/>
-<rectangle x1="0.25" y1="-0.75" x2="0.75" y2="-0.25" layer="31"/>
-<rectangle x1="1" y1="-0.75" x2="1.5" y2="-0.25" layer="31"/>
-<rectangle x1="1" y1="-1.5" x2="1.5" y2="-1" layer="31"/>
-<rectangle x1="0.25" y1="-1.5" x2="0.75" y2="-1" layer="31"/>
-<rectangle x1="-0.75" y1="-1.5" x2="-0.25" y2="-1" layer="31"/>
-<rectangle x1="-1.5" y1="-1.5" x2="-1" y2="-1" layer="31"/>
+<rectangle x1="1" y1="1" x2="1.5" y2="1.5" layer="31" rot="R270"/>
+<rectangle x1="1" y1="-1.5" x2="1.5" y2="-1" layer="31" rot="R270"/>
+<rectangle x1="1" y1="-0.75" x2="1.5" y2="-0.25" layer="31" rot="R270"/>
+<rectangle x1="1" y1="0.25" x2="1.5" y2="0.75" layer="31" rot="R270"/>
+<rectangle x1="0.25" y1="-1.5" x2="0.75" y2="-1" layer="31" rot="R270"/>
+<rectangle x1="0.25" y1="-0.75" x2="0.75" y2="-0.25" layer="31" rot="R270"/>
+<rectangle x1="0.25" y1="0.25" x2="0.75" y2="0.75" layer="31" rot="R270"/>
+<rectangle x1="0.25" y1="1" x2="0.75" y2="1.5" layer="31" rot="R270"/>
+<rectangle x1="-0.75" y1="1" x2="-0.25" y2="1.5" layer="31" rot="R270"/>
+<rectangle x1="-0.75" y1="0.25" x2="-0.25" y2="0.75" layer="31" rot="R270"/>
+<rectangle x1="-0.75" y1="-0.75" x2="-0.25" y2="-0.25" layer="31" rot="R270"/>
+<rectangle x1="-0.75" y1="-1.5" x2="-0.25" y2="-1" layer="31" rot="R270"/>
+<rectangle x1="-1.5" y1="-1.5" x2="-1" y2="-1" layer="31" rot="R270"/>
+<rectangle x1="-1.5" y1="-0.75" x2="-1" y2="-0.25" layer="31" rot="R270"/>
+<rectangle x1="-1.5" y1="0.25" x2="-1" y2="0.75" layer="31" rot="R270"/>
+<rectangle x1="-1.5" y1="1" x2="-1" y2="1.5" layer="31" rot="R270"/>
 <polygon width="0.005" layer="1">
-<vertex x="-1.875" y="2.5"/>
-<vertex x="-1.625" y="2.5"/>
-<vertex x="-1.625" y="2.125"/>
-<vertex x="-1.875" y="2.125"/>
+<vertex x="2.5" y="1.875"/>
+<vertex x="2.5" y="1.625"/>
+<vertex x="2.125" y="1.625"/>
+<vertex x="2.125" y="1.875"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="-1.375" y="2.5"/>
-<vertex x="-1.125" y="2.5"/>
-<vertex x="-1.125" y="2.125"/>
-<vertex x="-1.375" y="2.125"/>
+<vertex x="2.5" y="1.375"/>
+<vertex x="2.5" y="1.125"/>
+<vertex x="2.125" y="1.125"/>
+<vertex x="2.125" y="1.375"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="-0.875" y="2.5"/>
-<vertex x="-0.625" y="2.5"/>
-<vertex x="-0.625" y="2.125"/>
-<vertex x="-0.875" y="2.125"/>
+<vertex x="2.5" y="0.875"/>
+<vertex x="2.5" y="0.625"/>
+<vertex x="2.125" y="0.625"/>
+<vertex x="2.125" y="0.875"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="-0.375" y="2.5"/>
-<vertex x="-0.125" y="2.5"/>
-<vertex x="-0.125" y="2.125"/>
-<vertex x="-0.375" y="2.125"/>
+<vertex x="2.5" y="0.375"/>
+<vertex x="2.5" y="0.125"/>
+<vertex x="2.125" y="0.125"/>
+<vertex x="2.125" y="0.375"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="0.125" y="2.5"/>
-<vertex x="0.375" y="2.5"/>
-<vertex x="0.375" y="2.125"/>
-<vertex x="0.125" y="2.125"/>
+<vertex x="2.5" y="-0.125"/>
+<vertex x="2.5" y="-0.375"/>
+<vertex x="2.125" y="-0.375"/>
+<vertex x="2.125" y="-0.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="0.625" y="2.5"/>
-<vertex x="0.875" y="2.5"/>
-<vertex x="0.875" y="2.125"/>
-<vertex x="0.625" y="2.125"/>
+<vertex x="2.5" y="-0.625"/>
+<vertex x="2.5" y="-0.875"/>
+<vertex x="2.125" y="-0.875"/>
+<vertex x="2.125" y="-0.625"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="1.125" y="2.5"/>
-<vertex x="1.375" y="2.5"/>
-<vertex x="1.375" y="2.125"/>
-<vertex x="1.125" y="2.125"/>
+<vertex x="2.5" y="-1.125"/>
+<vertex x="2.5" y="-1.375"/>
+<vertex x="2.125" y="-1.375"/>
+<vertex x="2.125" y="-1.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="1.625" y="2.5"/>
-<vertex x="1.875" y="2.5"/>
-<vertex x="1.875" y="2.125"/>
-<vertex x="1.625" y="2.125"/>
+<vertex x="2.5" y="-1.625"/>
+<vertex x="2.5" y="-1.875"/>
+<vertex x="2.125" y="-1.875"/>
+<vertex x="2.125" y="-1.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="1.875"/>
+<vertex x="-2.125" y="1.625"/>
+<vertex x="-2.5" y="1.625"/>
+<vertex x="-2.5" y="1.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="1.375"/>
+<vertex x="-2.125" y="1.125"/>
+<vertex x="-2.5" y="1.125"/>
+<vertex x="-2.5" y="1.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="0.875"/>
+<vertex x="-2.125" y="0.625"/>
+<vertex x="-2.5" y="0.625"/>
+<vertex x="-2.5" y="0.875"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="0.375"/>
+<vertex x="-2.125" y="0.125"/>
+<vertex x="-2.5" y="0.125"/>
+<vertex x="-2.5" y="0.375"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="-0.625"/>
+<vertex x="-2.125" y="-0.875"/>
+<vertex x="-2.5" y="-0.875"/>
+<vertex x="-2.5" y="-0.625"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="-0.125"/>
+<vertex x="-2.125" y="-0.375"/>
+<vertex x="-2.5" y="-0.375"/>
+<vertex x="-2.5" y="-0.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="-1.125"/>
+<vertex x="-2.125" y="-1.375"/>
+<vertex x="-2.5" y="-1.375"/>
+<vertex x="-2.5" y="-1.125"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="-2.125" y="-1.625"/>
+<vertex x="-2.125" y="-1.875"/>
+<vertex x="-2.5" y="-1.875"/>
+<vertex x="-2.5" y="-1.625"/>
 </polygon>
 <polygon width="0.005" layer="1">
 <vertex x="-1.875" y="-2.125"/>
@@ -969,16 +997,16 @@ www.minicircuits.com&lt;br&gt;
 <vertex x="-0.375" y="-2.5"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="0.625" y="-2.125"/>
-<vertex x="0.875" y="-2.125"/>
-<vertex x="0.875" y="-2.5"/>
-<vertex x="0.625" y="-2.5"/>
-</polygon>
-<polygon width="0.005" layer="1">
 <vertex x="0.125" y="-2.125"/>
 <vertex x="0.375" y="-2.125"/>
 <vertex x="0.375" y="-2.5"/>
 <vertex x="0.125" y="-2.5"/>
+</polygon>
+<polygon width="0.005" layer="1">
+<vertex x="0.625" y="-2.125"/>
+<vertex x="0.875" y="-2.125"/>
+<vertex x="0.875" y="-2.5"/>
+<vertex x="0.625" y="-2.5"/>
 </polygon>
 <polygon width="0.005" layer="1">
 <vertex x="1.125" y="-2.125"/>
@@ -993,100 +1021,52 @@ www.minicircuits.com&lt;br&gt;
 <vertex x="1.625" y="-2.5"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="2.125" y="-1.875"/>
-<vertex x="2.125" y="-1.625"/>
-<vertex x="2.5" y="-1.625"/>
-<vertex x="2.5" y="-1.875"/>
+<vertex x="1.625" y="2.5"/>
+<vertex x="1.875" y="2.5"/>
+<vertex x="1.875" y="2.125"/>
+<vertex x="1.625" y="2.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="2.125" y="-1.375"/>
-<vertex x="2.125" y="-1.125"/>
-<vertex x="2.5" y="-1.125"/>
-<vertex x="2.5" y="-1.375"/>
+<vertex x="1.125" y="2.5"/>
+<vertex x="1.375" y="2.5"/>
+<vertex x="1.375" y="2.125"/>
+<vertex x="1.125" y="2.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="2.125" y="-0.875"/>
-<vertex x="2.125" y="-0.625"/>
-<vertex x="2.5" y="-0.625"/>
-<vertex x="2.5" y="-0.875"/>
+<vertex x="0.625" y="2.5"/>
+<vertex x="0.875" y="2.5"/>
+<vertex x="0.875" y="2.125"/>
+<vertex x="0.625" y="2.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="2.125" y="-0.375"/>
-<vertex x="2.125" y="-0.125"/>
-<vertex x="2.5" y="-0.125"/>
-<vertex x="2.5" y="-0.375"/>
+<vertex x="0.125" y="2.5"/>
+<vertex x="0.375" y="2.5"/>
+<vertex x="0.375" y="2.125"/>
+<vertex x="0.125" y="2.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="2.125" y="0.125"/>
-<vertex x="2.125" y="0.375"/>
-<vertex x="2.5" y="0.375"/>
-<vertex x="2.5" y="0.125"/>
+<vertex x="-0.375" y="2.5"/>
+<vertex x="-0.125" y="2.5"/>
+<vertex x="-0.125" y="2.125"/>
+<vertex x="-0.375" y="2.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="2.125" y="0.625"/>
-<vertex x="2.125" y="0.875"/>
-<vertex x="2.5" y="0.875"/>
-<vertex x="2.5" y="0.625"/>
+<vertex x="-0.875" y="2.5"/>
+<vertex x="-0.625" y="2.5"/>
+<vertex x="-0.625" y="2.125"/>
+<vertex x="-0.875" y="2.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="2.125" y="1.125"/>
-<vertex x="2.125" y="1.375"/>
-<vertex x="2.5" y="1.375"/>
-<vertex x="2.5" y="1.125"/>
+<vertex x="-1.375" y="2.5"/>
+<vertex x="-1.125" y="2.5"/>
+<vertex x="-1.125" y="2.125"/>
+<vertex x="-1.375" y="2.125"/>
 </polygon>
 <polygon width="0.005" layer="1">
-<vertex x="2.125" y="1.625"/>
-<vertex x="2.125" y="1.875"/>
-<vertex x="2.5" y="1.875"/>
-<vertex x="2.5" y="1.625"/>
-</polygon>
-<polygon width="0.005" layer="1">
-<vertex x="-2.5" y="1.625"/>
-<vertex x="-2.5" y="1.875"/>
-<vertex x="-2.125" y="1.875"/>
-<vertex x="-2.125" y="1.625"/>
-</polygon>
-<polygon width="0.005" layer="1">
-<vertex x="-2.5" y="1.125"/>
-<vertex x="-2.5" y="1.375"/>
-<vertex x="-2.125" y="1.375"/>
-<vertex x="-2.125" y="1.125"/>
-</polygon>
-<polygon width="0.005" layer="1">
-<vertex x="-2.5" y="0.625"/>
-<vertex x="-2.5" y="0.875"/>
-<vertex x="-2.125" y="0.875"/>
-<vertex x="-2.125" y="0.625"/>
-</polygon>
-<polygon width="0.005" layer="1">
-<vertex x="-2.5" y="0.125"/>
-<vertex x="-2.5" y="0.375"/>
-<vertex x="-2.125" y="0.375"/>
-<vertex x="-2.125" y="0.125"/>
-</polygon>
-<polygon width="0.005" layer="1">
-<vertex x="-2.5" y="-0.375"/>
-<vertex x="-2.5" y="-0.125"/>
-<vertex x="-2.125" y="-0.125"/>
-<vertex x="-2.125" y="-0.375"/>
-</polygon>
-<polygon width="0.005" layer="1">
-<vertex x="-2.5" y="-0.875"/>
-<vertex x="-2.5" y="-0.625"/>
-<vertex x="-2.125" y="-0.625"/>
-<vertex x="-2.125" y="-0.875"/>
-</polygon>
-<polygon width="0.005" layer="1">
-<vertex x="-2.5" y="-1.375"/>
-<vertex x="-2.5" y="-1.125"/>
-<vertex x="-2.125" y="-1.125"/>
-<vertex x="-2.125" y="-1.375"/>
-</polygon>
-<polygon width="0.005" layer="1">
-<vertex x="-2.5" y="-1.875"/>
-<vertex x="-2.5" y="-1.625"/>
-<vertex x="-2.125" y="-1.625"/>
-<vertex x="-2.125" y="-1.875"/>
+<vertex x="-1.875" y="2.5"/>
+<vertex x="-1.625" y="2.5"/>
+<vertex x="-1.625" y="2.125"/>
+<vertex x="-1.875" y="2.125"/>
 </polygon>
 </package>
 </packages>
@@ -1120,31 +1100,31 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
 </package>
 <package name="4-LEAD_SOP">
-<wire x1="-1.8288" y1="1.524" x2="-1.8288" y2="-1.4986" width="0.127" layer="21"/>
-<smd name="P$1" x="-1.27" y="-1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$2" x="1.27" y="-1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$3" x="1.27" y="1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<smd name="P$4" x="-1.27" y="1.397" dx="1.27" dy="0.508" layer="1" roundness="85" rot="R90"/>
-<text x="-1.0922" y="-0.6858" size="0.6096" layer="21" rot="R90">1</text>
+<wire x1="1.524" y1="1.8288" x2="-1.4986" y2="1.8288" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.397" y="1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
+<smd name="P$2" x="-1.397" y="-1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
+<smd name="P$3" x="1.397" y="-1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
+<smd name="P$4" x="1.397" y="1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
+<text x="-0.6858" y="1.0922" size="0.6096" layer="21">1</text>
 <text x="-1.27" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="6-LEAD_SMT">
-<smd name="2" x="0" y="-4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="1" x="-2.54" y="-4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="2.54" y="-4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="5" x="0" y="4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="6" x="-2.54" y="4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="2.54" y="4.45" dx="1.65" dy="0.65" layer="1" roundness="100" rot="R90"/>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="-0.5" x2="-3" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="0.5" x2="-3" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="0.5" x2="-3" y2="-0.5" width="0.127" layer="21" curve="-180"/>
-<text x="-3.2" y="5.7" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-7" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-2.6" y="-2.1" radius="0.2" width="0.127" layer="21"/>
+<smd name="2" x="-4.45" y="0" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="1" x="-4.45" y="2.54" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="3" x="-4.45" y="-2.54" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="5" x="4.45" y="0" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="6" x="4.45" y="2.54" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<smd name="4" x="4.45" y="-2.54" dx="1.65" dy="0.65" layer="1" roundness="100"/>
+<wire x1="2.5" y1="3" x2="2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="3" x2="-0.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="3" x2="0.5" y2="3" width="0.127" layer="21"/>
+<wire x1="0.5" y1="3" x2="2.5" y2="3" width="0.127" layer="21"/>
+<wire x1="0.5" y1="3" x2="-0.5" y2="3" width="0.127" layer="21" curve="-180"/>
+<text x="-3.2" y="3.16" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4.46" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="1.905" size="0.762" layer="21">1</text>
 </package>
 <package name="PG-SOT-223">
 <description>&lt;b&gt;Small Outline Transistor; 4 leads&lt;/b&gt; Wave soldering&lt;p&gt;
@@ -1576,6 +1556,295 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </package>
 </packages>
 </library>
+<library name="MF_Passives">
+<packages>
+<package name="CP10MM">
+<description>&lt;b&gt;Description:&lt;/b&gt; 10MM Round Package for Electrolytic Capacitors. Based on Panasonic Electrolytic Capacitors.
+&lt;br/&gt;</description>
+<smd name="P$1" x="0" y="-4.35" dx="4.1" dy="2" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="4.35" dx="4.1" dy="2" layer="1" rot="R90"/>
+<text x="-5.15" y="7.5" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<wire x1="-1.5" y1="5.15" x2="-5.15" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="5.15" x2="-5.15" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="-3.15" x2="-3.15" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-5.15" x2="-1.5" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="1.5" y1="5.15" x2="5.15" y2="5.15" width="0.127" layer="21"/>
+<wire x1="5.15" y1="5.15" x2="5.15" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="5.15" y1="-3.15" x2="3.15" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-5.15" x2="1.5" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="3" y1="-2.5" x2="3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3" x2="3.5" y2="-3" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="MF_Discrete_Semiconductor">
+<packages>
+<package name="SOT-23-3">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard SOT-23-3 footprint.&lt;br/&gt;</description>
+<smd name="P$1" x="-1" y="0.95" dx="0.9" dy="0.8" layer="1"/>
+<smd name="P$2" x="-1" y="-0.95" dx="0.9" dy="0.8" layer="1"/>
+<smd name="P$3" x="1" y="0" dx="0.9" dy="0.8" layer="1"/>
+<wire x1="-1.8" y1="1.6" x2="-1.8" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-1.6" x2="1.8" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-1.6" x2="1.8" y2="1.6" width="0.127" layer="21"/>
+<wire x1="1.8" y1="1.6" x2="-1.8" y2="1.6" width="0.127" layer="21"/>
+<text x="-1.8" y="-2.88" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-1.6" y="2.2" curve="-90"/>
+<vertex x="-1.4" y="2.4" curve="-90"/>
+<vertex x="-1.2" y="2.2" curve="-90"/>
+<vertex x="-1.4" y="2" curve="-90"/>
+</polygon>
+</package>
+</packages>
+</library>
+<library name="MF_LEDs">
+<packages>
+<package name="LED0603">
+<description>&lt;b&gt;Description:&lt;/b&gt; Footprint for Single LEDs in 0603&lt;br/&gt;</description>
+<smd name="CATHODE" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="ANODE" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<wire x1="-1.5" y1="0.75" x2="-1.5" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.75" x2="-1.5" y2="0.75" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-1.5" y="0.75"/>
+<vertex x="-1.7" y="0.75"/>
+<vertex x="-1.7" y="-0.75"/>
+<vertex x="-1.5" y="-0.75"/>
+</polygon>
+<text x="-1.7" y="1.1" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-0.15" y="0"/>
+<vertex x="0.15" y="0.3"/>
+<vertex x="0.15" y="-0.3"/>
+</polygon>
+</package>
+</packages>
+</library>
+<library name="JQI_Logo">
+<description>Connectors &amp; Components for PTS &amp; PulseBlaster related boards</description>
+<packages>
+<package name="JQI_LOGO_NEGATIVE-SILKSCREEN">
+<description>JQI Logo, Silkscreen background with lettering showing stop mask</description>
+<polygon width="0.1524" layer="21">
+<vertex x="2.0574" y="0.7112"/>
+<vertex x="2.0574" y="0"/>
+<vertex x="2.8702" y="0"/>
+<vertex x="2.8702" y="6.985"/>
+<vertex x="2.159" y="6.985"/>
+<vertex x="2.159" y="6.858"/>
+<vertex x="2.667" y="6.858"/>
+<vertex x="2.667" y="2.2352"/>
+<vertex x="2.6162" y="1.6002"/>
+<vertex x="2.4892" y="1.2446"/>
+<vertex x="2.3114" y="0.9906"/>
+</polygon>
+<polygon width="0.1524" layer="21">
+<vertex x="2.0828" y="0.762"/>
+<vertex x="1.3208" y="1.5494"/>
+<vertex x="1.4986" y="1.778"/>
+<vertex x="1.5494" y="2.0066"/>
+<vertex x="1.6002" y="2.4384"/>
+<vertex x="1.6002" y="6.858"/>
+<vertex x="2.159" y="6.858"/>
+<vertex x="2.159" y="6.985"/>
+<vertex x="0" y="6.985"/>
+<vertex x="0" y="0"/>
+<vertex x="2.0828" y="0"/>
+</polygon>
+<circle x="4.5974" y="5.0546" radius="0.65893125" width="0.1524" layer="21"/>
+<circle x="4.5974" y="5.08" radius="0.530365625" width="0.1524" layer="21"/>
+<circle x="4.6228" y="5.08" radius="0.40160625" width="0.1524" layer="21"/>
+<circle x="4.6228" y="5.08" radius="0.259028125" width="0.1524" layer="21"/>
+<circle x="4.5974" y="5.08" radius="0.13678125" width="0.1524" layer="21"/>
+<circle x="4.572" y="5.08" radius="0.05679375" width="0.1524" layer="21"/>
+<polygon width="0.1524" layer="21">
+<vertex x="5.842" y="0.7874"/>
+<vertex x="5.842" y="0"/>
+<vertex x="2.8956" y="0"/>
+<vertex x="2.8956" y="6.985"/>
+<vertex x="5.2324" y="6.985"/>
+<vertex x="5.2324" y="6.6802"/>
+<vertex x="5.0038" y="6.7564"/>
+<vertex x="4.699" y="6.8072"/>
+<vertex x="4.4196" y="6.7818"/>
+<vertex x="4.064" y="6.6802"/>
+<vertex x="3.81" y="6.5278"/>
+<vertex x="3.5052" y="6.2992"/>
+<vertex x="3.2766" y="6.0706"/>
+<vertex x="3.0988" y="5.715"/>
+<vertex x="3.0226" y="5.3594"/>
+<vertex x="2.9972" y="5.0292"/>
+<vertex x="3.0988" y="4.6482"/>
+<vertex x="3.2004" y="4.3434"/>
+<vertex x="3.3782" y="4.064"/>
+<vertex x="3.683" y="3.7592"/>
+<vertex x="3.8862" y="3.6068"/>
+<vertex x="4.2418" y="3.429"/>
+<vertex x="4.6228" y="3.3528"/>
+<vertex x="4.9784" y="3.4036"/>
+<vertex x="5.2832" y="3.4798"/>
+<vertex x="5.3086" y="1.9558"/>
+<vertex x="5.3594" y="1.5494"/>
+<vertex x="5.5118" y="1.1684"/>
+</polygon>
+<polygon width="0.1524" layer="21">
+<vertex x="5.2324" y="6.858"/>
+<vertex x="6.3754" y="6.858"/>
+<vertex x="6.3754" y="1.905"/>
+<vertex x="6.4008" y="1.778"/>
+<vertex x="6.5024" y="1.6256"/>
+<vertex x="6.6294" y="1.4986"/>
+<vertex x="5.8674" y="0.7366"/>
+<vertex x="5.842" y="0"/>
+<vertex x="7.4676" y="0"/>
+<vertex x="7.4676" y="2.6416"/>
+<vertex x="7.3152" y="2.6924"/>
+<vertex x="7.0866" y="2.9464"/>
+<vertex x="6.9088" y="3.175"/>
+<vertex x="6.858" y="3.4798"/>
+<vertex x="6.858" y="6.985"/>
+<vertex x="5.2578" y="6.985"/>
+<vertex x="5.2578" y="6.7818"/>
+</polygon>
+<polygon width="0.1524" layer="21">
+<vertex x="7.3914" y="2.6416"/>
+<vertex x="8.1534" y="3.4036"/>
+<vertex x="8.0264" y="3.556"/>
+<vertex x="7.9502" y="3.6322"/>
+<vertex x="7.8994" y="3.7338"/>
+<vertex x="7.8994" y="6.858"/>
+<vertex x="6.8834" y="6.858"/>
+<vertex x="6.858" y="6.985"/>
+<vertex x="8.89" y="6.985"/>
+<vertex x="8.89" y="0"/>
+<vertex x="7.3914" y="0"/>
+</polygon>
+<polygon width="0.1524" layer="21">
+<vertex x="6.8326" y="7.3406"/>
+<vertex x="6.9342" y="7.1882"/>
+<vertex x="7.0612" y="7.0866"/>
+<vertex x="7.239" y="7.0104"/>
+<vertex x="7.3914" y="6.985"/>
+<vertex x="7.6454" y="7.0358"/>
+<vertex x="7.874" y="7.2136"/>
+<vertex x="7.9756" y="7.4422"/>
+<vertex x="8.0264" y="7.7216"/>
+<vertex x="8.89" y="7.7216"/>
+<vertex x="8.89" y="6.985"/>
+<vertex x="0" y="6.985"/>
+<vertex x="0" y="7.6962"/>
+<vertex x="1.4732" y="7.6962"/>
+<vertex x="1.4986" y="7.4422"/>
+<vertex x="1.6002" y="7.239"/>
+<vertex x="1.7526" y="7.0866"/>
+<vertex x="1.9812" y="6.985"/>
+<vertex x="2.3114" y="7.0104"/>
+<vertex x="2.54" y="7.1374"/>
+<vertex x="2.667" y="7.3406"/>
+<vertex x="2.8702" y="7.3406"/>
+<vertex x="3.048" y="7.4168"/>
+<vertex x="3.2258" y="7.5184"/>
+<vertex x="3.4036" y="7.5438"/>
+<vertex x="3.5306" y="7.4422"/>
+<vertex x="3.6576" y="7.2644"/>
+<vertex x="3.7592" y="7.1374"/>
+<vertex x="3.8862" y="7.0104"/>
+<vertex x="4.1402" y="6.985"/>
+<vertex x="4.3434" y="7.0358"/>
+<vertex x="4.5974" y="7.5438"/>
+<vertex x="4.7244" y="7.7724"/>
+<vertex x="4.7752" y="7.874"/>
+<vertex x="4.826" y="7.747"/>
+<vertex x="4.8768" y="7.5438"/>
+<vertex x="4.953" y="7.3914"/>
+<vertex x="5.08" y="7.2136"/>
+<vertex x="5.207" y="7.0612"/>
+<vertex x="5.4102" y="6.9596"/>
+<vertex x="5.6388" y="6.985"/>
+<vertex x="5.8166" y="7.2136"/>
+<vertex x="5.9944" y="7.4676"/>
+<vertex x="6.096" y="7.5692"/>
+<vertex x="6.1722" y="7.5692"/>
+<vertex x="6.35" y="7.493"/>
+<vertex x="6.4516" y="7.4422"/>
+<vertex x="6.6548" y="7.3914"/>
+<vertex x="6.8072" y="7.366"/>
+</polygon>
+<polygon width="0.1524" layer="21">
+<vertex x="1.4986" y="7.5946"/>
+<vertex x="1.4986" y="7.7978"/>
+<vertex x="1.651" y="8.001"/>
+<vertex x="1.8034" y="8.1534"/>
+<vertex x="1.9812" y="8.2042"/>
+<vertex x="2.1844" y="8.2042"/>
+<vertex x="2.3622" y="8.1788"/>
+<vertex x="2.4892" y="8.1026"/>
+<vertex x="2.5908" y="8.001"/>
+<vertex x="2.667" y="7.874"/>
+<vertex x="2.6924" y="7.7978"/>
+<vertex x="2.794" y="7.7978"/>
+<vertex x="2.921" y="7.8486"/>
+<vertex x="3.0734" y="7.9248"/>
+<vertex x="3.2004" y="7.9756"/>
+<vertex x="3.3528" y="8.0264"/>
+<vertex x="3.4544" y="8.0264"/>
+<vertex x="3.5814" y="7.9756"/>
+<vertex x="3.683" y="7.8994"/>
+<vertex x="3.81" y="7.7978"/>
+<vertex x="3.9116" y="7.6708"/>
+<vertex x="3.9624" y="7.5692"/>
+<vertex x="4.0386" y="7.4676"/>
+<vertex x="4.1402" y="7.62"/>
+<vertex x="4.2672" y="7.874"/>
+<vertex x="4.3688" y="8.0264"/>
+<vertex x="4.4704" y="8.1788"/>
+<vertex x="4.572" y="8.3058"/>
+<vertex x="4.6482" y="8.3566"/>
+<vertex x="4.7752" y="8.382"/>
+<vertex x="4.8514" y="8.3566"/>
+<vertex x="4.9276" y="8.3058"/>
+<vertex x="5.0292" y="8.1788"/>
+<vertex x="5.1308" y="8.0264"/>
+<vertex x="5.1816" y="7.874"/>
+<vertex x="5.2324" y="7.7724"/>
+<vertex x="5.2832" y="7.6454"/>
+<vertex x="5.334" y="7.5438"/>
+<vertex x="5.3848" y="7.4676"/>
+<vertex x="5.4356" y="7.4168"/>
+<vertex x="5.5118" y="7.4676"/>
+<vertex x="5.6134" y="7.62"/>
+<vertex x="5.6896" y="7.747"/>
+<vertex x="5.7912" y="7.874"/>
+<vertex x="5.9182" y="8.001"/>
+<vertex x="6.0706" y="8.0264"/>
+<vertex x="6.2484" y="8.0264"/>
+<vertex x="6.4008" y="7.9756"/>
+<vertex x="6.477" y="7.9248"/>
+<vertex x="6.5786" y="7.8486"/>
+<vertex x="6.6802" y="7.7978"/>
+<vertex x="6.7818" y="7.7978"/>
+<vertex x="6.8834" y="7.9756"/>
+<vertex x="7.0358" y="8.128"/>
+<vertex x="7.1882" y="8.2042"/>
+<vertex x="7.3152" y="8.2296"/>
+<vertex x="7.4676" y="8.2296"/>
+<vertex x="7.62" y="8.1788"/>
+<vertex x="7.747" y="8.1026"/>
+<vertex x="7.8486" y="8.001"/>
+<vertex x="7.9248" y="7.8994"/>
+<vertex x="7.9756" y="7.7724"/>
+<vertex x="8.001" y="7.6454"/>
+<vertex x="8.89" y="7.6454"/>
+<vertex x="8.89" y="8.89"/>
+<vertex x="0" y="8.89"/>
+<vertex x="0" y="7.6454"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1754,50 +2023,50 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="regulator-jqi" package="DGN" value="TPS7A30XX" x="26.67" y="16.002" rot="R90">
-<attribute name="PARTNO" value="296-27750-1-ND" x="26.67" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U1" library="regulator-jqi" package="DGN" value="TPS7A30XX" x="26.67" y="16.002" rot="R180">
+<attribute name="PARTNO" value="TPS7A3001DGNR" x="26.67" y="16.002" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C2" library="jqi_passives" package="C_MLCC_1210" value="10u" x="85.344" y="27.432" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="587-1818-1-ND" x="85.344" y="27.432" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="UMK325C7106MM-T" x="85.344" y="27.432" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="84.25" y="25.314" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C3" library="jqi_passives" package="C_MLCC_1210" value="10u" x="88.9" y="27.432" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="587-1818-1-ND" x="88.9" y="27.432" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="UMK325C7106MM-T" x="88.9" y="27.432" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="87.552" y="25.314" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C6" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="98.044" y="28.956" rot="R270">
-<attribute name="PARTNO" value="1276-1110-1-ND" x="98.044" y="28.956" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC" x="98.044" y="28.956" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="100.33" y="20.32" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="1276-1110-1-ND" x="100.33" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC" x="100.33" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="101.63" y="18.758" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C8" library="jqi_passives" package="C_MLCC_1206" value="10u" x="32.512" y="17.018" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.768" y="16.088" size="1.016" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="1276-6767-1-ND" x="32.512" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="GMK316AB7106KL-TR" x="32.512" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="jqi_passives" package="C_MLCC_1206" value="10u" x="15.24" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.564" y="11.714" size="1.016" layer="25" font="vector"/>
-<attribute name="PARTNO" value="1276-6767-1-ND" x="15.24" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="GMK316AB7106KL-TR" x="15.24" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="jqi_passives" package="C_MLCC_0402" value="10n" x="20.574" y="17.018" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.982" y="19.212" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="1276-1028-1-ND" x="20.574" y="17.018" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="CL05B103KB5NNNC" x="20.574" y="17.018" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C11" library="jqi_passives" package="C_MLCC_0402" value="10n" x="28.702" y="16.002" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.778" y="19.95" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="PARTNO" value="1276-1028-1-ND" x="28.702" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL05B103KB5NNNC" x="28.702" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R6" library="jqi_passives" package="R_0402" value="56k" x="29.972" y="16.002" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.48" y="13.808" size="1.016" layer="25" font="vector" ratio="10"/>
-<attribute name="PARTNO" value="P56.0KLCT-ND" x="29.972" y="16.002" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-2RKF5602X" x="29.972" y="16.002" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="jqi_passives" package="R_0402" value="10k" x="29.972" y="18.288" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.226" y="19.396" size="1.016" layer="25" font="vector" ratio="10"/>
-<attribute name="PARTNO" value="P10.0KLCT-ND" x="29.972" y="18.288" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-2RKF1002X" x="29.972" y="18.288" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R8" library="jqi_passives" package="R_0603" value="68.1" x="104.648" y="21.336" smashed="yes">
-<attribute name="PARTNO" value="P68.1HCT-ND" x="104.648" y="21.336" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF68R1V" x="104.648" y="21.336" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="101.67" y="20.866" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="L1" library="coilcraft-jqi" package="0906" value="5.4 nH" x="105.41" y="33.274" smashed="yes" rot="R90">
@@ -1805,213 +2074,218 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="0906-5JLB" x="105.41" y="33.274" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="103.378" y="32.639" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="U2" library="rf-jqi" package="HCP-32-2" value="HMC1099" x="105.41" y="25.4">
-<attribute name="ANALOGDEVICES" value="HMC1099" x="105.41" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNO" value="584-HMC1099LP5DE" x="105.41" y="25.4" size="1.778" layer="27" display="off"/>
+<element name="U2" library="rf-jqi" package="HCP-32-2" value="HMC1099" x="105.41" y="25.4" smashed="yes" rot="R90">
+<attribute name="ANALOGDEVICES" value="HMC1099" x="105.41" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="HMC1099LP5DE" x="105.41" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="111.212" y="26.968" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="T1" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="57.404" y="40.64" smashed="yes">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="57.404" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="IPB080N03L G" x="57.404" y="40.64" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="51.816" y="47.879" size="1.27" layer="25"/>
 </element>
 <element name="T2" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="25.4" y="7.62" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="25.4" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="IPB080N03L G" x="25.4" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="18.161" y="2.032" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="IC1" library="regulator-jqi" package="TO263-5" value="LT3080" x="15.24" y="39.37" smashed="yes">
-<attribute name="PARTNO" value="LT3080EQ#PBF-ND" x="15.24" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LT3080EQ#PBF" x="15.24" y="39.37" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.398" y="36.576" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="C1" library="jqi_passives" package="C_MLCC_0805" value="10u" x="21.082" y="33.6296">
-<attribute name="PARTNO" value="445-14417-1-ND" x="21.082" y="33.6296" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="C2012X5R1V106K085AC" x="21.082" y="33.6296" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="jqi_passives" package="R_0603" value="499k" x="12.192" y="30.48" rot="R90">
-<attribute name="PARTNO" value="P499KHCT-ND" x="12.192" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF4993V" x="12.192" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C12" library="jqi_passives" package="C_MLCC_0805" value="10u" x="22.86" y="40.894" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="445-14417-1-ND" x="22.86" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="C2012X5R1V106K085AC" x="22.86" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="23.86" y="40.97" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C13" library="jqi_passives" package="C_MLCC_0603" value="100n" x="13.716" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.516" y="31.018" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="PARTNO" value="1276-1936-1-ND" x="13.716" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="13.716" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U3" library="linear-technology-jqi" package="TSOT-23_S5" value="LT1783" x="43.18" y="7.62" smashed="yes" rot="R270">
 <attribute name="COPYRIGHT" value="Copyright C 2016 Accelerated Designs. All rights reserved" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Linear Technologies" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="lt1783hs5" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="43.815" y="4.953" size="0.762" layer="25"/>
-<attribute name="PARTNO" value="LT1783HS5#TRMPBFCT-ND" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="LT1783HS5#TRMPBF" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="linear-technology-jqi" package="SSOP-16_GN" value="LTC2924" x="58.42" y="12.7" smashed="yes" rot="R270">
 <attribute name="VENDOR" value="Linear Technology" x="58.42" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ltc2924ign" x="58.42" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="54.229" y="11.049" size="0.762" layer="25"/>
-<attribute name="PARTNO" value="LTC2924IGN#PBF-ND" x="58.42" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="LTC2924IGN#PBF" x="58.42" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="jqi_passives" package="R_0603" value="10k" x="54.102" y="7.874" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.048" y="6.566" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="P10.0KHCT-ND" x="54.102" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V" x="54.102" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="jqi_passives" package="R_0603" value="10k" x="52.324" y="7.874" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.524" y="6.928" size="1.016" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="P10.0KHCT-ND" x="52.324" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V" x="52.324" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C14" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="55.88" y="6.858" smashed="yes" rot="R270">
-<attribute name="NAME" x="54.326" y="4.356" size="1.016" layer="25" font="vector"/>
-<attribute name="PARTNO" value="1276-1936-1-ND" x="55.88" y="6.858" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C14" library="jqi_passives" package="C_MLCC_0603" value="100n" x="55.88" y="6.604" smashed="yes" rot="R270">
+<attribute name="NAME" x="54.326" y="4.102" size="1.016" layer="25" font="vector"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="55.88" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="JP1" library="pinhead" package="1X02" value="" x="68.58" y="10.16" rot="MR0">
-<attribute name="PARTNO" value="A1921-ND" x="68.58" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="JP1" library="pinhead" package="1X02" value="" x="68.58" y="10.16" smashed="yes" rot="MR0">
+<attribute name="PARTNO" value="640456-2" x="68.58" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="74.7522" y="9.7028" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="71.12" y="6.985" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C15" library="jqi_passives" package="C_MLCC_0603" value="220n" x="57.658" y="6.223" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.12" y="3.721" size="1.016" layer="25" font="vector"/>
-<attribute name="PARTNO" value="1276-2014-1-ND" x="57.658" y="6.223" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="CL10B224KP8NNNC" x="57.658" y="6.223" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C16" library="jqi_passives" package="C_MLCC_0603" value="150n" x="59.436" y="6.858" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.422" y="5.372" size="1.016" layer="25" font="vector"/>
-<attribute name="PARTNO" value="1276-1973-1-ND" x="59.436" y="6.858" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="CL10B154KP8NNNC" x="59.436" y="6.858" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="jqi_passives" package="R_0603" value="49.9k" x="61.722" y="7.874" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.684" y="9.614" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="P49.9KHCT-ND" x="61.722" y="7.874" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF4992V" x="61.722" y="7.874" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U4" library="transistor-jqi" package="4-LEAD_SOP" value="CPC1117NTR" x="76.2" y="16.256" smashed="yes">
-<attribute name="PARTNO" value="CLA268CT-ND" x="76.2" y="16.256" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="76.708" y="18.796" size="1.27" layer="25"/>
+<element name="U4" library="transistor-jqi" package="4-LEAD_SOP" value="CPC1117NTR" x="76.2" y="16.256" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="CPC1117NTR" x="76.2" y="16.256" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="75.438" y="19.812" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="Q1" library="transistor-pnp" package="SOT23-BEC" value="MMBT3906LT1SMD" x="38.862" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.957" y="8.509" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="MMBT3906LT1GOSCT-ND" x="38.862" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="MF-DSC-SOT233-MMBT3906" x="38.862" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R5" library="jqi_passives" package="R_0603" value="1M" x="37.592" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.062" y="12.77" size="1.016" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="P1.00MHCT-ND" x="37.592" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1004V" x="37.592" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="jqi_passives" package="R_0603" value="100k" x="39.37" y="5.08" smashed="yes">
 <attribute name="NAME" x="38.678" y="3.086" size="1.016" layer="25" font="vector"/>
-<attribute name="PARTNO" value="P100KHCT-ND" x="39.37" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1003V" x="39.37" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C17" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="45.72" y="7.8105" smashed="yes" rot="R90">
+<element name="C17" library="jqi_passives" package="C_MLCC_0603" value="100n" x="45.72" y="7.8105" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.46" y="6.5105" size="1.016" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="1276-1936-1-ND" x="45.72" y="7.8105" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="45.72" y="7.8105" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C18" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="43.942" y="11.176" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.226" y="13.17" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="1276-1936-1-ND" x="43.942" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="43.942" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="jqi_passives" package="R_0603" value="10k" x="42.164" y="4.064" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.964" y="1.562" size="1.016" layer="25" font="vector"/>
-<attribute name="PARTNO" value="P10.0KHCT-ND" x="42.164" y="4.064" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V" x="42.164" y="4.064" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="jqi_passives" package="R_0603" value="866" x="48.26" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.984" y="6.312" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="P866HCT-ND" x="48.26" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF8660V" x="48.26" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R12" library="jqi_passives" package="R_0603" value="4.42k" x="49.53" y="10.16">
-<attribute name="PARTNO" value="P4.42KHCT-ND" x="49.53" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF4421V" x="49.53" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T3" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="44.577" y="40.64" smashed="yes">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="44.577" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="IPB080N03L G" x="44.577" y="40.64" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.989" y="47.879" size="1.27" layer="25"/>
 </element>
-<element name="U7" library="transistor-jqi" package="6-LEAD_SMT" value="LCA701S" x="68.834" y="24.384" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="849-LCA701S" x="68.834" y="24.384" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="68.478" y="20.716" size="1.27" layer="25" rot="R180"/>
+<element name="U7" library="transistor-jqi" package="6-LEAD_SMT" value="LCA701S" x="68.834" y="24.384" smashed="yes" rot="R180">
+<attribute name="PARTNO" value="LCA701S" x="68.834" y="24.384" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="66.65" y="19.924" size="1.27" layer="25"/>
 </element>
 <element name="R13" library="jqi_passives" package="R_0603" value="1k" x="62.738" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.192" y="30.95" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="P1.00KHCT-ND" x="62.738" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V" x="62.738" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R14" library="jqi_passives" package="R_0603" value="2M" x="61.722" y="26.924" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.176" y="26.124" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="P2.00MHCT-ND" x="61.722" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF2004V" x="61.722" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="jqi_passives" package="R_0603" value="54.9k" x="58.928" y="26.924">
-<attribute name="PARTNO" value="P54.9KHCT-ND" x="58.928" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF5492V" x="58.928" y="26.924" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R16" library="jqi_passives" package="R_0603" value="1k" x="49.784" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.492" y="33.744" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="P1.00KHCT-ND" x="49.784" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V" x="49.784" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R17" library="jqi_passives" package="R_0603" value="200k" x="49.276" y="29.464" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.33" y="30.918" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="PARTNO" value="P200KHCT-ND" x="49.276" y="29.464" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF2003V" x="49.276" y="29.464" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R18" library="jqi_passives" package="R_0603" value="51k" x="49.276" y="26.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.282" y="28.124" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="PARTNO" value="P51.0KHCT-ND" x="49.276" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF5102V" x="49.276" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R19" library="jqi_passives" package="R_0603" value="4.02k" x="75.184" y="6.35" smashed="yes">
-<attribute name="PARTNO" value="TNP4.02KAACT-ND" x="75.184" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="TNPW06034K02BEEA" x="75.184" y="6.35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="75.762" y="4.356" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="R20" library="jqi_passives" package="R_0603" value="2k" x="82.042" y="6.35" rot="R180">
-<attribute name="PARTNO" value="541-1726-1-ND" x="82.042" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="TNPW06032K00BXEN" x="82.042" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T4" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="31.75" y="40.64" smashed="yes">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND" x="31.75" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="IPB080N03L G" x="31.75" y="40.64" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.162" y="47.879" size="1.27" layer="25"/>
 </element>
 <element name="R22" library="jqi_passives" package="R_0603" value="1k" x="36.83" y="30.988" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.3" y="32.328" size="1.016" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="P1.00KHCT-ND" x="36.83" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V" x="36.83" y="30.988" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R23" library="jqi_passives" package="R_0603" value="200k" x="38.608" y="30.988" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.408" y="32.442" size="1.016" layer="25" font="vector" rot="R270"/>
-<attribute name="PARTNO" value="P200KHCT-ND" x="38.608" y="30.988" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF2003V" x="38.608" y="30.988" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R24" library="jqi_passives" package="R_0603" value="51k" x="38.608" y="26.924" rot="R270">
-<attribute name="PARTNO" value="P51.0KHCT-ND" x="38.608" y="26.924" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF5102V" x="38.608" y="26.924" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="JP2" library="pinhead" package="1X02" value="" x="32.766" y="26.416" rot="MR0">
-<attribute name="PARTNO" value="A1921-ND" x="32.766" y="26.416" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="JP2" library="pinhead" package="1X02" value="" x="32.766" y="26.416" smashed="yes" rot="MR0">
+<attribute name="PARTNO" value="640456-2" x="32.766" y="26.416" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="39.1922" y="24.6888" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="35.306" y="23.241" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U5" library="linear-technology-jqi" package="TSOT-23_S5" value="LT6015" x="87.63" y="41.656" smashed="yes">
 <attribute name="NAME" x="89.535" y="41.275" size="0.762" layer="25"/>
-<attribute name="PARTNO" value="LT6015HS5#TRMPBFCT-ND" x="87.63" y="41.656" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LT6015HS5#TRMPBF" x="87.63" y="41.656" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T5" library="transistor-jqi" package="PG-SOT-223" value="BSP89" x="81.788" y="40.132" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.106" y="37.7952" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="BSP89H6327XTSA1CT-ND" x="81.788" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="BSP89H6327XTSA1" x="81.788" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C22" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="89.154" y="44.196" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="1276-1936-1-ND" x="89.154" y="44.196" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="89.154" y="44.196" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="92.486" y="46.19" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R25" library="jqi_passives" package="R_0603" value="200" x="98.044" y="35.052" rot="R90">
-<attribute name="PARTNO" value="541-3049-1-ND" x="98.044" y="35.052" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="TNPW0603200RBEEA" x="98.044" y="35.052" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R26" library="jqi_passives" package="R_0603" value="200" x="100.838" y="35.052" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="541-3049-1-ND" x="100.838" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="TNPW0603200RBEEA" x="100.838" y="35.052" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="101.638" y="37.522" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="R27" library="jqi_passives" package="R_0603" value="100" x="84.836" y="44.958">
-<attribute name="PARTNO" value="P100HCT-ND" x="84.836" y="44.958" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1000V" x="84.836" y="44.958" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R28" library="jqi_passives" package="R_0603" value="4.02k" x="79.502" y="45.72" rot="R90">
-<attribute name="PARTNO" value="TNP4.02KAACT-ND" x="79.502" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R28" library="jqi_passives" package="R_0603" value="4.02k" x="78.74" y="45.212" rot="R180">
+<attribute name="PARTNO" value="TNPW06034K02BEEA" x="78.74" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X3" library="connector-jqi" package="BNC-V" value="BNC-V" x="71.882" y="40.64" rot="MR0">
-<attribute name="PARTNO" value="A32262-ND" x="71.882" y="40.64" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="5227222-3" x="71.882" y="40.64" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R29" library="rlc-jqi" package="1206_KELVIN" value="0.05" x="98.044" y="32.512" smashed="yes">
-<attribute name="PARTNO" value="LVK12R050DERCT-ND" x="98.044" y="32.512" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LVK12R050DER" x="98.044" y="32.512" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="93.8" y="31.176" size="1.27" layer="25"/>
 </element>
 <element name="C23" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="105.41" y="45.466" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="1276-1110-1-ND" x="105.41" y="45.466" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC" x="105.41" y="45.466" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="106.904" y="44.488" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C24" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="105.41" y="5.334" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="1276-1110-1-ND" x="105.41" y="5.334" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC" x="105.41" y="5.334" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="106.904" y="6.134" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C25" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="35.56" smashed="yes">
-<attribute name="PARTNO" value="581-600S3R3CT" x="106.172" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="600S3R3CT250XT" x="106.172" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.92" y="35.09" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C26" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="17.018" smashed="yes">
-<attribute name="PARTNO" value="581-600S3R3CT" x="106.172" y="17.018" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="600S3R3CT250XT" x="106.172" y="17.018" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.92" y="16.802" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="L2" library="jqi_passives" package="R_0402" value="5.6n" x="105.41" y="19.304" smashed="yes" rot="R90">
@@ -2021,49 +2295,98 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="L3" library="coilcraft-jqi" package="1008" value="0.9u" x="104.267" y="30.353" smashed="yes" rot="R180">
 <attribute name="COILCRAFT" value="1008AF" x="104.267" y="30.353" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="1008AF-901XKLC" x="104.267" y="30.353" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="102.7938" y="30.9245" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="102.7938" y="30.4165" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="JP3" library="pinhead" package="1X03" value="" x="7.7724" y="25.4" rot="MR0">
-<attribute name="PARTNO" value="A19470-ND" x="7.7724" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="C27" library="jqi_passives" package="PANASONIC_F" value="220u" x="8.89" y="15.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.188" y="19.588" size="1.016" layer="25"/>
-<attribute name="PARTNO" value="PCE3955CT-ND" x="8.89" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="C28" library="jqi_passives" package="PANASONIC_F" value="220u" x="21.59" y="25.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.192" y="28.928" size="1.016" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="PCE3955CT-ND" x="21.59" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="JP3" library="pinhead" package="1X03" value="" x="7.7724" y="25.4" smashed="yes" rot="MR0">
+<attribute name="PARTNO" value="640456-3" x="7.7724" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="10.1346" y="22.1488" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="11.5824" y="22.225" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R21" library="jqi_passives" package="RJ24" value="10k" x="80.264" y="9.906" smashed="yes" rot="MR0">
-<attribute name="PARTNO" value="804-1093-ND" x="80.264" y="9.906" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="Y006910K0000J9L" x="80.264" y="9.906" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="88.138" y="10.668" size="1.27" layer="26" ratio="10" rot="MR0"/>
 </element>
 <element name="J1" library="connector-jqi" package="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" value="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" x="105.41" y="50.8" rot="R90">
-<attribute name="PARTNO" value="J658-ND" x="105.41" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="142-0701-851" x="105.41" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J2" library="connector-jqi" package="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" value="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" x="105.41" y="-0.254" rot="R270">
-<attribute name="PARTNO" value="J658-ND" x="105.41" y="-0.254" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="142-0701-851" x="105.41" y="-0.254" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U8" library="linear-technology-jqi" package="SO-8_S" value="LTC1152IS8TRPBF" x="85.09" y="18.542">
 <attribute name="VENDOR" value="Linear Technology" x="85.09" y="18.542" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ltc1152is8#trpbf" x="85.09" y="18.542" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNO" value="LTC1152IS8#PBF-ND" x="85.09" y="18.542" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTC1152IS8#PBF" x="85.09" y="18.542" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="jqi_passives" package="C_MLCC_0603" value="1u" x="98.552" y="20.32" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="1276-1184-1-ND" x="98.552" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL10B105KA8NNNC" x="98.552" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="99.344" y="18.758" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C5" library="jqi_passives" package="C_MLCC_0603" value="1n" x="89.916" y="17.018" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="1276-1195-1-ND" x="89.916" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL10B102KA8NNNC" x="89.916" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="90.386" y="13.686" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="R30" library="jqi_passives" package="R_0603" value="50" x="80.264" y="17.018" rot="R90">
-<attribute name="PARTNO" value="P49.9HCT-ND" x="80.264" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF49R9V" x="80.264" y="17.018" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C29" library="jqi_passives" package="C_MLCC_0603" value="100n" x="83.312" y="14.986" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="1276-1936-1-ND" x="83.312" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="83.312" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="87.66" y="14.694" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
+<element name="C19" library="MF_Passives" package="CP10MM" value="220u" x="8.382" y="15.748">
+<attribute name="POPULATE" value="1" x="8.382" y="15.748" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="" x="8.382" y="15.748" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="8.382" y="15.748" size="1.778" layer="27" display="off"/>
+<attribute name="HOUSEPART" value="" x="8.382" y="15.748" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="8.382" y="15.748" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="8.382" y="15.748" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="MF-CAP-10MM-220uF" x="8.382" y="15.748" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C20" library="MF_Passives" package="CP10MM" value="220u" x="22.098" y="25.4" rot="R270">
+<attribute name="POPULATE" value="1" x="22.098" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="" x="22.098" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="22.098" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HOUSEPART" value="" x="22.098" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="URL" value="" x="22.098" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="" x="22.098" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="MF-CAP-10MM-220uF" x="22.098" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U9" library="MF_Discrete_Semiconductor" package="SOT-23-3" value="" x="57.404" y="8.89" smashed="yes" rot="MR270">
+<attribute name="POPULATE" value="1" x="57.404" y="8.89" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="MF-DSC-SOT233-BSS138" x="57.404" y="8.89" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HOUSEPART" value="YES" x="57.404" y="8.89" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://factory.macrofab.com/part/MF-DSC-SOT233-BSS138" x="57.404" y="8.89" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="53.572" y="8.214" size="1.016" layer="26" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="U10" library="MF_Discrete_Semiconductor" package="SOT-23-3" value="" x="53.34" y="3.302" smashed="yes" rot="MR180">
+<attribute name="POPULATE" value="1" x="53.34" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MF-DSC-SOT233-BSS138" x="53.34" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HOUSEPART" value="YES" x="53.34" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://factory.macrofab.com/part/MF-DSC-SOT233-BSS138" x="53.34" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="48.238" y="3.134" size="1.016" layer="26" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="D1" library="MF_LEDs" package="LED0603" value="" x="58.42" y="3.302" smashed="yes" rot="MR180">
+<attribute name="POPULATE" value="1" x="58.42" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MF-LED-0603-GREEN" x="58.42" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HOUSEPART" value="YES" x="58.42" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://factory.macrofab.com/part/MF-LED-0603-GREEN" x="58.42" y="3.302" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="56.72" y="2.456" size="1.016" layer="26" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="D2" library="MF_LEDs" package="LED0603" value="" x="61.214" y="7.874" smashed="yes" rot="MR180">
+<attribute name="POPULATE" value="1" x="61.214" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MF-LED-0603-RED" x="61.214" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HOUSEPART" value="YES" x="61.214" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://factory.macrofab.com/part/MF-LED-0603-RED" x="61.214" y="7.874" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="59.514" y="7.028" size="1.016" layer="26" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="R31" library="jqi_passives" package="R_0603" value="150" x="62.992" y="3.302" smashed="yes" rot="MR0">
+<attribute name="PARTNO" value="ERJ-3EKF1500V" x="62.992" y="3.302" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="66.732" y="2.832" size="1.016" layer="26" font="vector" rot="MR0"/>
+</element>
+<element name="R32" library="jqi_passives" package="R_0603" value="150" x="64.262" y="7.874" smashed="yes" rot="MR0">
+<attribute name="PARTNO" value="ERJ-3EKF1500V" x="64.262" y="7.874" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="65.716" y="5.88" size="1.016" layer="26" font="vector" rot="MR0"/>
+</element>
+<element name="U$2" library="JQI_Logo" package="JQI_LOGO_NEGATIVE-SILKSCREEN" value="" x="61.722" y="39.751" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2153,8 +2476,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="120.65" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<contactref element="C27" pad="+"/>
-<contactref element="C28" pad="-"/>
 <via x="19.05" y="17.018" extent="1-16" drill="0.4064"/>
 <via x="41.656" y="9.906" extent="1-16" drill="0.4064"/>
 <via x="37.338" y="5.08" extent="1-16" drill="0.4064"/>
@@ -2162,7 +2483,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="43.18" y="5.842" extent="1-16" drill="0.4064"/>
 <via x="15.24" y="22.606" extent="1-16" drill="0.4064"/>
 <via x="15.24" y="31.496" extent="1-16" drill="0.4064"/>
-<via x="26.67" y="23.622" extent="1-16" drill="0.4064"/>
+<via x="28.194" y="23.622" extent="1-16" drill="0.4064"/>
 <via x="22.098" y="32.004" extent="1-16" drill="0.4064"/>
 <via x="22.86" y="38.354" extent="1-16" drill="0.4064"/>
 <via x="36.83" y="9.144" extent="1-16" drill="0.4064"/>
@@ -2172,7 +2493,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="26.416" y="19.558" extent="1-16" drill="0.4064"/>
 <via x="24.384" y="14.478" extent="1-16" drill="0.4064"/>
 <via x="17.272" y="13.716" extent="1-16" drill="0.4064"/>
-<via x="10.922" y="10.16" extent="1-16" drill="0.4064"/>
+<via x="10.414" y="9.652" extent="1-16" drill="0.4064"/>
 <via x="22.86" y="43.942" extent="1-16" drill="0.4064"/>
 <via x="38.1" y="48.514" extent="1-16" drill="0.4064"/>
 <via x="51.054" y="48.514" extent="1-16" drill="0.4064"/>
@@ -2190,21 +2511,21 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="58.7375" y1="11.684" x2="58.674" y2="11.684" width="0.4064" layer="1"/>
 <wire x1="58.7375" y1="10.2362" x2="58.7375" y2="11.684" width="0.4064" layer="1"/>
 <via x="55.88" y="4.318" extent="1-16" drill="0.4064"/>
-<via x="63.754" y="7.874" extent="1-16" drill="0.4064"/>
-<via x="50.038" y="7.62" extent="1-16" drill="0.4064"/>
-<via x="60.452" y="4.318" extent="1-16" drill="0.4064"/>
-<via x="4.318" y="20.066" extent="1-16" drill="0.4064"/>
+<via x="66.548" y="7.62" extent="1-16" drill="0.4064"/>
+<via x="49.784" y="7.874" extent="1-16" drill="0.4064"/>
+<via x="60.96" y="4.318" extent="1-16" drill="0.4064"/>
+<via x="2.286" y="19.812" extent="1-16" drill="0.4064"/>
 <via x="5.588" y="35.306" extent="1-16" drill="0.4064"/>
 <via x="53.086" y="19.812" extent="1-16" drill="0.4064"/>
 <via x="63.5" y="19.304" extent="1-16" drill="0.4064"/>
 <via x="64.008" y="11.43" extent="1-16" drill="0.4064"/>
 <via x="51.816" y="9.906" extent="1-16" drill="0.4064"/>
-<via x="42.672" y="19.558" extent="1-16" drill="0.4064"/>
+<via x="44.958" y="18.796" extent="1-16" drill="0.4064"/>
 <via x="49.022" y="23.876" extent="1-16" drill="0.4064"/>
 <via x="44.45" y="31.75" extent="1-16" drill="0.4064"/>
 <via x="36.83" y="26.924" extent="1-16" drill="0.4064"/>
-<via x="87.63" y="48.006" extent="1-16" drill="0.4064"/>
-<via x="79.502" y="47.752" extent="1-16" drill="0.4064"/>
+<via x="88.646" y="48.768" extent="1-16" drill="0.4064"/>
+<via x="80.264" y="48.514" extent="1-16" drill="0.4064"/>
 <via x="85.852" y="24.638" extent="1-16" drill="0.4064"/>
 <via x="89.662" y="24.638" extent="1-16" drill="0.4064"/>
 <via x="94.742" y="27.178" extent="1-16" drill="0.4064"/>
@@ -2224,7 +2545,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="U8" pad="7"/>
 <contactref element="C29" pad="P$1"/>
 <via x="70.358" y="14.732" extent="1-16" drill="0.4064"/>
-<via x="71.374" y="4.572" extent="1-16" drill="0.4064"/>
+<via x="71.374" y="4.318" extent="1-16" drill="0.4064"/>
 <via x="74.93" y="8.89" extent="1-16" drill="0.4064"/>
 <via x="78.74" y="14.986" extent="1-16" drill="0.4064"/>
 <via x="75.438" y="24.638" extent="1-16" drill="0.4064"/>
@@ -2234,7 +2555,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="80.772" y="21.844" extent="1-16" drill="0.4064"/>
 <via x="99.568" y="27.94" extent="1-16" drill="0.4064"/>
 <via x="99.568" y="34.798" extent="1-16" drill="0.4064"/>
-<via x="76.708" y="44.704" extent="1-16" drill="0.4064"/>
+<via x="76.962" y="45.212" extent="1-16" drill="0.4064"/>
 <via x="75.946" y="41.91" extent="1-16" drill="0.4064"/>
 <via x="71.374" y="12.192" extent="1-16" drill="0.4064"/>
 <via x="74.93" y="4.572" extent="1-16" drill="0.4064"/>
@@ -2245,13 +2566,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="100.838" y="39.624" extent="1-16" drill="0.4064"/>
 <via x="95.758" y="33.528" extent="1-16" drill="0.4064"/>
 <via x="81.026" y="33.02" extent="1-16" drill="0.4064"/>
-<via x="66.802" y="32.766" extent="1-16" drill="0.4064"/>
+<via x="70.104" y="32.512" extent="1-16" drill="0.4064"/>
 <via x="78.232" y="27.432" extent="1-16" drill="0.4064"/>
 <via x="82.55" y="27.432" extent="1-16" drill="0.4064"/>
 <via x="76.2" y="19.05" extent="1-16" drill="0.4064"/>
 <via x="58.674" y="23.622" extent="1-16" drill="0.4064"/>
-<wire x1="106.16" y1="27.65" x2="106.172" y2="27.65" width="0.254" layer="1"/>
-<wire x1="106.68" y1="23.15" x2="106.66" y2="23.15" width="0.254" layer="1"/>
 <via x="106.68" y="1.8288" extent="1-16" drill="0.4064"/>
 <via x="104.14" y="1.8288" extent="1-16" drill="0.4064"/>
 <via x="104.394" y="3.0988" extent="1-16" drill="0.4064"/>
@@ -2322,8 +2641,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="107.16" y1="23.15" x2="107.188" y2="23.15" width="0.254" layer="1"/>
 <wire x1="107.16" y1="27.65" x2="107.188" y2="27.65" width="0.254" layer="1"/>
 <wire x1="106.66" y1="27.65" x2="106.68" y2="27.65" width="0.254" layer="1"/>
-<wire x1="104.66" y1="27.65" x2="104.648" y2="27.65" width="0.254" layer="1"/>
-<wire x1="104.16" y1="27.65" x2="104.14" y2="27.65" width="0.254" layer="1"/>
 <via x="95.885" y="44.958" extent="1-16" drill="2.9464" diameter="4.572"/>
 <via x="95.885" y="5.842" extent="1-16" drill="2.9464" diameter="4.572"/>
 <via x="70.612" y="1.27" extent="1-16" drill="0.4064"/>
@@ -2333,12 +2650,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="13.208" y="48.768" extent="1-16" drill="0.4064"/>
 <via x="63.5" y="48.768" extent="1-16" drill="0.4064"/>
 <via x="57.404" y="30.988" extent="1-16" drill="0.4064"/>
-<via x="109.728" y="39.878" extent="1-16" drill="0.4064"/>
+<via x="110.998" y="39.624" extent="1-16" drill="0.4064"/>
 <via x="108.204" y="16.256" extent="1-16" drill="0.4064"/>
 <via x="108.204" y="32.258" extent="1-16" drill="0.4064"/>
-<via x="109.474" y="27.432" extent="1-16" drill="0.4064"/>
+<via x="109.22" y="27.686" extent="1-16" drill="0.4064"/>
 <via x="113.538" y="29.464" extent="1-16" drill="0.4064"/>
-<via x="109.474" y="25.4" extent="1-16" drill="0.4064"/>
+<via x="109.22" y="25.146" extent="1-16" drill="0.4064"/>
 <via x="109.22" y="23.622" extent="1-16" drill="0.4064"/>
 <via x="102.108" y="26.67" extent="1-16" drill="0.4064"/>
 <via x="101.854" y="24.892" extent="1-16" drill="0.4064"/>
@@ -2369,10 +2686,17 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="100.33" y="22.86" extent="1-16" drill="0.4064"/>
 <via x="106.68" y="28.4988" extent="1-16" drill="0.4064"/>
 <via x="104.14" y="28.4988" extent="1-16" drill="0.4064"/>
-<wire x1="106.66" y1="23.15" x2="106.16" y2="23.15" width="0.254" layer="1"/>
 <wire x1="104.66" y1="23.15" x2="104.16" y2="23.15" width="0.254" layer="1"/>
+<via x="66.04" y="39.37" extent="1-16" drill="0.4064"/>
+<via x="36.068" y="20.066" extent="1-16" drill="0.4064"/>
+<via x="52.578" y="29.21" extent="1-16" drill="0.4064"/>
+<wire x1="104.16" y1="27.65" x2="104.66" y2="27.65" width="0.254" layer="1"/>
 <wire x1="106.16" y1="27.65" x2="106.66" y2="27.65" width="0.254" layer="1"/>
-<wire x1="104.66" y1="27.65" x2="104.16" y2="27.65" width="0.254" layer="1"/>
+<wire x1="106.16" y1="23.15" x2="106.66" y2="23.15" width="0.254" layer="1"/>
+<contactref element="C19" pad="P$1"/>
+<contactref element="C20" pad="P$2"/>
+<contactref element="U10" pad="P$2"/>
+<contactref element="U9" pad="P$2"/>
 </signal>
 <signal name="N$15">
 <contactref element="C11" pad="P$2"/>
@@ -2394,10 +2718,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="U1" pad="IN"/>
 <contactref element="C9" pad="P$1"/>
 <contactref element="U1" pad="EN"/>
-<contactref element="C27" pad="-"/>
 <contactref element="JP3" pad="3"/>
-<wire x1="5.2324" y1="22.4476" x2="8.89" y2="18.79" width="1.27" layer="1"/>
-<wire x1="8.89" y1="18.79" x2="10.89" y2="16.79" width="1.27" layer="1"/>
 <wire x1="10.89" y1="16.79" x2="15.24" y2="16.79" width="1.27" layer="1"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="23.114" y="16.002"/>
@@ -2412,13 +2733,17 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="22.47" y1="17.952" x2="18.206" y2="17.952" width="0.4064" layer="1"/>
 <wire x1="18.206" y1="17.952" x2="17.018" y2="16.764" width="0.4064" layer="1"/>
 <wire x1="5.2324" y1="25.4" x2="5.2324" y2="22.4476" width="1.27" layer="1"/>
+<wire x1="5.2324" y1="22.4476" x2="7.998" y2="19.682" width="1.27" layer="1"/>
+<contactref element="C19" pad="P$2"/>
+<wire x1="7.998" y1="19.682" x2="10.89" y2="16.79" width="1.27" layer="1"/>
+<wire x1="8.382" y1="20.098" x2="7.998" y2="19.714" width="1.27" layer="1"/>
+<wire x1="7.998" y1="19.714" x2="7.998" y2="19.682" width="1.27" layer="1"/>
 </signal>
 <signal name="+24V">
 <contactref element="IC1" pad="5"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="C1" pad="P$1"/>
 <contactref element="U7" pad="6"/>
-<contactref element="C28" pad="+"/>
 <contactref element="JP3" pad="1"/>
 <polygon width="0.4064" layer="1" isolate="0.3048" thermals="no">
 <vertex x="16.51" y="34.798"/>
@@ -2436,6 +2761,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="16.51" y="21.082"/>
 <vertex x="16.51" y="23.876"/>
 </polygon>
+<contactref element="C20" pad="P$1"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC1" pad="2"/>
@@ -2476,30 +2802,21 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="44.196" y1="7.366" x2="34.29" y2="7.366" width="1.27" layer="16"/>
 <wire x1="34.29" y1="7.366" x2="24.638" y2="17.018" width="1.27" layer="16"/>
 <wire x1="57.4675" y1="10.2362" x2="57.4675" y2="7.874" width="0.4064" layer="1"/>
-<wire x1="55.88" y1="7.608" x2="55.396" y2="7.124" width="0.4064" layer="1"/>
-<wire x1="55.396" y1="7.124" x2="54.102" y2="7.124" width="0.4064" layer="1"/>
+<wire x1="55.65" y1="7.124" x2="54.102" y2="7.124" width="0.4064" layer="1"/>
 <wire x1="57.4675" y1="7.874" x2="56.146" y2="7.874" width="0.4064" layer="1"/>
-<wire x1="56.146" y1="7.874" x2="55.88" y2="7.608" width="0.4064" layer="1" curve="90"/>
 <wire x1="54.102" y1="7.124" x2="52.324" y2="7.124" width="1.27" layer="1"/>
 <wire x1="52.324" y1="7.124" x2="52.324" y2="5.842" width="1.27" layer="1"/>
 <via x="52.324" y="5.842" extent="1-16" drill="0.6096"/>
 <wire x1="52.324" y1="5.842" x2="45.72" y2="5.842" width="1.27" layer="16"/>
-<wire x1="69.85" y1="5.842" x2="52.324" y2="5.842" width="1.27" layer="16"/>
+<wire x1="69.85" y1="5.842" x2="65.278" y2="5.842" width="1.27" layer="16"/>
+<wire x1="65.278" y1="5.842" x2="63.5" y2="5.842" width="1.27" layer="16"/>
+<wire x1="63.5" y1="5.842" x2="52.324" y2="5.842" width="1.27" layer="16"/>
 <wire x1="24.638" y1="17.018" x2="24.638" y2="41.91" width="1.27" layer="16"/>
 <via x="24.638" y="41.91" extent="1-16" drill="0.6096"/>
 <wire x1="24.638" y1="41.91" x2="22.86" y2="41.91" width="1.27" layer="1"/>
 <wire x1="88.404" y1="44.196" x2="88.773" y2="43.803" width="0.6096" layer="1"/>
 <wire x1="88.773" y1="43.803" x2="88.773" y2="42.606" width="0.6096" layer="1"/>
 <wire x1="57.404" y1="42.672" x2="57.404" y2="43.18" width="1.27" layer="1"/>
-<wire x1="57.404" y1="43.18" x2="58.42" y2="42.164" width="1.27" layer="1"/>
-<wire x1="58.42" y1="42.164" x2="64.262" y2="42.164" width="1.27" layer="1"/>
-<via x="64.262" y="42.164" extent="1-16" drill="0.6096"/>
-<wire x1="64.262" y1="42.164" x2="69.596" y2="42.164" width="1.27" layer="16"/>
-<wire x1="69.596" y1="42.164" x2="73.66" y2="46.228" width="1.27" layer="16"/>
-<wire x1="73.66" y1="46.228" x2="88.392" y2="46.228" width="1.27" layer="16"/>
-<via x="88.392" y="46.228" extent="1-16" drill="0.6096"/>
-<wire x1="88.392" y1="46.228" x2="88.392" y2="44.208" width="1.27" layer="1"/>
-<wire x1="88.392" y1="44.208" x2="88.404" y2="44.196" width="1.27" layer="1"/>
 <wire x1="45.72" y1="7.0605" x2="45.1365" y2="6.477" width="0.6096" layer="1"/>
 <wire x1="45.1365" y1="6.477" x2="44.13" y2="6.477" width="0.6096" layer="1"/>
 <wire x1="32.258" y1="42.418" x2="32.258" y2="43.18" width="0.381" layer="1"/>
@@ -2507,6 +2824,21 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="44.45" y1="42.418" x2="44.45" y2="43.18" width="0.381" layer="1"/>
 <wire x1="44.45" y1="43.18" x2="44.577" y2="43.18" width="0.381" layer="1"/>
 <wire x1="69.85" y1="5.842" x2="69.85" y2="10.16" width="1.27" layer="16"/>
+<wire x1="57.404" y1="43.18" x2="58.42" y2="42.164" width="1.27" layer="1"/>
+<wire x1="58.42" y1="42.164" x2="69.088" y2="42.164" width="1.27" layer="1"/>
+<wire x1="69.088" y1="42.164" x2="73.914" y2="46.99" width="1.27" layer="1"/>
+<wire x1="73.914" y1="46.99" x2="88.392" y2="46.99" width="1.27" layer="1"/>
+<wire x1="88.392" y1="46.99" x2="88.404" y2="46.978" width="1.27" layer="1"/>
+<wire x1="88.404" y1="46.978" x2="88.404" y2="44.196" width="1.27" layer="1"/>
+<contactref element="R32" pad="P$1"/>
+<contactref element="R31" pad="P$1"/>
+<wire x1="65.012" y1="7.874" x2="65.012" y2="6.108" width="1.27" layer="16"/>
+<wire x1="65.012" y1="6.108" x2="65.278" y2="5.842" width="1.27" layer="16"/>
+<wire x1="63.742" y1="3.302" x2="63.742" y2="5.6" width="1.27" layer="16"/>
+<wire x1="63.742" y1="5.6" x2="63.5" y2="5.842" width="1.27" layer="16"/>
+<wire x1="55.88" y1="7.354" x2="55.88" y2="7.608" width="0.4064" layer="1"/>
+<wire x1="55.88" y1="7.608" x2="56.146" y2="7.874" width="0.4064" layer="1"/>
+<wire x1="55.65" y1="7.124" x2="55.88" y2="7.354" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="JP1" pad="2"/>
@@ -2514,17 +2846,29 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="60.6425" y1="10.2362" x2="67.2338" y2="10.2362" width="0.4064" layer="1"/>
 <wire x1="67.2338" y1="10.2362" x2="67.31" y2="10.16" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$3">
+<signal name="*FAULT">
 <contactref element="U6" pad="9"/>
 <contactref element="R3" pad="P$2"/>
 <wire x1="52.324" y1="8.624" x2="53.9362" y2="10.2362" width="0.4064" layer="1"/>
 <wire x1="53.9362" y1="10.2362" x2="56.1975" y2="10.2362" width="0.4064" layer="1"/>
+<contactref element="U10" pad="P$1"/>
+<wire x1="52.324" y1="8.624" x2="50.8" y2="7.1" width="0.4064" layer="1"/>
+<wire x1="50.8" y1="7.1" x2="50.8" y2="4.318" width="0.4064" layer="1"/>
+<via x="50.8" y="4.318" extent="1-16" drill="0.6096"/>
+<wire x1="50.8" y1="4.318" x2="50.8" y2="3.892" width="0.4064" layer="16"/>
+<wire x1="50.8" y1="3.892" x2="52.34" y2="2.352" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$2">
+<signal name="*DONE">
 <contactref element="U6" pad="10"/>
 <contactref element="R2" pad="P$2"/>
-<wire x1="54.102" y1="8.624" x2="56.8325" y2="8.624" width="0.4064" layer="1"/>
+<wire x1="54.102" y1="8.624" x2="55.372" y2="8.624" width="0.4064" layer="1"/>
+<wire x1="55.372" y1="8.624" x2="56.8325" y2="8.624" width="0.4064" layer="1"/>
 <wire x1="56.8325" y1="8.624" x2="56.8325" y2="10.2362" width="0.4064" layer="1"/>
+<contactref element="U9" pad="P$1"/>
+<wire x1="55.372" y1="9.316" x2="55.372" y2="8.624" width="0.4064" layer="16"/>
+<via x="55.372" y="8.624" extent="1-16" drill="0.4064"/>
+<wire x1="55.372" y1="9.316" x2="55.946" y2="9.89" width="0.4064" layer="16"/>
+<wire x1="55.946" y1="9.89" x2="56.454" y2="9.89" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="C16" pad="P$1"/>
@@ -2640,10 +2984,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="42.164" y1="2.794" x2="73.152" y2="2.794" width="1.27" layer="1"/>
 <wire x1="74.93" y1="17.653" x2="73.152" y2="17.653" width="1.27" layer="1"/>
 <wire x1="73.152" y1="17.653" x2="73.152" y2="6.35" width="1.27" layer="1"/>
-<wire x1="73.152" y1="6.096" x2="73.152" y2="2.794" width="1.27" layer="1"/>
+<wire x1="73.152" y1="6.35" x2="73.152" y2="2.794" width="1.27" layer="1"/>
 <wire x1="74.434" y1="6.35" x2="74.422" y2="6.35" width="0.6096" layer="1"/>
 <wire x1="74.422" y1="6.35" x2="73.152" y2="6.35" width="1.27" layer="1"/>
-<wire x1="73.152" y1="6.35" x2="73.152" y2="6.096" width="1.27" layer="1"/>
 </signal>
 <signal name="VPIN_DET">
 <contactref element="R12" pad="P$2"/>
@@ -2878,11 +3221,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="R28" pad="P$1"/>
 <contactref element="T5" pad="3"/>
 <contactref element="X3" pad="1"/>
-<wire x1="79.502" y1="44.97" x2="79.477" y2="44.97" width="0.6096" layer="1"/>
+<wire x1="79.49" y1="45.212" x2="79.477" y2="44.97" width="0.6096" layer="1"/>
 <wire x1="79.477" y1="44.97" x2="79.477" y2="43.231" width="0.6096" layer="1"/>
-<wire x1="79.477" y1="43.231" x2="74.93" y2="43.231" width="0.6096" layer="1"/>
+<wire x1="79.477" y1="43.231" x2="74.473" y2="43.231" width="0.6096" layer="1"/>
 <wire x1="71.882" y1="40.64" x2="74.473" y2="43.231" width="0.6096" layer="1"/>
-<wire x1="74.473" y1="43.231" x2="74.93" y2="43.231" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$30">
 <contactref element="C23" pad="P$1"/>
@@ -2910,8 +3252,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="L3" pad="P$1"/>
 <wire x1="105.918" y1="32.3596" x2="105.41" y2="32.3596" width="0.381" layer="1"/>
 <wire x1="105.41" y1="32.3596" x2="105.41" y2="30.353" width="0.381" layer="1"/>
-<wire x1="105.41" y1="30.353" x2="105.41" y2="27.686" width="0.381" layer="1"/>
-<wire x1="105.41" y1="27.686" x2="105.41" y2="27.65" width="0.381" layer="1"/>
+<wire x1="105.41" y1="30.353" x2="105.41" y2="27.65" width="0.381" layer="1"/>
 <wire x1="105.16" y1="27.65" x2="105.1814" y2="27.65" width="0.1524" layer="1"/>
 <wire x1="105.1814" y1="27.65" x2="105.1814" y2="27.4828" width="0.1524" layer="1"/>
 <wire x1="105.1814" y1="27.4828" x2="105.66" y2="27.4828" width="0.1524" layer="1"/>
@@ -2979,91 +3320,34 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="R30" pad="P$1"/>
 <wire x1="80.264" y1="16.268" x2="80.264" y2="9.906" width="0.6096" layer="1"/>
 </signal>
+<signal name="N$2">
+<contactref element="D1" pad="CATHODE"/>
+<contactref element="U10" pad="P$3"/>
+<wire x1="54.34" y1="3.302" x2="57.67" y2="3.302" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$3">
+<contactref element="D2" pad="CATHODE"/>
+<contactref element="U9" pad="P$3"/>
+<wire x1="60.464" y1="7.874" x2="60.448" y2="7.89" width="0.6096" layer="16"/>
+<wire x1="60.448" y1="7.89" x2="57.404" y2="7.89" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$18">
+<contactref element="D1" pad="ANODE"/>
+<contactref element="R31" pad="P$2"/>
+<wire x1="59.17" y1="3.302" x2="62.242" y2="3.302" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$37">
+<contactref element="D2" pad="ANODE"/>
+<contactref element="R32" pad="P$2"/>
+<wire x1="63.512" y1="7.874" x2="61.964" y2="7.874" width="0.6096" layer="16"/>
+</signal>
 </signals>
 <errors>
-<approved hash="19,1,d12d64b48eb534df"/>
-<approved hash="19,1,0b79b7bfaf23b5dd"/>
-<approved hash="19,1,7da31d5719e4d511"/>
-<approved hash="19,1,5e507063cc764d59"/>
-<approved hash="19,1,3349a3f7c136b008"/>
-<approved hash="19,1,5e507063cc764d59"/>
-<approved hash="19,1,e57ec0a8a1a14199"/>
-<approved hash="19,1,830dd1e53d44d97b"/>
-<approved hash="19,1,2849232040f997b5"/>
-<approved hash="19,1,830dd1e53d44d97b"/>
-<approved hash="19,1,8b0c2877a7fb660d"/>
-<approved hash="19,1,9968e0b0c43988ac"/>
-<approved hash="19,1,3f0e713272003c3c"/>
-<approved hash="19,1,3cee72d272003c3c"/>
-<approved hash="19,1,3fca71f671803fbc"/>
-<approved hash="19,1,3fe271de70003e3c"/>
-<approved hash="19,1,3ec270fe70803ebc"/>
-<approved hash="19,1,3f6a715670803ebc"/>
-<approved hash="19,1,3f6e715271003f3c"/>
-<approved hash="19,1,3f0e713271003f3c"/>
-<approved hash="19,1,1726f3d177b2e20a"/>
-<approved hash="19,1,0a6b3fb5d4398eaf"/>
-<approved hash="19,1,402af5baec8f56d8"/>
-<approved hash="19,1,982640d149b51e0a"/>
-<approved hash="19,1,fb6f8eb27439b0ab"/>
-<approved hash="19,1,b72802a0ba9900da"/>
-<approved hash="19,1,ac0ff033f001ac3d"/>
-<approved hash="19,1,a94be734577c06b8"/>
-<approved hash="19,1,d86d6e3621ce9852"/>
-<approved hash="19,1,e073ae34217c7084"/>
-<approved hash="19,1,5f5de936c7ce7e56"/>
-<approved hash="19,1,676f2934c77c9684"/>
-<approved hash="19,1,3d0e273227023d3e"/>
-<approved hash="19,1,3d6a275626823cbe"/>
-<approved hash="19,1,3eee24d224023e3e"/>
-<approved hash="19,1,3cc226fe26823cbe"/>
-<approved hash="19,1,3de227de26023c3e"/>
-<approved hash="19,1,3d6e275227023d3e"/>
-<approved hash="19,1,3d0e273224023e3e"/>
-<approved hash="19,1,3dca27f627823dbe"/>
-<approved hash="19,1,4375203027a147d0"/>
-<approved hash="19,1,bdb921ac24a1bb10"/>
-<approved hash="19,1,43b523d0266d46d4"/>
-<approved hash="19,1,432521c022654554"/>
-<approved hash="19,1,4099230c27654514"/>
-<approved hash="19,1,41a1225427a146e8"/>
-<approved hash="19,1,42012ef42a6d4414"/>
-<approved hash="19,1,42c521c024214348"/>
-<approved hash="19,1,c14c0fba0b2269d5"/>
-<approved hash="19,1,4978afba38da05ef"/>
-<approved hash="19,1,6d4c0db80d20cdd6"/>
-<approved hash="19,1,d9a11b571be77913"/>
-<approved hash="19,1,7f79dbb8b5d44185"/>
-<approved hash="19,1,c94c4bb90f21a1d6"/>
-<approved hash="19,1,b5a019575de7dd12"/>
-<approved hash="19,1,c9a05b5543e6b913"/>
-<approved hash="19,1,40edf68ca38d261b"/>
-<approved hash="19,1,ad4e55b94d20ddd7"/>
-<approved hash="19,1,500d1e5888f1e51b"/>
-<approved hash="19,1,b5abc7fe58680982"/>
-<approved hash="19,1,a5802f3171dfc899"/>
-<approved hash="19,1,45a7dd50e1e1dd14"/>
-<approved hash="19,1,c94bf7becb2751d0"/>
-<approved hash="19,1,ba0160eb4051763f"/>
-<approved hash="19,1,12c901ed0bcef646"/>
-<approved hash="19,1,6d4d05bb1523edd7"/>
-<approved hash="19,1,f9a2035613e67910"/>
-<approved hash="19,1,fcc989e873995748"/>
-<approved hash="19,1,320f8ee8e144706b"/>
-<approved hash="19,1,c143cbb7072ec9d6"/>
-<approved hash="19,1,ddae1158dde7d51d"/>
-<approved hash="19,1,e20790e29e499251"/>
-<approved hash="19,1,e2cf5915efaf2840"/>
-<approved hash="19,1,39a7d351dbe70912"/>
-<approved hash="19,1,1d4acdbec5212dd6"/>
-<approved hash="19,1,beb323b4203bb950"/>
-<approved hash="19,1,bca322c425a7bb1c"/>
-<approved hash="19,1,b18723702767b71c"/>
-<approved hash="19,1,bedfdcc8d863b9d0"/>
-<approved hash="19,1,bf43220424a3bad0"/>
-<approved hash="19,1,bd2720d0259bbad0"/>
-<approved hash="19,1,bc7f21e82667ba14"/>
-<approved hash="19,1,beb322542627bf14"/>
+<approved hash="18,30,0171537e4831ef5e"/>
+<approved hash="18,30,db7782f63b2948dc"/>
+<approved hash="18,30,0486ec7075eff9ad"/>
+<approved hash="18,30,85f3f9ffbe48ff97"/>
+<approved hash="18,30,9e0c9c93143816a3"/>
 <approved hash="3,1,e282c3bcc3bae284"/>
 <approved hash="3,1,e786c6b8c6bae784"/>
 <approved hash="3,1,eb06ca38ca3aeb04"/>
@@ -3096,6 +3380,35 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="3,1,07fe39c039c907f7"/>
 <approved hash="3,1,05fc3fc23fcb05f5"/>
 <approved hash="3,1,3bfc3dc23dcb3bf5"/>
+<approved hash="18,30,6bbbfd3b618c170d"/>
+<approved hash="18,30,f9a72db35fb6d4a4"/>
+<approved hash="18,30,27a12f8040472bb7"/>
+<approved hash="18,30,c226c45fae8390ff"/>
+<approved hash="18,30,d036d04bbab682ce"/>
+<approved hash="18,30,56826678868a9648"/>
+<approved hash="18,30,027959622cb66b42"/>
+<approved hash="18,30,9284921b17b41b27"/>
+<approved hash="18,30,1892468610b72c91"/>
+<approved hash="18,30,689444b5a146d382"/>
+<approved hash="18,30,0702597f0582dbfb"/>
+<approved hash="18,30,9b127b6b27b647cb"/>
+<approved hash="18,30,ddb7eb4d2f8a867d"/>
+<approved hash="18,30,ab4cd457a7b67b77"/>
+<approved hash="18,30,c7559fc1bf764557"/>
+<approved hash="18,30,7f137d3329075345"/>
+<approved hash="18,30,83145568fe744e0c"/>
+<approved hash="18,30,ee416039c4c52cb9"/>
+<approved hash="18,30,730828150ab63df3"/>
+<approved hash="18,30,c633f809ae4a26ff"/>
+<approved hash="18,30,a607542680066d51"/>
+<approved hash="18,30,6e41b6d566777b42"/>
+<approved hash="18,30,b551e92235d1eba9"/>
+<approved hash="18,30,440fa47877641518"/>
+<approved hash="18,30,4f28751dc14ab6ec"/>
+<approved hash="18,30,1c13a50683b6ade7"/>
+<approved hash="18,30,0497d95a82e68a74"/>
+<approved hash="18,30,85f383b8ec18ff97"/>
+<approved hash="18,30,14b566e4606ecede"/>
 <approved hash="4,1,6dc191ac7530598e"/>
 <approved hash="4,1,88f0511aec25bd3b"/>
 <approved hash="4,1,59f7851188302204"/>
@@ -3109,4 +3422,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
