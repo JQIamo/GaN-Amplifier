@@ -1435,15 +1435,15 @@ www.minicircuits.com&lt;br&gt;
 <wire x1="-2.375" y1="-1.75" x2="-2.125" y2="-1.75" width="0.25" layer="31"/>
 <rectangle x1="-2.5" y1="-1.875" x2="-2.375" y2="-1.625" layer="31"/>
 <smd name="33" x="0" y="0" dx="3.15" dy="3.15" layer="1" rot="R90" thermals="no" cream="no"/>
-<pad name="34" x="0" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="35" x="-1" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="36" x="-1" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="37" x="0" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="38" x="1" y="-1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="39" x="1" y="0" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="40" x="1" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="41" x="0" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
-<pad name="42" x="-1" y="1" drill="0.254" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="34" x="0" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="35" x="-1" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="36" x="-1" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="37" x="0" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="38" x="1" y="-1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="39" x="1" y="0" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="40" x="1" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="41" x="0" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
+<pad name="42" x="-1" y="1" drill="0.3048" diameter="1" shape="square" rot="R90" stop="no" thermals="no"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>

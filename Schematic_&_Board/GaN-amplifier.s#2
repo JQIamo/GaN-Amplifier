@@ -2800,7 +2800,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="0906-5JLB"/>
 </part>
 <part name="U2" library="rf-jqi" deviceset="HMC1099" device="" value="HMC1099">
-<attribute name="PARTNO" value="HMC1099LP5DE"/>
+<attribute name="PARTNO" value="584-HMC1099LP5DE"/>
 </part>
 <part name="T1" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
 <attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>

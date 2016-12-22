@@ -2778,8 +2778,12 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="C9" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u"/>
 <part name="C10" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n"/>
 <part name="C11" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n"/>
-<part name="R6" library="jqi_passives" deviceset="R_SMD" device="R0402" value="56k"/>
-<part name="R7" library="jqi_passives" deviceset="R_SMD" device="R0402" value="10k"/>
+<part name="R6" library="jqi_passives" deviceset="R_SMD" device="R0402" value="56k">
+<attribute name="PARTNO" value="P56.0KLCT-ND"/>
+</part>
+<part name="R7" library="jqi_passives" deviceset="R_SMD" device="R0402" value="10k">
+<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+</part>
 <part name="R8" library="jqi_passives" deviceset="R_SMD" device="R0603" value="68.1">
 <attribute name="PARTNO" value="P68.1HCT-ND"/>
 </part>
@@ -2803,7 +2807,9 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="445-14417-1-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="499k"/>
+<part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="499k">
+<attribute name="PARTNO" value="P499KHCT-ND"/>
+</part>
 <part name="C12" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0805" value="10u">
 <attribute name="PARTNO" value="445-14417-1-ND"/>
 </part>
@@ -2818,8 +2824,12 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="LTC2924IGN#PBF-ND"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k"/>
-<part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k"/>
+<part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
+<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+</part>
+<part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
+<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+</part>
 <part name="C14" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
 <attribute name="PARTNO" value="1276-1936-1-ND"/>
 </part>
@@ -2830,13 +2840,19 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="C15" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="200n"/>
 <part name="C16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="150n"/>
-<part name="R4" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9k"/>
+<part name="R4" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9k">
+<attribute name="PARTNO" value="P49.9KHCT-ND"/>
+</part>
 <part name="U4" library="transistor-jqi" deviceset="CPC1117NTR" device="" value="CPC1117NTR">
 <attribute name="PARTNO" value="CLA268CT-ND"/>
 </part>
 <part name="Q1" library="transistor-pnp" deviceset="MMBT3906*" device="SMD" technology="LT1"/>
-<part name="R5" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1M"/>
-<part name="R9" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100k"/>
+<part name="R5" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1M">
+<attribute name="PARTNO" value="P1.00MHCT-ND"/>
+</part>
+<part name="R9" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100k">
+<attribute name="PARTNO" value="P100KHCT-ND"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="C17" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
@@ -2847,9 +2863,15 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k"/>
-<part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="866"/>
-<part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.42k"/>
+<part name="R10" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
+<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+</part>
+<part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="866">
+<attribute name="PARTNO" value="P866HCT-ND"/>
+</part>
+<part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.42k">
+<attribute name="PARTNO" value="P4.42KHCT-ND"/>
+</part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="T3" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
 <attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
@@ -2859,16 +2881,28 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </part>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
+<part name="R13" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
+<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+</part>
 <part name="P+7" library="supply1" deviceset="+24V" device=""/>
-<part name="R14" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2M"/>
-<part name="R15" library="jqi_passives" deviceset="R_SMD" device="R0603" value="54.9k"/>
+<part name="R14" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2M">
+<attribute name="PARTNO" value="P2.00MHCT-ND"/>
+</part>
+<part name="R15" library="jqi_passives" deviceset="R_SMD" device="R0603" value="54.9k">
+<attribute name="PARTNO" value="P54.9KHCT-ND"/>
+</part>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="R16" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
+<part name="R16" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
+<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="-8V" device=""/>
-<part name="R17" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k"/>
-<part name="R18" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k"/>
+<part name="R17" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k">
+<attribute name="PARTNO" value="P200KHCT-ND"/>
+</part>
+<part name="R18" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k">
+<attribute name="PARTNO" value="P51.0KHCT-ND"/>
+</part>
 <part name="R19" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.02k">
 <attribute name="PARTNO" value="TNP4.02KAACT-ND"/>
 </part>
@@ -2881,10 +2915,16 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
 </part>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="R22" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k"/>
+<part name="R22" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
+<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+</part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R23" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k"/>
-<part name="R24" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k"/>
+<part name="R23" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k">
+<attribute name="PARTNO" value="P200KHCT-ND"/>
+</part>
+<part name="R24" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k">
+<attribute name="PARTNO" value="P51.0KHCT-ND"/>
+</part>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="">
 <attribute name="PARTNO" value="A1921-ND"/>
 </part>
@@ -2906,7 +2946,9 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="R26" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200">
 <attribute name="PARTNO" value="541-3049-1-ND"/>
 </part>
-<part name="R27" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100"/>
+<part name="R27" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100">
+<attribute name="PARTNO" value="P100HCT-ND"/>
+</part>
 <part name="R28" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.02k">
 <attribute name="PARTNO" value="TNP4.02KAACT-ND"/>
 </part>
@@ -2924,10 +2966,10 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">
-<attribute name="PARTNO" value="ATC600S3R3CT250"/>
+<attribute name="PARTNO" value="581-600S3R3CT"/>
 </part>
 <part name="C26" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">
-<attribute name="PARTNO" value="ATC600S3R3CT250"/>
+<attribute name="PARTNO" value="581-600S3R3CT"/>
 </part>
 <part name="L2" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0402" value="5.6n">
 <attribute name="PARTNO" value="0402CS-5N6XJLU"/>
@@ -2958,7 +3000,9 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </part>
 <part name="C4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1u"/>
 <part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1n"/>
-<part name="R30" library="jqi_passives" deviceset="R_SMD" device="R0603" value="50"/>
+<part name="R30" library="jqi_passives" deviceset="R_SMD" device="R0603" value="50">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100n">
 <attribute name="PARTNO" value="1276-1936-1-ND"/>
@@ -3011,8 +3055,12 @@ I_hys=10uA</text>
 <instance part="C9" gate="G$1" x="-53.34" y="82.55"/>
 <instance part="C10" gate="G$1" x="-38.1" y="72.39"/>
 <instance part="C11" gate="G$1" x="-7.62" y="87.63"/>
-<instance part="R6" gate="G$1" x="0" y="86.36" rot="R90"/>
-<instance part="R7" gate="G$1" x="0" y="71.12" rot="R90"/>
+<instance part="R6" gate="G$1" x="0" y="86.36" rot="R90">
+<attribute name="PARTNO" x="0" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="0" y="71.12" rot="R90">
+<attribute name="PARTNO" x="0" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R8" gate="G$1" x="83.82" y="201.93" rot="R90">
 <attribute name="PARTNO" x="83.82" y="201.93" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3036,7 +3084,9 @@ I_hys=10uA</text>
 <attribute name="PARTNO" x="-53.34" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="-40.64" y="102.87"/>
-<instance part="R1" gate="G$1" x="-40.64" y="113.03" rot="R90"/>
+<instance part="R1" gate="G$1" x="-40.64" y="113.03" rot="R90">
+<attribute name="PARTNO" x="-40.64" y="113.03" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C12" gate="G$1" x="-16.51" y="133.35">
 <attribute name="PARTNO" x="-16.51" y="133.35" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3051,8 +3101,12 @@ I_hys=10uA</text>
 <attribute name="PARTNO" x="29.21" y="128.27" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+3" gate="1" x="72.39" y="105.41"/>
-<instance part="R2" gate="G$1" x="57.15" y="109.22" rot="R90"/>
-<instance part="R3" gate="G$1" x="53.34" y="109.22" rot="R90"/>
+<instance part="R2" gate="G$1" x="57.15" y="109.22" rot="R90">
+<attribute name="PARTNO" x="57.15" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="53.34" y="109.22" rot="R90">
+<attribute name="PARTNO" x="53.34" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C14" gate="G$1" x="66.04" y="107.95" rot="R180">
 <attribute name="PARTNO" x="66.04" y="107.95" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3063,13 +3117,19 @@ I_hys=10uA</text>
 <instance part="P+4" gate="1" x="49.53" y="153.67"/>
 <instance part="C15" gate="G$1" x="66.04" y="121.92"/>
 <instance part="C16" gate="G$1" x="76.2" y="123.19"/>
-<instance part="R4" gate="G$1" x="85.09" y="123.19" rot="R90"/>
+<instance part="R4" gate="G$1" x="85.09" y="123.19" rot="R90">
+<attribute name="PARTNO" x="85.09" y="123.19" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U4" gate="G$1" x="200.66" y="128.27">
 <attribute name="PARTNO" x="200.66" y="128.27" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q1" gate="G$1" x="34.29" y="66.04" rot="MR180"/>
-<instance part="R5" gate="G$1" x="31.75" y="83.82" rot="R90"/>
-<instance part="R9" gate="G$1" x="21.59" y="58.42" rot="R90"/>
+<instance part="R5" gate="G$1" x="31.75" y="83.82" rot="R90">
+<attribute name="PARTNO" x="31.75" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="21.59" y="58.42" rot="R90">
+<attribute name="PARTNO" x="21.59" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="21.59" y="48.26"/>
 <instance part="P+5" gate="1" x="100.33" y="74.93"/>
 <instance part="C17" gate="G$1" x="107.95" y="71.12" rot="R180">
@@ -3080,9 +3140,15 @@ I_hys=10uA</text>
 </instance>
 <instance part="GND7" gate="1" x="66.04" y="49.53"/>
 <instance part="GND8" gate="1" x="100.33" y="78.74"/>
-<instance part="R10" gate="G$1" x="119.38" y="77.47" rot="R90"/>
-<instance part="R11" gate="G$1" x="91.44" y="86.36" rot="R180"/>
-<instance part="R12" gate="G$1" x="59.69" y="71.12" rot="R180"/>
+<instance part="R10" gate="G$1" x="119.38" y="77.47" rot="R90">
+<attribute name="PARTNO" x="119.38" y="77.47" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="91.44" y="86.36" rot="R180">
+<attribute name="PARTNO" x="91.44" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="59.69" y="71.12" rot="R180">
+<attribute name="PARTNO" x="59.69" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND9" gate="1" x="100.33" y="57.15"/>
 <instance part="T3" gate="G$1" x="170.18" y="130.81" rot="R90">
 <attribute name="PARTNO" x="170.18" y="130.81" size="1.778" layer="96" display="off"/>
@@ -3092,16 +3158,28 @@ I_hys=10uA</text>
 </instance>
 <instance part="P+6" gate="1" x="93.98" y="135.89"/>
 <instance part="GND10" gate="1" x="123.19" y="97.79"/>
-<instance part="R13" gate="G$1" x="116.84" y="129.54" rot="R180"/>
+<instance part="R13" gate="G$1" x="116.84" y="129.54" rot="R180">
+<attribute name="PARTNO" x="116.84" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+7" gate="1" x="143.51" y="138.43"/>
-<instance part="R14" gate="G$1" x="143.51" y="110.49" rot="R270"/>
-<instance part="R15" gate="G$1" x="133.35" y="102.87"/>
+<instance part="R14" gate="G$1" x="143.51" y="110.49" rot="R270">
+<attribute name="PARTNO" x="143.51" y="110.49" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="133.35" y="102.87">
+<attribute name="PARTNO" x="133.35" y="102.87" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+9" gate="1" x="161.29" y="139.7"/>
-<instance part="R16" gate="G$1" x="184.15" y="133.35" rot="R180"/>
+<instance part="R16" gate="G$1" x="184.15" y="133.35" rot="R180">
+<attribute name="PARTNO" x="184.15" y="133.35" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="190.5" y="114.3"/>
 <instance part="SUPPLY2" gate="G$1" x="212.09" y="140.97" rot="R180"/>
-<instance part="R17" gate="G$1" x="176.53" y="121.92" rot="R270"/>
-<instance part="R18" gate="G$1" x="176.53" y="105.41" rot="R270"/>
+<instance part="R17" gate="G$1" x="176.53" y="121.92" rot="R270">
+<attribute name="PARTNO" x="176.53" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="176.53" y="105.41" rot="R270">
+<attribute name="PARTNO" x="176.53" y="105.41" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R19" gate="G$1" x="-24.13" y="194.31" rot="MR270">
 <attribute name="PARTNO" x="-24.13" y="194.31" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3114,10 +3192,16 @@ I_hys=10uA</text>
 <attribute name="PARTNO" x="186.69" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+8" gate="1" x="177.8" y="90.17"/>
-<instance part="R22" gate="G$1" x="200.66" y="83.82" rot="R180"/>
+<instance part="R22" gate="G$1" x="200.66" y="83.82" rot="R180">
+<attribute name="PARTNO" x="200.66" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND13" gate="1" x="207.01" y="64.77"/>
-<instance part="R23" gate="G$1" x="193.04" y="72.39" rot="R270"/>
-<instance part="R24" gate="G$1" x="193.04" y="55.88" rot="R270"/>
+<instance part="R23" gate="G$1" x="193.04" y="72.39" rot="R270">
+<attribute name="PARTNO" x="193.04" y="72.39" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R24" gate="G$1" x="193.04" y="55.88" rot="R270">
+<attribute name="PARTNO" x="193.04" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="JP2" gate="G$1" x="215.9" y="81.28">
 <attribute name="PARTNO" x="215.9" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3139,7 +3223,9 @@ I_hys=10uA</text>
 <instance part="R26" gate="G$1" x="142.24" y="194.31" rot="R180">
 <attribute name="PARTNO" x="142.24" y="194.31" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R27" gate="G$1" x="189.23" y="189.23" rot="R180"/>
+<instance part="R27" gate="G$1" x="189.23" y="189.23" rot="R180">
+<attribute name="PARTNO" x="189.23" y="189.23" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R28" gate="G$1" x="189.23" y="208.28" rot="R180">
 <attribute name="PARTNO" x="189.23" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3191,7 +3277,9 @@ I_hys=10uA</text>
 </instance>
 <instance part="C4" gate="G$1" x="90.17" y="191.77" rot="R90"/>
 <instance part="C5" gate="G$1" x="64.77" y="172.72" rot="R180"/>
-<instance part="R30" gate="G$1" x="-10.16" y="179.07" rot="MR180"/>
+<instance part="R30" gate="G$1" x="-10.16" y="179.07" rot="MR180">
+<attribute name="PARTNO" x="-10.16" y="179.07" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND19" gate="1" x="64.77" y="182.88" rot="MR0"/>
 <instance part="C29" gate="G$1" x="13.97" y="168.91" rot="R180">
 <attribute name="PARTNO" x="13.97" y="168.91" size="1.778" layer="96" display="off"/>

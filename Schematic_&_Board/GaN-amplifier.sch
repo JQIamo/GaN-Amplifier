@@ -2917,233 +2917,233 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <parts>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="U1" library="regulator-jqi" deviceset="TPS7A30XX" device="">
-<attribute name="PARTNO" value="296-27750-1-ND"/>
+<attribute name="PARTNO" value="TPS7A3001DGNR"/>
 </part>
 <part name="P-1" library="supply1" deviceset="-24V" device=""/>
 <part name="C2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="587-1818-1-ND"/>
+<attribute name="PARTNO" value="UMK325C7106MM-T"/>
 </part>
 <part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="587-1818-1-ND"/>
+<attribute name="PARTNO" value="UMK325C7106MM-T"/>
 </part>
 <part name="C6" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="1276-1110-1-ND"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
 </part>
 <part name="C7" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="1276-1110-1-ND"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="-8V" device=""/>
 <part name="C8" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u">
-<attribute name="PARTNO" value="1276-6767-1-ND"/>
+<attribute name="PARTNO" value="GMK316AB7106KL-TR"/>
 </part>
 <part name="C9" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u">
-<attribute name="PARTNO" value="1276-6767-1-ND"/>
+<attribute name="PARTNO" value="GMK316AB7106KL-TR"/>
 </part>
 <part name="C10" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n">
-<attribute name="PARTNO" value="1276-1028-1-ND"/>
+<attribute name="PARTNO" value="CL05B103KB5NNNC"/>
 </part>
 <part name="C11" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n">
-<attribute name="PARTNO" value="1276-1028-1-ND"/>
+<attribute name="PARTNO" value="CL05B103KB5NNNC"/>
 </part>
 <part name="R6" library="jqi_passives" deviceset="R_SMD" device="R0402" value="56k">
-<attribute name="PARTNO" value="P56.0KLCT-ND"/>
+<attribute name="PARTNO" value="ERJ-2RKF5602X"/>
 </part>
 <part name="R7" library="jqi_passives" deviceset="R_SMD" device="R0402" value="10k">
-<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+<attribute name="PARTNO" value="ERJ-2RKF1002X"/>
 </part>
 <part name="R8" library="jqi_passives" deviceset="R_SMD" device="R0603" value="68.1">
-<attribute name="PARTNO" value="P68.1HCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF68R1V"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="coilcraft-jqi" deviceset="0906-XX" device="" value="5.4 nH">
 <attribute name="PARTNO" value="0906-5JLB"/>
 </part>
 <part name="U2" library="rf-jqi" deviceset="HMC1099" device="" value="HMC1099">
-<attribute name="PARTNO" value="584-HMC1099LP5DE"/>
+<attribute name="PARTNO" value="HMC1099LP5DE"/>
 </part>
 <part name="T1" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
+<attribute name="PARTNO" value="IPB080N03L G"/>
 </part>
 <part name="T2" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
+<attribute name="PARTNO" value="IPB080N03L G"/>
 </part>
 <part name="IC1" library="regulator-jqi" deviceset="LT3080" device="">
-<attribute name="PARTNO" value="LT3080EQ#PBF-ND"/>
+<attribute name="PARTNO" value="LT3080EQ#PBF"/>
 </part>
 <part name="C1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0805" value="10u">
-<attribute name="PARTNO" value="445-14417-1-ND"/>
+<attribute name="PARTNO" value="C2012X5R1V106K085AC"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="499k">
-<attribute name="PARTNO" value="P499KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF4993V"/>
 </part>
 <part name="C12" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0805" value="10u">
-<attribute name="PARTNO" value="445-14417-1-ND"/>
+<attribute name="PARTNO" value="C2012X5R1V106K085AC"/>
 </part>
 <part name="C13" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100n">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="U3" library="linear-technology-jqi" deviceset="LT1783HS5" device="" value="LT1783">
-<attribute name="PARTNO" value="LT1783HS5#TRMPBFCT-ND"/>
+<attribute name="PARTNO" value="LT1783HS5#TRMPBF"/>
 </part>
 <part name="U6" library="linear-technology-jqi" deviceset="LTC2924IGN" device="" value="LTC2924">
-<attribute name="PARTNO" value="LTC2924IGN#PBF-ND"/>
+<attribute name="PARTNO" value="LTC2924IGN#PBF"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
 </part>
 <part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
 </part>
 <part name="C14" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="">
-<attribute name="PARTNO" value="A1921-ND"/>
+<attribute name="PARTNO" value="640456-2"/>
 </part>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="C15" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="220n">
-<attribute name="PARTNO" value="1276-2014-1-ND"/>
+<attribute name="PARTNO" value="CL10B224KP8NNNC"/>
 </part>
 <part name="C16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="150n">
-<attribute name="PARTNO" value="1276-1973-1-ND"/>
+<attribute name="PARTNO" value="CL10B154KP8NNNC"/>
 </part>
 <part name="R4" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9k">
-<attribute name="PARTNO" value="P49.9KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF4992V"/>
 </part>
 <part name="U4" library="transistor-jqi" deviceset="CPC1117NTR" device="" value="CPC1117NTR">
-<attribute name="PARTNO" value="CLA268CT-ND"/>
+<attribute name="PARTNO" value="CPC1117NTR"/>
 </part>
 <part name="Q1" library="transistor-pnp" deviceset="MMBT3906*" device="SMD" technology="LT1">
-<attribute name="PARTNO" value="MMBT3906LT1GOSCT-ND"/>
+<attribute name="PARTNO" value="MMBT3906LT1G"/>
 </part>
 <part name="R5" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1M">
-<attribute name="PARTNO" value="P1.00MHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1004V"/>
 </part>
 <part name="R9" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100k">
-<attribute name="PARTNO" value="P100KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1003V"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="C17" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="C18" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="P10.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
 </part>
 <part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="866">
-<attribute name="PARTNO" value="P866HCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF8660V"/>
 </part>
 <part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.42k">
-<attribute name="PARTNO" value="P4.42KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF4421V"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="T3" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
+<attribute name="PARTNO" value="IPB080N03L G"/>
 </part>
 <part name="U7" library="transistor-jqi" deviceset="LCA701S" device="" value="LCA701S">
-<attribute name="PARTNO" value="849-LCA701S"/>
+<attribute name="PARTNO" value="LCA701S"/>
 </part>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R13" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
-<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V"/>
 </part>
 <part name="P+7" library="supply1" deviceset="+24V" device=""/>
 <part name="R14" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2M">
-<attribute name="PARTNO" value="P2.00MHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF2004V"/>
 </part>
 <part name="R15" library="jqi_passives" deviceset="R_SMD" device="R0603" value="54.9k">
-<attribute name="PARTNO" value="P54.9KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF5492V"/>
 </part>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="R16" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
-<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="-8V" device=""/>
 <part name="R17" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k">
-<attribute name="PARTNO" value="P200KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF2003V"/>
 </part>
 <part name="R18" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k">
-<attribute name="PARTNO" value="P51.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF5102V"/>
 </part>
 <part name="R19" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.02k">
-<attribute name="PARTNO" value="TNP4.02KAACT-ND"/>
+<attribute name="PARTNO" value="TNPW06034K02BEEA"/>
 </part>
 <part name="R20" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2k">
-<attribute name="PARTNO" value="541-1726-1-ND"/>
+<attribute name="PARTNO" value="TNPW06032K00BXEN"/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="-8V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="T4" library="transistor-jqi" deviceset="IRL3714" device="" value="IPB080N03L G">
-<attribute name="PARTNO" value="IPB080N03L GDKR-ND"/>
+<attribute name="PARTNO" value="IPB080N03L G"/>
 </part>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="R22" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
-<attribute name="PARTNO" value="P1.00KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R23" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200k">
-<attribute name="PARTNO" value="P200KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF2003V"/>
 </part>
 <part name="R24" library="jqi_passives" deviceset="R_SMD" device="R0603" value="51k">
-<attribute name="PARTNO" value="P51.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF5102V"/>
 </part>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="">
-<attribute name="PARTNO" value="A1921-ND"/>
+<attribute name="PARTNO" value="640456-2"/>
 </part>
 <part name="U5" library="linear-technology-jqi" deviceset="LT6015HS5" device="" value="LT6015">
-<attribute name="PARTNO" value="LT6015HS5#TRMPBFCT-ND"/>
+<attribute name="PARTNO" value="LT6015HS5#TRMPBF"/>
 </part>
 <part name="T5" library="transistor-jqi" deviceset="BSP89" device="" value="BSP89">
-<attribute name="PARTNO" value="BSP89H6327XTSA1CT-ND"/>
+<attribute name="PARTNO" value="BSP89H6327XTSA1"/>
 </part>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="C22" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.1u">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R25" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200">
-<attribute name="PARTNO" value="541-3049-1-ND"/>
+<attribute name="PARTNO" value="TNPW0603200RBEEA"/>
 </part>
 <part name="R26" library="jqi_passives" deviceset="R_SMD" device="R0603" value="200">
-<attribute name="PARTNO" value="541-3049-1-ND"/>
+<attribute name="PARTNO" value="TNPW0603200RBEEA"/>
 </part>
 <part name="R27" library="jqi_passives" deviceset="R_SMD" device="R0603" value="100">
-<attribute name="PARTNO" value="P100HCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1000V"/>
 </part>
 <part name="R28" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.02k">
-<attribute name="PARTNO" value="TNP4.02KAACT-ND"/>
+<attribute name="PARTNO" value="TNPW06034K02BEEA"/>
 </part>
 <part name="X3" library="connector-jqi" deviceset="BNC" device="-V">
-<attribute name="PARTNO" value="A32262-ND"/>
+<attribute name="PARTNO" value="5227222-3"/>
 </part>
 <part name="R29" library="rlc-jqi" deviceset="RES_KELVIN" device="" value="0.05">
-<attribute name="PARTNO" value="LVK12R050DERCT-ND"/>
+<attribute name="PARTNO" value="LVK12R050DER"/>
 </part>
 <part name="C23" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="1276-1110-1-ND"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
 </part>
 <part name="C24" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="1276-1110-1-ND"/>
+<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">
-<attribute name="PARTNO" value="581-600S3R3CT"/>
+<attribute name="PARTNO" value="600S3R3CT250XT"/>
 </part>
 <part name="C26" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">
-<attribute name="PARTNO" value="581-600S3R3CT"/>
+<attribute name="PARTNO" value="600S3R3CT250XT"/>
 </part>
 <part name="L2" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0402" value="5.6n">
 <attribute name="PARTNO" value="0402CS-5N6XJLU"/>
@@ -3152,42 +3152,42 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="1008AF-901XKLC"/>
 </part>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X3" device="">
-<attribute name="PARTNO" value="A19470-ND"/>
+<attribute name="PARTNO" value="640456-3"/>
 </part>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
 <part name="P-2" library="supply1" deviceset="-24V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C27" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220u">
-<attribute name="PARTNO" value="PCE3955CT-ND"/>
+<attribute name="PARTNO" value="EEE-1VA221UP"/>
 </part>
 <part name="C28" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220u">
-<attribute name="PARTNO" value="PCE3955CT-ND"/>
+<attribute name="PARTNO" value="EEE-1VA221UP"/>
 </part>
 <part name="R21" library="jqi_passives" deviceset="R_TRIM" device="" value="10k">
-<attribute name="PARTNO" value="804-1093-ND"/>
+<attribute name="PARTNO" value="Y006910K0000J9L"/>
 </part>
 <part name="J1" library="connector-jqi" deviceset="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" device="">
-<attribute name="PARTNO" value="J658-ND"/>
+<attribute name="PARTNO" value="142-0701-851"/>
 </part>
 <part name="J2" library="connector-jqi" deviceset="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" device="">
-<attribute name="PARTNO" value="J658-ND"/>
+<attribute name="PARTNO" value="142-0701-851"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="U8" library="linear-technology-jqi" deviceset="LTC1152IS8TRPBF" device="">
-<attribute name="PARTNO" value="LTC1152IS8#PBF-ND"/>
+<attribute name="PARTNO" value="LTC1152IS8#PBF"/>
 </part>
 <part name="C4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1u">
-<attribute name="PARTNO" value="1276-1184-1-ND"/>
+<attribute name="PARTNO" value="CL10B105KA8NNNC"/>
 </part>
 <part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1n">
-<attribute name="PARTNO" value="1276-1195-1-ND"/>
+<attribute name="PARTNO" value="CL10B102KA8NNNC"/>
 </part>
 <part name="R30" library="jqi_passives" deviceset="R_SMD" device="R0603" value="50">
-<attribute name="PARTNO" value="P49.9HCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF49R9V"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100n">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 </parts>
