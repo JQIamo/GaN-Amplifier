@@ -465,15 +465,15 @@
 <text x="71.882" y="7.112" size="1.016" layer="22" rot="MR0">On/Off</text>
 <text x="36.83" y="28.702" size="0.762" layer="22" rot="MR0">RF enable</text>
 <text x="79.756" y="32.004" size="1.016" layer="22" rot="MR0">Idd Monitor</text>
-<text x="73.66" y="5.08" size="0.635" layer="22" rot="MR0">connect to front
+<text x="74.676" y="5.334" size="0.635" layer="22" rot="MR0">connect to front
 rocker switch</text>
-<text x="103.124" y="41.148" size="1.016" layer="22" rot="MR0">Install heatsink on pad</text>
-<text x="109.728" y="11.176" size="1.778" layer="22" rot="MR270">RF in</text>
-<text x="109.728" y="44.704" size="1.778" layer="22" rot="MR270">RF out</text>
+<text x="87.376" y="15.494" size="1.016" layer="22" rot="MR90">Install heatsink on pad</text>
+<text x="102.616" y="9.398" size="1.778" layer="22" rot="MR180">RF in</text>
+<text x="101.854" y="44.704" size="1.778" layer="22" rot="MR180">RF out</text>
 <text x="30.988" y="21.336" size="1.016" layer="22" rot="MR90">GND</text>
 <text x="33.528" y="21.336" size="1.016" layer="22" rot="MR90">+5V</text>
 <text x="79.756" y="30.226" size="1.016" layer="22" rot="MR0">1 V/A</text>
-<text x="92.202" y="5.08" size="0.762" layer="22" rot="MR0">Set for quiescent
+<text x="91.694" y="5.588" size="0.762" layer="22" rot="MR0">Set for quiescent
 Idd = 100 mA</text>
 </plain>
 <libraries>
@@ -2077,7 +2077,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="U2" library="rf-jqi" package="HCP-32-2" value="HMC1099" x="105.41" y="25.4" smashed="yes" rot="R90">
 <attribute name="ANALOGDEVICES" value="HMC1099" x="105.41" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="HMC1099LP5DE" x="105.41" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="110.196" y="26.968" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="111.212" y="26.968" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="T1" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="57.404" y="40.64" smashed="yes">
 <attribute name="PARTNO" value="IPB080N03L G" x="57.404" y="40.64" size="1.778" layer="27" display="off"/>
@@ -2132,7 +2132,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="JP1" library="pinhead" package="1X02" value="" x="68.58" y="10.16" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="640456-2" x="68.58" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="73.9902" y="9.4488" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="74.7522" y="9.7028" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="71.12" y="6.985" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C15" library="jqi_passives" package="C_MLCC_0603" value="220n" x="57.658" y="6.223" smashed="yes" rot="R270">
@@ -2237,7 +2237,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="JP2" library="pinhead" package="1X02" value="" x="32.766" y="26.416" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="640456-2" x="32.766" y="26.416" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="38.1762" y="24.9428" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="39.1922" y="24.6888" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="35.306" y="23.241" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U5" library="linear-technology-jqi" package="TSOT-23_S5" value="LT6015" x="87.63" y="41.656" smashed="yes">
@@ -2299,7 +2299,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="JP3" library="pinhead" package="1X03" value="" x="7.7724" y="25.4" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="640456-3" x="7.7724" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="10.1346" y="22.1488" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="10.1346" y="21.8948" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="11.5824" y="22.225" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R21" library="jqi_passives" package="RJ24" value="10k" x="80.264" y="9.906" smashed="yes" rot="MR0">
@@ -3348,6 +3348,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="18,30,0486ec7075eff9ad"/>
 <approved hash="18,30,85f3f9ffbe48ff97"/>
 <approved hash="18,30,9e0c9c93143816a3"/>
+<approved hash="18,30,6bbbfd3b618c170d"/>
+<approved hash="18,30,9284921b17b41b27"/>
 <approved hash="3,1,e282c3bcc3bae284"/>
 <approved hash="3,1,e786c6b8c6bae784"/>
 <approved hash="3,1,eb06ca38ca3aeb04"/>
@@ -3380,32 +3382,30 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="3,1,07fe39c039c907f7"/>
 <approved hash="3,1,05fc3fc23fcb05f5"/>
 <approved hash="3,1,3bfc3dc23dcb3bf5"/>
-<approved hash="18,30,6bbbfd3b618c170d"/>
 <approved hash="18,30,f9a72db35fb6d4a4"/>
 <approved hash="18,30,27a12f8040472bb7"/>
 <approved hash="18,30,c226c45fae8390ff"/>
 <approved hash="18,30,d036d04bbab682ce"/>
 <approved hash="18,30,56826678868a9648"/>
 <approved hash="18,30,027959622cb66b42"/>
-<approved hash="18,30,9284921b17b41b27"/>
-<approved hash="18,30,1892468610b72c91"/>
 <approved hash="18,30,689444b5a146d382"/>
+<approved hash="18,30,1892468610b72c91"/>
 <approved hash="18,30,0702597f0582dbfb"/>
 <approved hash="18,30,9b127b6b27b647cb"/>
-<approved hash="18,30,ddb7eb4d2f8a867d"/>
 <approved hash="18,30,ab4cd457a7b67b77"/>
-<approved hash="18,30,c7559fc1bf764557"/>
+<approved hash="18,30,ddb7eb4d2f8a867d"/>
 <approved hash="18,30,7f137d3329075345"/>
-<approved hash="18,30,83145568fe744e0c"/>
+<approved hash="18,30,c7559fc1bf764557"/>
 <approved hash="18,30,ee416039c4c52cb9"/>
+<approved hash="18,30,83145568fe744e0c"/>
 <approved hash="18,30,730828150ab63df3"/>
 <approved hash="18,30,c633f809ae4a26ff"/>
-<approved hash="18,30,a607542680066d51"/>
 <approved hash="18,30,6e41b6d566777b42"/>
+<approved hash="18,30,a607542680066d51"/>
 <approved hash="18,30,b551e92235d1eba9"/>
 <approved hash="18,30,440fa47877641518"/>
-<approved hash="18,30,4f28751dc14ab6ec"/>
 <approved hash="18,30,1c13a50683b6ade7"/>
+<approved hash="18,30,4f28751dc14ab6ec"/>
 <approved hash="18,30,0497d95a82e68a74"/>
 <approved hash="18,30,85f383b8ec18ff97"/>
 <approved hash="18,30,14b566e4606ecede"/>

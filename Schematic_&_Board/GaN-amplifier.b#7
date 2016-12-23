@@ -457,23 +457,23 @@
 <vertex x="106.934" y="23.876"/>
 <vertex x="119.38" y="23.876"/>
 </polygon>
-<text x="60.452" y="4.318" size="0.762" layer="22" rot="MR0">No Fault</text>
-<text x="65.024" y="9.144" size="0.762" layer="22" rot="MR0">Sequencing</text>
+<text x="60.452" y="4.318" size="0.635" layer="22" rot="MR0">No Fault</text>
+<text x="65.024" y="9.144" size="0.635" layer="22" rot="MR0">Sequencing</text>
 <text x="11.938" y="23.368" size="1.016" layer="22" rot="MR90">+24V</text>
 <text x="2.54" y="23.622" size="1.016" layer="22" rot="MR90">-24V</text>
 <text x="9.144" y="27.432" size="1.016" layer="22" rot="MR0">GND</text>
 <text x="71.882" y="7.112" size="1.016" layer="22" rot="MR0">On/Off</text>
-<text x="36.83" y="28.702" size="1.016" layer="22" rot="MR0">RF enable</text>
-<text x="78.486" y="32.004" size="1.016" layer="22" rot="MR0">Idd Monitor</text>
-<text x="73.66" y="4.826" size="0.762" layer="22" rot="MR0">connect to front
+<text x="36.83" y="28.702" size="0.762" layer="22" rot="MR0">RF enable</text>
+<text x="79.756" y="32.004" size="1.016" layer="22" rot="MR0">Idd Monitor</text>
+<text x="74.676" y="5.334" size="0.635" layer="22" rot="MR0">connect to front
 rocker switch</text>
-<text x="103.124" y="41.148" size="1.016" layer="22" rot="MR0">Install heatsink on pad</text>
-<text x="108.204" y="5.842" size="1.778" layer="22" rot="MR0">RF in</text>
-<text x="108.966" y="42.926" size="1.778" layer="22" rot="MR0">RF out</text>
+<text x="87.376" y="15.494" size="1.016" layer="22" rot="MR90">Install heatsink on pad</text>
+<text x="109.728" y="14.986" size="1.778" layer="22" rot="MR270">RF in</text>
+<text x="109.728" y="44.704" size="1.778" layer="22" rot="MR270">RF out</text>
 <text x="30.988" y="21.336" size="1.016" layer="22" rot="MR90">GND</text>
 <text x="33.528" y="21.336" size="1.016" layer="22" rot="MR90">+5V</text>
-<text x="78.486" y="30.226" size="1.016" layer="22" rot="MR0">1 V/A</text>
-<text x="91.694" y="4.572" size="1.016" layer="22" rot="MR0">Set for quiescent
+<text x="79.756" y="30.226" size="1.016" layer="22" rot="MR0">1 V/A</text>
+<text x="91.694" y="5.588" size="0.762" layer="22" rot="MR0">Set for quiescent
 Idd = 100 mA</text>
 </plain>
 <libraries>
@@ -2077,7 +2077,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="U2" library="rf-jqi" package="HCP-32-2" value="HMC1099" x="105.41" y="25.4" smashed="yes" rot="R90">
 <attribute name="ANALOGDEVICES" value="HMC1099" x="105.41" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="HMC1099LP5DE" x="105.41" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="110.196" y="26.968" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="111.212" y="26.968" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="T1" library="transistor-jqi" package="D2PACK" value="IPB080N03L G" x="57.404" y="40.64" smashed="yes">
 <attribute name="PARTNO" value="IPB080N03L G" x="57.404" y="40.64" size="1.778" layer="27" display="off"/>
@@ -2132,7 +2132,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="JP1" library="pinhead" package="1X02" value="" x="68.58" y="10.16" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="640456-2" x="68.58" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="73.9902" y="9.4488" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="74.7522" y="9.7028" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="71.12" y="6.985" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C15" library="jqi_passives" package="C_MLCC_0603" value="220n" x="57.658" y="6.223" smashed="yes" rot="R270">
@@ -2235,8 +2235,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="R24" library="jqi_passives" package="R_0603" value="51k" x="38.608" y="26.924" rot="R270">
 <attribute name="PARTNO" value="ERJ-3EKF5102V" x="38.608" y="26.924" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="JP2" library="pinhead" package="1X02" value="" x="32.766" y="26.416" rot="MR0">
+<element name="JP2" library="pinhead" package="1X02" value="" x="32.766" y="26.416" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="640456-2" x="32.766" y="26.416" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="39.1922" y="24.6888" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="35.306" y="23.241" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U5" library="linear-technology-jqi" package="TSOT-23_S5" value="LT6015" x="87.63" y="41.656" smashed="yes">
 <attribute name="NAME" x="89.535" y="41.275" size="0.762" layer="25"/>
@@ -2295,8 +2297,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="1008AF-901XKLC" x="104.267" y="30.353" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="102.7938" y="30.4165" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="JP3" library="pinhead" package="1X03" value="" x="7.7724" y="25.4" rot="MR0">
+<element name="JP3" library="pinhead" package="1X03" value="" x="7.7724" y="25.4" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="640456-3" x="7.7724" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="10.1346" y="22.1488" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="11.5824" y="22.225" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R21" library="jqi_passives" package="RJ24" value="10k" x="80.264" y="9.906" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="Y006910K0000J9L" x="80.264" y="9.906" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2646,7 +2650,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="13.208" y="48.768" extent="1-16" drill="0.4064"/>
 <via x="63.5" y="48.768" extent="1-16" drill="0.4064"/>
 <via x="57.404" y="30.988" extent="1-16" drill="0.4064"/>
-<via x="109.728" y="39.878" extent="1-16" drill="0.4064"/>
+<via x="110.998" y="39.624" extent="1-16" drill="0.4064"/>
 <via x="108.204" y="16.256" extent="1-16" drill="0.4064"/>
 <via x="108.204" y="32.258" extent="1-16" drill="0.4064"/>
 <via x="109.22" y="27.686" extent="1-16" drill="0.4064"/>
