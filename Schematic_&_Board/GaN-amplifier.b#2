@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -36,25 +36,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
@@ -2220,8 +2220,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="UMK325C7106MM-T" x="98.298" y="28.194" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="96.95" y="26.076" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C6" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="100.838" y="28.956" rot="R270">
+<element name="C6" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="100.838" y="28.956" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CL10B222KB8NNNC" x="100.838" y="28.956" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="100.876" y="27.716" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C7" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="100.33" y="20.32" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="CL10B222KB8NNNC" x="100.33" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2431,7 +2432,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="LT6015HS5#TRMPBF" x="87.63" y="41.656" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T5" library="transistor-jqi" package="PG-SOT-223" value="BSP89" x="81.788" y="40.132" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.106" y="37.7952" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="82.55" y="35.7632" size="1.27" layer="25" rot="R180"/>
 <attribute name="PARTNO" value="BSP89H6327XTSA1" x="81.788" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C22" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="89.154" y="44.196" smashed="yes" rot="R180">
@@ -2443,7 +2444,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="R26" library="jqi_passives" package="R_0603" value="200" x="88.9" y="34.798" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="TNPW0603200RBEEA" x="88.9" y="34.798" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="89.7" y="37.268" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="89.7" y="37.522" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="R27" library="jqi_passives" package="R_0603" value="100" x="84.836" y="44.958">
 <attribute name="PARTNO" value="ERJ-3EKF1000V" x="84.836" y="44.958" size="1.778" layer="27" display="off"/>
@@ -2456,7 +2457,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="R29" library="rlc-jqi" package="1206_KELVIN" value="0.05" x="86.106" y="32.512" smashed="yes">
 <attribute name="PARTNO" value="LVK12R050DER" x="86.106" y="32.512" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="81.862" y="31.176" size="1.27" layer="25"/>
+<attribute name="NAME" x="89.99" y="32.192" size="1.27" layer="25"/>
 </element>
 <element name="C23" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="105.41" y="45.466" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CL10B222KB8NNNC" x="105.41" y="45.466" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2481,7 +2482,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="L3" library="coilcraft-jqi" package="1008" value="0.9u" x="104.267" y="30.353" smashed="yes" rot="R180">
 <attribute name="COILCRAFT" value="1008AF" x="104.267" y="30.353" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="1008AF-901XKLC" x="104.267" y="30.353" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="102.7938" y="30.4165" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="103.0478" y="31.4325" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="JP3" library="pinhead" package="1X03" value="" x="7.7724" y="25.4" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="640456-3" x="7.7724" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2625,8 +2626,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="FID2" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="4.826" y="38.1"/>
 <element name="FID3" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="69.85" y="35.814"/>
 <element name="FID4" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="89.916" y="3.048"/>
-<element name="C21" library="jqi_passives" package="C_MLCC_1210" value="10u" x="85.598" y="28.194" rot="R90">
+<element name="C21" library="jqi_passives" package="C_MLCC_1210" value="10u" x="85.598" y="28.194" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="UMK325C7106MM-T" x="85.598" y="28.194" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="84.914" y="23.454" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="FID5" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="4.826" y="30.734" rot="MR0"/>
 <element name="FID6" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="22.86" y="7.366" rot="MR0"/>
@@ -2796,9 +2798,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="75.438" y="24.638" extent="1-16" drill="0.4064"/>
 <via x="85.598" y="14.986" extent="1-16" drill="0.4064"/>
 <via x="102.108" y="28.194" extent="1-16" drill="0.4064"/>
-<via x="103.632" y="32.512" extent="1-16" drill="0.4064"/>
+<via x="103.632" y="32.766" extent="1-16" drill="0.4064"/>
 <via x="80.772" y="21.844" extent="1-16" drill="0.4064"/>
-<via x="100.584" y="26.924" extent="1-16" drill="0.4064"/>
+<via x="100.33" y="26.924" extent="1-16" drill="0.4064"/>
 <via x="100.584" y="33.274" extent="1-16" drill="0.4064"/>
 <via x="76.962" y="45.212" extent="1-16" drill="0.4064"/>
 <via x="75.946" y="41.91" extent="1-16" drill="0.4064"/>
@@ -2809,7 +2811,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="82.804" y="44.704" extent="1-16" drill="0.4064"/>
 <via x="87.376" y="38.354" extent="1-16" drill="0.4064"/>
 <via x="100.838" y="39.624" extent="1-16" drill="0.4064"/>
-<via x="96.266" y="33.528" extent="1-16" drill="0.4064"/>
+<via x="95.758" y="32.766" extent="1-16" drill="0.4064"/>
 <via x="84.074" y="32.766" extent="1-16" drill="0.4064"/>
 <via x="70.104" y="32.512" extent="1-16" drill="0.4064"/>
 <via x="78.232" y="27.432" extent="1-16" drill="0.4064"/>
@@ -2902,13 +2904,13 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="113.538" y="29.464" extent="1-16" drill="0.4064"/>
 <via x="109.22" y="25.146" extent="1-16" drill="0.4064"/>
 <via x="109.22" y="23.622" extent="1-16" drill="0.4064"/>
-<via x="102.108" y="26.67" extent="1-16" drill="0.4064"/>
+<via x="102.362" y="26.67" extent="1-16" drill="0.4064"/>
 <via x="101.854" y="24.892" extent="1-16" drill="0.4064"/>
 <via x="108.712" y="28.956" extent="1-16" drill="0.4064"/>
 <via x="108.204" y="22.098" extent="1-16" drill="0.4064"/>
 <via x="96.774" y="13.208" extent="1-16" drill="0.4064"/>
 <via x="94.234" y="23.114" extent="1-16" drill="0.4064"/>
-<via x="90.932" y="33.02" extent="1-16" drill="0.4064"/>
+<via x="90.678" y="34.036" extent="1-16" drill="0.4064"/>
 <via x="112.522" y="33.528" extent="1-16" drill="0.4064"/>
 <via x="118.11" y="37.084" extent="1-16" drill="0.4064"/>
 <via x="117.856" y="26.67" extent="1-16" drill="0.4064"/>
@@ -2930,7 +2932,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </polygon>
 <via x="100.33" y="22.86" extent="1-16" drill="0.4064"/>
 <via x="106.68" y="28.4988" extent="1-16" drill="0.4064"/>
-<via x="104.14" y="28.4988" extent="1-16" drill="0.4064"/>
+<via x="98.044" y="36.1188" extent="1-16" drill="0.4064"/>
 <wire x1="104.66" y1="23.15" x2="104.16" y2="23.15" width="0.254" layer="1"/>
 <via x="66.04" y="39.37" extent="1-16" drill="0.4064"/>
 <via x="36.068" y="20.066" extent="1-16" drill="0.4064"/>
@@ -3649,6 +3651,22 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="D6" pad="ANODE"/>
 <contactref element="R36" pad="P$2"/>
 <wire x1="17.272" y1="8.624" x2="17.272" y2="10.426" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$23">
+<polygon width="0" layer="1" pour="cutout" thermals="no">
+<vertex x="103.759" y="28.829"/>
+<vertex x="104.775" y="28.829"/>
+<vertex x="104.775" y="31.877"/>
+<vertex x="103.759" y="31.877"/>
+</polygon>
+</signal>
+<signal name="N$42">
+<polygon width="0" layer="1" pour="cutout" thermals="no">
+<vertex x="104.394" y="32.893"/>
+<vertex x="106.426" y="32.893"/>
+<vertex x="106.426" y="33.655"/>
+<vertex x="104.394" y="33.655"/>
+</polygon>
 </signal>
 </signals>
 <errors>
