@@ -2631,11 +2631,13 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="CL10B105KA8NNNC" x="80.264" y="20.066" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="78.524" y="21.874" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C1" library="jqi_passives" package="C_MLCC_1210" value="10u" x="21.59" y="32.766">
+<element name="C1" library="jqi_passives" package="C_MLCC_1210" value="10u" x="21.59" y="32.766" smashed="yes">
 <attribute name="PARTNO" value="UMK325C7106MM-T" x="21.59" y="32.766" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="21.168" y="34.466" size="1.016" layer="25" font="vector"/>
 </element>
-<element name="C12" library="jqi_passives" package="C_MLCC_1210" value="10u" x="22.479" y="40.259" rot="R270">
+<element name="C12" library="jqi_passives" package="C_MLCC_1210" value="10u" x="22.479" y="40.259" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="UMK325C7106MM-T" x="22.479" y="40.259" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="21.295" y="36.879" size="1.016" layer="25" font="vector"/>
 </element>
 </elements>
 <signals>
@@ -2732,7 +2734,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="15.24" y="22.606" extent="1-16" drill="0.4064"/>
 <via x="15.24" y="31.496" extent="1-16" drill="0.4064"/>
 <via x="28.194" y="23.622" extent="1-16" drill="0.4064"/>
-<via x="22.606" y="35.052" extent="1-16" drill="0.4064"/>
+<via x="23.114" y="35.052" extent="1-16" drill="0.4064"/>
 <via x="22.352" y="40.132" extent="1-16" drill="0.4064"/>
 <via x="36.83" y="9.144" extent="1-16" drill="0.4064"/>
 <via x="31.75" y="12.954" extent="1-16" drill="0.4064"/>

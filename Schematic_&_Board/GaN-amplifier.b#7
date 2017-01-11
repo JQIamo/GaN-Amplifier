@@ -2773,7 +2773,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="80.264" y="48.514" extent="1-16" drill="0.4064"/>
 <via x="87.63" y="28.194" extent="1-16" drill="0.4064"/>
 <via x="89.916" y="25.4" extent="1-16" drill="0.4064"/>
-<via x="96.012" y="26.67" extent="1-16" drill="0.4064"/>
+<via x="95.758" y="27.94" extent="1-16" drill="0.4064"/>
 <via x="102.108" y="23.114" extent="1-16" drill="0.4064"/>
 <via x="98.552" y="22.606" extent="1-16" drill="0.4064"/>
 <via x="89.662" y="19.558" extent="1-16" drill="0.4064"/>
