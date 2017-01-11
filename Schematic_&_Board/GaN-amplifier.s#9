@@ -3580,8 +3580,8 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="U10" library="MF_Discrete_Semiconductor" deviceset="N-CHANNEL_FET" device="_SOT-23-3" technology="_BSS138"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="MF_LEDs" deviceset="LED_SINGLE" device="-0603-GREEN" value="MF-LED-0603-GREEN"/>
-<part name="D2" library="MF_LEDs" deviceset="LED_SINGLE" device="-0603-RED" value="MF-LED-0603-RED"/>
+<part name="D1" library="MF_LEDs" deviceset="LED_SINGLE" device="-0603-GREEN"/>
+<part name="D2" library="MF_LEDs" deviceset="LED_SINGLE" device="-0603-RED"/>
 <part name="R31" library="jqi_passives" deviceset="R_SMD" device="R0603" value="150">
 <attribute name="PARTNO" value="ERJ-3EKF1500V"/>
 </part>
