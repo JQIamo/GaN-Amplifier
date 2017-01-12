@@ -4653,6 +4653,9 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="FID2" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="FID3" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="FID4" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="C21" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
+<attribute name="PARTNO" value="UMK325C7106MM-T"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -4985,6 +4988,9 @@ I_hys=10uA</text>
 <instance part="FID2" gate="G$1" x="3.81" y="209.55"/>
 <instance part="FID3" gate="G$1" x="-6.35" y="203.2"/>
 <instance part="FID4" gate="G$1" x="3.81" y="204.47"/>
+<instance part="C21" gate="G$1" x="138.43" y="210.82" rot="MR90">
+<attribute name="PARTNO" x="138.43" y="210.82" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5186,6 +5192,9 @@ I_hys=10uA</text>
 <wire x1="173.99" y1="213.36" x2="173.99" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="173.99" y1="210.82" x2="171.45" y2="210.82" width="0.1524" layer="91"/>
 <junction x="171.45" y="210.82"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="140.97" y1="210.82" x2="154.94" y2="210.82" width="0.1524" layer="91"/>
+<junction x="154.94" y="210.82"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="V-"/>
@@ -5748,8 +5757,10 @@ I_hys=10uA</text>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="I$1"/>
-<wire x1="130.81" y1="194.31" x2="130.81" y2="200.66" width="0.1524" layer="91"/>
 <label x="130.81" y="195.58" size="1.778" layer="95" rot="R90"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="130.81" y1="194.31" x2="130.81" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="130.81" y1="210.82" x2="133.35" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
