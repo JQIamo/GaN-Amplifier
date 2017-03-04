@@ -2432,7 +2432,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="LT6015HS5#TRMPBF" x="87.63" y="41.656" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T5" library="transistor-jqi" package="PG-SOT-223" value="BSP89" x="81.788" y="40.132" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.106" y="37.7952" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="82.55" y="35.7632" size="1.27" layer="25" rot="R180"/>
 <attribute name="PARTNO" value="BSP89H6327XTSA1" x="81.788" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C22" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="89.154" y="44.196" smashed="yes" rot="R180">
@@ -2444,7 +2444,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="R26" library="jqi_passives" package="R_0603" value="200" x="88.9" y="34.798" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="TNPW0603200RBEEA" x="88.9" y="34.798" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="89.7" y="37.268" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="89.7" y="37.522" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="R27" library="jqi_passives" package="R_0603" value="100" x="84.836" y="44.958">
 <attribute name="PARTNO" value="ERJ-3EKF1000V" x="84.836" y="44.958" size="1.778" layer="27" display="off"/>
@@ -2457,7 +2457,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="R29" library="rlc-jqi" package="1206_KELVIN" value="0.05" x="86.106" y="32.512" smashed="yes">
 <attribute name="PARTNO" value="LVK12R050DER" x="86.106" y="32.512" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="81.862" y="31.176" size="1.27" layer="25"/>
+<attribute name="NAME" x="89.99" y="32.192" size="1.27" layer="25"/>
 </element>
 <element name="C23" library="jqi_passives" package="C_MLCC_0603" value="2.2n" x="105.41" y="45.466" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CL10B222KB8NNNC" x="105.41" y="45.466" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2811,7 +2811,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="82.804" y="44.704" extent="1-16" drill="0.4064"/>
 <via x="87.376" y="38.354" extent="1-16" drill="0.4064"/>
 <via x="100.838" y="39.624" extent="1-16" drill="0.4064"/>
-<via x="96.266" y="33.528" extent="1-16" drill="0.4064"/>
+<via x="95.758" y="32.766" extent="1-16" drill="0.4064"/>
 <via x="84.074" y="32.766" extent="1-16" drill="0.4064"/>
 <via x="70.104" y="32.512" extent="1-16" drill="0.4064"/>
 <via x="78.232" y="27.432" extent="1-16" drill="0.4064"/>
@@ -2910,7 +2910,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="108.204" y="22.098" extent="1-16" drill="0.4064"/>
 <via x="96.774" y="13.208" extent="1-16" drill="0.4064"/>
 <via x="94.234" y="23.114" extent="1-16" drill="0.4064"/>
-<via x="90.932" y="33.02" extent="1-16" drill="0.4064"/>
+<via x="90.678" y="34.036" extent="1-16" drill="0.4064"/>
 <via x="112.522" y="33.528" extent="1-16" drill="0.4064"/>
 <via x="118.11" y="37.084" extent="1-16" drill="0.4064"/>
 <via x="117.856" y="26.67" extent="1-16" drill="0.4064"/>

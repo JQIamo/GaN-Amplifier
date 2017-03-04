@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -36,25 +36,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
@@ -2798,7 +2798,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="75.438" y="24.638" extent="1-16" drill="0.4064"/>
 <via x="85.598" y="14.986" extent="1-16" drill="0.4064"/>
 <via x="102.108" y="28.194" extent="1-16" drill="0.4064"/>
-<via x="103.632" y="32.512" extent="1-16" drill="0.4064"/>
+<via x="103.632" y="32.766" extent="1-16" drill="0.4064"/>
 <via x="80.772" y="21.844" extent="1-16" drill="0.4064"/>
 <via x="100.33" y="26.924" extent="1-16" drill="0.4064"/>
 <via x="100.584" y="33.274" extent="1-16" drill="0.4064"/>
@@ -2932,7 +2932,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </polygon>
 <via x="100.33" y="22.86" extent="1-16" drill="0.4064"/>
 <via x="106.68" y="28.4988" extent="1-16" drill="0.4064"/>
-<via x="104.14" y="28.4988" extent="1-16" drill="0.4064"/>
+<via x="98.044" y="36.1188" extent="1-16" drill="0.4064"/>
 <wire x1="104.66" y1="23.15" x2="104.16" y2="23.15" width="0.254" layer="1"/>
 <via x="66.04" y="39.37" extent="1-16" drill="0.4064"/>
 <via x="36.068" y="20.066" extent="1-16" drill="0.4064"/>
@@ -3651,6 +3651,22 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="D6" pad="ANODE"/>
 <contactref element="R36" pad="P$2"/>
 <wire x1="17.272" y1="8.624" x2="17.272" y2="10.426" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$23">
+<polygon width="0" layer="1" pour="cutout" thermals="no">
+<vertex x="103.759" y="28.829"/>
+<vertex x="104.775" y="28.829"/>
+<vertex x="104.775" y="31.877"/>
+<vertex x="103.759" y="31.877"/>
+</polygon>
+</signal>
+<signal name="N$42">
+<polygon width="0" layer="1" pour="cutout" thermals="no">
+<vertex x="104.394" y="32.893"/>
+<vertex x="106.426" y="32.893"/>
+<vertex x="106.426" y="33.655"/>
+<vertex x="104.394" y="33.655"/>
+</polygon>
 </signal>
 </signals>
 <errors>

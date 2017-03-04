@@ -2620,8 +2620,8 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <smd name="P$1" x="-1.27" y="0" dx="2.54" dy="0.762" layer="1" thermals="no" cream="no"/>
 <smd name="P$2" x="-2.54" y="4.2545" dx="5.08" dy="1.27" layer="1" thermals="no" cream="no"/>
 <smd name="P$3" x="-2.54" y="-4.2545" dx="5.08" dy="1.27" layer="1" thermals="no" cream="no"/>
-<smd name="P$4" x="-2.54" y="4.2545" dx="5.08" dy="1.27" layer="16" cream="no"/>
-<smd name="P$5" x="-2.54" y="-4.2545" dx="5.08" dy="1.27" layer="16" cream="no"/>
+<smd name="P$4" x="-2.54" y="4.2545" dx="5.08" dy="1.27" layer="16" thermals="no" cream="no"/>
+<smd name="P$5" x="-2.54" y="-4.2545" dx="5.08" dy="1.27" layer="16" thermals="no" cream="no"/>
 <text x="-5.08" y="5.715" size="1.27" layer="21">&gt;NAME</text>
 <polygon width="0.254" layer="1">
 <vertex x="-2.159" y="2.159"/>
@@ -4656,6 +4656,10 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="C21" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
 <attribute name="PARTNO" value="UMK325C7106MM-T"/>
 </part>
+<part name="FID5" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID6" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID7" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID8" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -4991,6 +4995,10 @@ I_hys=10uA</text>
 <instance part="C21" gate="G$1" x="138.43" y="210.82" rot="MR90">
 <attribute name="PARTNO" x="138.43" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="FID5" gate="G$1" x="-6.35" y="214.63"/>
+<instance part="FID6" gate="G$1" x="3.81" y="214.63"/>
+<instance part="FID7" gate="G$1" x="3.81" y="219.71"/>
+<instance part="FID8" gate="G$1" x="-6.35" y="219.71"/>
 </instances>
 <busses>
 </busses>

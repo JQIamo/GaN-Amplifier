@@ -4524,7 +4524,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
 <part name="P-2" library="supply1" deviceset="-24V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="R21" library="jqi_passives" deviceset="R_TRIM" device="" value="10k">
+<part name="R21" library="jqi_passives" deviceset="R_TRIM" device="">
 <attribute name="PARTNO" value="Y006910K0000J9L"/>
 </part>
 <part name="J1" library="connector-jqi" deviceset="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" device="">
