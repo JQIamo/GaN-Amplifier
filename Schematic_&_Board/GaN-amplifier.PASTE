@@ -1,4 +1,4 @@
-#MacroFab, INC. PASTE data for C:/Users/Thermo. Metrology/Documents/GitHub/GaN-Amplifier/Schematic_&_Board/GaN-amplifier.brd.
+#MacroFab, INC. PASTE data for //elwood.nist.gov/685/users/dsb1/My Documents/GitHub/GaN-Amplifier/Schematic_&_Board/GaN-amplifier.brd.
 #
 #PASTE Data:
 #Designator	X-Loc	Y-Loc	Side	Type	X-Size	Y-Size
@@ -263,10 +263,10 @@ U3	1700.00	345.00	1	1	48.00	20.00
 U3	1662.60	345.00	1	1	48.00	20.00
 U3	1662.60	255.00	1	1	48.00	20.00
 U3	1737.40	255.00	1	1	48.00	20.00
-U4	2950.00	585.00	1	1	50.00	20.00
-U4	3050.00	585.00	1	1	50.00	20.00
-U4	3050.00	695.00	1	1	50.00	20.00
-U4	2950.00	695.00	1	1	50.00	20.00
+U4	2950.00	529.75	1	1	51.20	21.70
+U4	3050.00	529.75	1	1	51.20	21.70
+U4	3050.00	750.25	1	1	51.20	21.70
+U4	2950.00	750.25	1	1	51.20	21.70
 U5	3405.00	1677.40	1	1	48.00	20.00
 U5	3405.00	1640.00	1	1	48.00	20.00
 U5	3405.00	1602.60	1	1	48.00	20.00
