@@ -4326,11 +4326,11 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
 <attribute name="PARTNO" value="UMK325C7106MM-T"/>
 </part>
-<part name="C6" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
+<part name="C6" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="22n">
+<attribute name="PARTNO" value="CL10B223KB8NNNC"/>
 </part>
-<part name="C7" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
+<part name="C7" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="22n">
+<attribute name="PARTNO" value="CL10B223KB8NNNC"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="-8V" device=""/>
@@ -4400,11 +4400,11 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="640456-2"/>
 </part>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="C15" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="220n">
-<attribute name="PARTNO" value="CL10B224KP8NNNC"/>
+<part name="C15" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1u">
+<attribute name="PARTNO" value="CL10B105KA8NNNC"/>
 </part>
-<part name="C16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="150n">
-<attribute name="PARTNO" value="CL10B154KP8NNNC"/>
+<part name="C16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="680n">
+<attribute name="PARTNO" value="CL10B684KO8NFNC"/>
 </part>
 <part name="R4" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9k">
 <attribute name="PARTNO" value="ERJ-3EKF4992V"/>
@@ -4523,11 +4523,11 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="R29" library="rlc-jqi" deviceset="RES_KELVIN" device="" value="0.05">
 <attribute name="PARTNO" value="LVK12R050DER"/>
 </part>
-<part name="C23" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
+<part name="C23" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="22n">
+<attribute name="PARTNO" value="CL10B223KB8NNNC"/>
 </part>
-<part name="C24" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2n">
-<attribute name="PARTNO" value="CL10B222KB8NNNC"/>
+<part name="C24" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="22n">
+<attribute name="PARTNO" value="CL10B223KB8NNNC"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">
@@ -4645,6 +4645,16 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="C27" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100n">
 <attribute name="PARTNO" value="CL10B104KB8SFNC"/>
 </part>
+<part name="R40" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
+</part>
+<part name="R41" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
+</part>
+<part name="R42" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
+</part>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5411,6 +5421,16 @@ I_hys=10uA</text>
 <instance part="C20" gate="G$1" x="31.75" y="78.74">
 <attribute name="PARTNO" x="31.75" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="R40" gate="G$1" x="246.38" y="168.91" rot="R90">
+<attribute name="PARTNO" x="246.38" y="168.91" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R41" gate="G$1" x="251.46" y="168.91" rot="R90">
+<attribute name="PARTNO" x="251.46" y="168.91" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R42" gate="G$1" x="124.46" y="180.34" rot="R180">
+<attribute name="PARTNO" x="124.46" y="180.34" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="GND23" gate="1" x="251.46" y="156.21"/>
 </instances>
 <busses>
 </busses>
@@ -5473,6 +5493,11 @@ I_hys=10uA</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="158.75" x2="166.37" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="166.37" y1="158.75" x2="166.37" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="180.34" x2="168.91" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="168.91" y1="180.34" x2="168.91" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="168.91" y1="158.75" x2="166.37" y2="158.75" width="0.1524" layer="91"/>
+<junction x="166.37" y="158.75"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -5566,6 +5591,16 @@ I_hys=10uA</text>
 <wire x1="31.75" y1="73.66" x2="31.75" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="P$1"/>
 <pinref part="C20" gate="G$1" pin="P$2"/>
+</segment>
+<segment>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="163.83" x2="246.38" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="161.29" x2="251.46" y2="161.29" width="0.1524" layer="91"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="161.29" x2="251.46" y2="163.83" width="0.1524" layer="91"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="251.46" y1="161.29" x2="251.46" y2="158.75" width="0.1524" layer="91"/>
+<junction x="251.46" y="161.29"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -5740,6 +5775,9 @@ I_hys=10uA</text>
 <pinref part="U6" gate="A" pin="ON"/>
 <wire x1="127" y1="189.23" x2="113.03" y2="189.23" width="0.1524" layer="91"/>
 <wire x1="113.03" y1="189.23" x2="113.03" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<wire x1="113.03" y1="180.34" x2="119.38" y2="180.34" width="0.1524" layer="91"/>
+<junction x="113.03" y="180.34"/>
 </segment>
 </net>
 <net name="*FAULT" class="0">
@@ -6035,9 +6073,15 @@ I_hys=10uA</text>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="222.25" y1="176.53" x2="224.79" y2="176.53" width="0.1524" layer="91"/>
 <wire x1="224.79" y1="176.53" x2="224.79" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="176.53" x2="232.41" y2="176.53" width="0.1524" layer="91"/>
 <junction x="224.79" y="176.53"/>
 <label x="227.33" y="176.53" size="1.778" layer="95"/>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="224.79" y1="176.53" x2="246.38" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="176.53" x2="246.38" y2="173.99" width="0.1524" layer="91"/>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="176.53" x2="251.46" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="176.53" x2="251.46" y2="173.99" width="0.1524" layer="91"/>
+<junction x="246.38" y="176.53"/>
 </segment>
 </net>
 <net name="N$14" class="0">
