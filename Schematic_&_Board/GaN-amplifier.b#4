@@ -462,10 +462,10 @@
 <text x="12.446" y="23.368" size="1.016" layer="22" rot="MR90">+24V</text>
 <text x="2.032" y="23.622" size="1.016" layer="22" rot="MR90">-24V</text>
 <text x="9.144" y="28.956" size="1.016" layer="22" rot="MR0">GND</text>
-<text x="74.676" y="6.604" size="1.016" layer="22" rot="MR0">On/Off</text>
+<text x="72.39" y="5.334" size="1.016" layer="22" rot="MR0">On/Off</text>
 <text x="36.83" y="29.972" size="0.762" layer="22" rot="MR0">RF enable</text>
 <text x="79.756" y="32.004" size="1.016" layer="22" rot="MR0">Idd Monitor</text>
-<text x="74.676" y="4.826" size="0.635" layer="22" rot="MR0">connect to front
+<text x="73.406" y="3.302" size="0.635" layer="22" rot="MR0">connect to front
 rocker switch</text>
 <text x="87.376" y="15.494" size="1.016" layer="22" rot="MR90">Install heatsink on pad</text>
 <text x="101.854" y="9.398" size="1.778" layer="22" rot="MR180">RF in</text>

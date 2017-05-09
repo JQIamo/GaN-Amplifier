@@ -2396,12 +2396,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="LVK12R050DER" x="86.106" y="32.512" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.99" y="32.192" size="1.27" layer="25"/>
 </element>
-<element name="C23" library="jqi_passives" package="C_MLCC_0603" value="22n" x="105.41" y="45.466" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="CL10B223KB8NNNC" x="105.41" y="45.466" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C23" library="jqi_passives" package="C_MLCC_0603" value="10n" x="105.41" y="45.466" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="CL10B103KB8NCNC" x="105.41" y="45.466" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="106.904" y="44.488" size="1.016" layer="25" font="vector"/>
 </element>
-<element name="C24" library="jqi_passives" package="C_MLCC_0603" value="22n" x="105.41" y="5.334" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="CL10B223KB8NNNC" x="105.41" y="5.334" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C24" library="jqi_passives" package="C_MLCC_0603" value="10n" x="105.41" y="5.334" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="CL10B103KB8NCNC" x="105.41" y="5.334" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="106.904" y="6.134" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C25" library="jqi_passives" package="C_MLCC_0603" value="3.3p" x="106.172" y="35.56" smashed="yes">

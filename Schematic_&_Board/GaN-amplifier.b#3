@@ -2271,7 +2271,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="CL10B684KO8NFNC" x="59.436" y="6.858" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="jqi_passives" package="R_0603" value="49.9k" x="61.722" y="7.874" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.684" y="9.614" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="61.538" y="8.674" size="0.762" layer="25" font="vector"/>
 <attribute name="PARTNO" value="ERJ-3EKF4992V" x="61.722" y="7.874" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U4" library="transistor-jqi" package="4-LEAD_SOP" value="CPC1117NTR" x="76.2" y="16.256" smashed="yes" rot="R90">
@@ -2294,7 +2294,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="47.46" y="6.5105" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="PARTNO" value="CL10B104KB8SFNC" x="45.72" y="7.8105" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C18" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="43.942" y="11.176" smashed="yes" rot="R180">
+<element name="C18" library="jqi_passives" package="C_MLCC_0603" value="100n" x="43.942" y="11.176" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.226" y="13.17" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="PARTNO" value="CL10B104KB8SFNC" x="43.942" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -2372,7 +2372,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="82.55" y="35.7632" size="1.27" layer="25" rot="R180"/>
 <attribute name="PARTNO" value="BSP89H6327XTSA1" x="81.788" y="40.132" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C22" library="jqi_passives" package="C_MLCC_0603" value="0.1u" x="89.154" y="44.196" smashed="yes" rot="R180">
+<element name="C22" library="jqi_passives" package="C_MLCC_0603" value="100n" x="89.154" y="44.196" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="CL10B104KB8SFNC" x="89.154" y="44.196" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="92.486" y="46.19" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
@@ -2605,8 +2605,14 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="ERJ-3EKF1002V" x="81.661" y="28.067" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="80.937" y="26.727" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R42" library="jqi_passives" package="R_0603" value="10k" x="64.389" y="11.049" rot="R270">
-<attribute name="PARTNO" value="ERJ-3EKF1002V" x="64.389" y="11.049" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R42" library="jqi_passives" package="R_0603" value="10k" x="64.262" y="8.001" rot="R90">
+<attribute name="PARTNO" value="ERJ-3EKF1002V" x="64.262" y="8.001" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R43" library="jqi_passives" package="R_0603" value="1k" x="65.024" y="10.16" rot="R180">
+<attribute name="PARTNO" value="ERJ-3EKF1001V" x="65.024" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C28" library="jqi_passives" package="C_MLCC_0603" value="680n" x="62.865" y="11.049" rot="R90">
+<attribute name="PARTNO" value="CL10B684KO8NFNC" x="62.865" y="11.049" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2729,14 +2735,14 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="58.7375" y1="11.684" x2="58.674" y2="11.684" width="0.4064" layer="1"/>
 <wire x1="58.7375" y1="10.2362" x2="58.7375" y2="11.684" width="0.4064" layer="1"/>
 <via x="55.88" y="4.318" extent="1-16" drill="0.4064"/>
-<via x="66.548" y="7.62" extent="1-16" drill="0.4064"/>
+<via x="66.294" y="7.366" extent="1-16" drill="0.4064"/>
 <via x="49.784" y="7.874" extent="1-16" drill="0.4064"/>
 <via x="60.96" y="4.318" extent="1-16" drill="0.4064"/>
 <via x="2.286" y="19.812" extent="1-16" drill="0.4064"/>
 <via x="6.35" y="33.782" extent="1-16" drill="0.4064"/>
 <via x="53.086" y="19.812" extent="1-16" drill="0.4064"/>
 <via x="63.5" y="19.304" extent="1-16" drill="0.4064"/>
-<via x="63.246" y="11.176" extent="1-16" drill="0.4064"/>
+<via x="64.008" y="11.938" extent="1-16" drill="0.4064"/>
 <via x="51.816" y="9.906" extent="1-16" drill="0.4064"/>
 <via x="44.958" y="18.796" extent="1-16" drill="0.4064"/>
 <via x="49.022" y="23.876" extent="1-16" drill="0.4064"/>
@@ -2840,7 +2846,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="104.14" y="48.5648" extent="1-16" drill="0.4064"/>
 <via x="106.68" y="48.5648" extent="1-16" drill="0.4064"/>
 <via x="52.07" y="16.51" extent="1-16" drill="0.4064"/>
-<via x="62.23" y="16.002" extent="1-16" drill="0.4064"/>
+<via x="61.722" y="16.256" extent="1-16" drill="0.4064"/>
 <via x="93.472" y="18.034" extent="1-16" drill="0.4064"/>
 <via x="101.346" y="16.256" extent="1-16" drill="0.4064"/>
 <via x="114.3" y="38.354" extent="1-16" drill="0.4064"/>
@@ -2950,6 +2956,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="R42" pad="P$1"/>
 <contactref element="R40" pad="P$1"/>
 <contactref element="R41" pad="P$1"/>
+<contactref element="C28" pad="P$2"/>
 </signal>
 <signal name="N$15">
 <contactref element="C11" pad="P$2"/>
@@ -3096,13 +3103,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </signal>
 <signal name="N$4">
 <contactref element="JP1" pad="2"/>
-<contactref element="U6" pad="16"/>
-<wire x1="60.6425" y1="10.2362" x2="64.389" y2="10.2362" width="0.4064" layer="1"/>
-<wire x1="65.278" y1="10.2362" x2="67.2338" y2="10.2362" width="0.4064" layer="1"/>
-<wire x1="67.2338" y1="10.2362" x2="67.31" y2="10.16" width="0.4064" layer="1"/>
-<contactref element="R42" pad="P$2"/>
-<wire x1="64.389" y1="10.299" x2="64.389" y2="10.2362" width="0.4064" layer="1"/>
-<wire x1="64.389" y1="10.2362" x2="65.278" y2="10.2362" width="0.4064" layer="1"/>
+<contactref element="R43" pad="P$1"/>
+<wire x1="67.31" y1="10.16" x2="65.774" y2="10.16" width="0.4064" layer="1"/>
 </signal>
 <signal name="*FAULT">
 <contactref element="U6" pad="9"/>
@@ -3258,10 +3260,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="50.28" y1="10.16" x2="50.292" y2="10.172" width="0.4064" layer="1"/>
 <wire x1="50.292" y1="10.172" x2="50.292" y2="12.192" width="0.4064" layer="1"/>
 <via x="50.292" y="12.192" extent="1-16" drill="0.6096"/>
-<via x="62.484" y="12.192" extent="1-16" drill="0.6096"/>
-<wire x1="62.484" y1="12.192" x2="62.484" y2="13.3223" width="0.4064" layer="1"/>
-<wire x1="62.484" y1="13.3223" x2="60.6425" y2="15.1638" width="0.4064" layer="1"/>
-<wire x1="50.292" y1="12.192" x2="62.484" y2="12.192" width="0.4064" layer="15"/>
+<via x="62.484" y="14.732" extent="1-16" drill="0.6096"/>
+<wire x1="50.292" y1="12.192" x2="59.944" y2="12.192" width="0.4064" layer="15"/>
+<wire x1="59.944" y1="12.192" x2="62.484" y2="14.732" width="0.4064" layer="15"/>
+<wire x1="62.484" y1="14.732" x2="62.0522" y2="15.1638" width="0.4064" layer="1"/>
+<wire x1="62.0522" y1="15.1638" x2="60.6425" y2="15.1638" width="0.4064" layer="1"/>
 </signal>
 <signal name="VDD_EN">
 <contactref element="U6" pad="6"/>
@@ -3676,6 +3679,18 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="83.185" y1="20.066" x2="88.531" y2="20.066" width="0.6096" layer="1"/>
 <wire x1="88.531" y1="20.066" x2="88.531" y2="18.645" width="0.6096" layer="1"/>
 <wire x1="88.531" y1="18.645" x2="88.646" y2="18.53" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$44">
+<contactref element="U6" pad="16"/>
+<contactref element="R42" pad="P$2"/>
+<contactref element="C28" pad="P$1"/>
+<contactref element="R43" pad="P$2"/>
+<wire x1="60.6425" y1="10.2362" x2="60.7053" y2="10.299" width="0.4064" layer="1"/>
+<wire x1="60.7053" y1="10.299" x2="62.865" y2="10.299" width="0.4064" layer="1"/>
+<wire x1="62.865" y1="10.299" x2="64.135" y2="10.299" width="0.4064" layer="1"/>
+<wire x1="64.135" y1="10.299" x2="64.274" y2="10.16" width="0.4064" layer="1"/>
+<wire x1="64.274" y1="10.16" x2="64.274" y2="8.763" width="0.4064" layer="1"/>
+<wire x1="64.274" y1="8.763" x2="64.262" y2="8.751" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <errors>

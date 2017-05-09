@@ -1593,13 +1593,13 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <rectangle x1="2.54" y1="-1.905" x2="5.08" y2="0.635" layer="31"/>
 </package>
 <package name="4-LEAD_SOP">
-<wire x1="1.524" y1="1.8288" x2="-1.4986" y2="1.8288" width="0.127" layer="21"/>
-<smd name="P$1" x="-1.397" y="1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
-<smd name="P$2" x="-1.397" y="-1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
-<smd name="P$3" x="1.397" y="-1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
-<smd name="P$4" x="1.397" y="1.27" dx="1.27" dy="0.508" layer="1" roundness="85"/>
-<text x="-0.6858" y="1.0922" size="0.6096" layer="21">1</text>
-<text x="-1.27" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="2.794" y1="1.8288" x2="-2.794" y2="1.8288" width="0.127" layer="21"/>
+<smd name="P$1" x="-2.80035" y="1.27" dx="1.30048125" dy="0.55118125" layer="1" roundness="85"/>
+<smd name="P$2" x="-2.80035" y="-1.27" dx="1.30048125" dy="0.55118125" layer="1" roundness="85"/>
+<smd name="P$3" x="2.80035" y="-1.27" dx="1.30048125" dy="0.55118125" layer="1" roundness="85"/>
+<smd name="P$4" x="2.80035" y="1.27" dx="1.30048125" dy="0.55118125" layer="1" roundness="85"/>
+<text x="-1.905" y="1.0922" size="0.6096" layer="21">1</text>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="6-LEAD_SMT">
 <smd name="2" x="-4.45" y="0" dx="1.65" dy="0.65" layer="1" roundness="100"/>
@@ -1737,10 +1737,10 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <wire x1="0" y1="0" x2="-0.254" y2="-0.254" width="0.254" layer="94"/>
 <wire x1="-0.254" y1="-0.254" x2="-0.254" y2="0.254" width="0.254" layer="94"/>
 <wire x1="-0.254" y1="0.254" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="P$1" x="-7.62" y="5.08" visible="off" length="short"/>
-<pin name="P$2" x="-7.62" y="-5.08" visible="off" length="short"/>
-<pin name="P$3" x="7.62" y="-5.08" visible="off" length="short" rot="R180"/>
-<pin name="P$4" x="7.62" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="C+" x="-7.62" y="5.08" visible="off" length="short"/>
+<pin name="C-" x="-7.62" y="-5.08" visible="off" length="short"/>
+<pin name="L-" x="7.62" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="L+" x="7.62" y="5.08" visible="off" length="short" rot="R180"/>
 <text x="-3.048" y="5.842" size="1.016" layer="94">Optomos</text>
 <text x="-5.08" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <polygon width="0.254" layer="94">
@@ -1850,10 +1850,10 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <devices>
 <device name="" package="4-LEAD_SOP">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="C+" pad="P$1"/>
+<connect gate="G$1" pin="C-" pad="P$2"/>
+<connect gate="G$1" pin="L+" pad="P$4"/>
+<connect gate="G$1" pin="L-" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5515,7 +5515,7 @@ I_hys=10uA</text>
 <junction x="190.5" y="160.02"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="P$2"/>
+<pinref part="U4" gate="G$1" pin="C-"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="236.22" y1="69.85" x2="233.68" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="69.85" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
@@ -5910,7 +5910,7 @@ I_hys=10uA</text>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="-8V"/>
-<pinref part="U4" gate="G$1" pin="P$4"/>
+<pinref part="U4" gate="G$1" pin="L+"/>
 <wire x1="255.27" y1="85.09" x2="255.27" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="255.27" y1="80.01" x2="251.46" y2="80.01" width="0.1524" layer="91"/>
 </segment>
@@ -6058,13 +6058,13 @@ I_hys=10uA</text>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="U4" gate="G$1" pin="P$1"/>
+<pinref part="U4" gate="G$1" pin="C+"/>
 <wire x1="232.41" y1="80.01" x2="236.22" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_PINCH" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="P$3"/>
+<pinref part="U4" gate="G$1" pin="L-"/>
 <wire x1="251.46" y1="69.85" x2="257.81" y2="69.85" width="0.1524" layer="91"/>
 <label x="252.73" y="69.85" size="1.778" layer="95"/>
 </segment>
