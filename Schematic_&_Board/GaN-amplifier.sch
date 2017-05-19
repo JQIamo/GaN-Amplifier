@@ -4321,10 +4321,10 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </part>
 <part name="P-1" library="supply1" deviceset="-24V" device=""/>
 <part name="C2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="UMK325C7106MM-T"/>
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
 </part>
 <part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="UMK325C7106MM-T"/>
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
 </part>
 <part name="C6" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="22n">
 <attribute name="PARTNO" value="CL10B223KB8NNNC"/>
@@ -4334,11 +4334,11 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="-8V" device=""/>
-<part name="C8" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u">
-<attribute name="PARTNO" value="GMK316AB7106KL-TR"/>
+<part name="C8" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
 </part>
-<part name="C9" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10u">
-<attribute name="PARTNO" value="GMK316AB7106KL-TR"/>
+<part name="C9" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
 </part>
 <part name="C10" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n">
 <attribute name="PARTNO" value="CL05B103KB5NNNC"/>
@@ -4524,10 +4524,10 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <attribute name="PARTNO" value="LVK12R050DER"/>
 </part>
 <part name="C23" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="100n">
-<attribute name="PARTNO" value="0402BB104"/>
+<attribute name="PARTNO" value="0402BB104KW500"/>
 </part>
 <part name="C24" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="100n">
-<attribute name="PARTNO" value="0402BB104"/>
+<attribute name="PARTNO" value="0402BB104KW500"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">
@@ -4608,17 +4608,17 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="FID3" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="FID4" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="C21" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="UMK325C7106MM-T"/>
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
 </part>
 <part name="FID5" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="FID6" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="FID7" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="FID8" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="C1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="UMK325C7106MM-T"/>
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
 </part>
 <part name="C12" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10u">
-<attribute name="PARTNO" value="UMK325C7106MM-T"/>
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
 </part>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
