@@ -2433,8 +2433,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="J1" library="connector-jqi" package="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" value="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" x="105.41" y="50.8" rot="R90">
 <attribute name="PARTNO" value="142-0701-851" x="105.41" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J2" library="connector-jqi" package="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" value="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" x="105.41" y="-0.254" rot="R270">
-<attribute name="PARTNO" value="142-0701-851" x="105.41" y="-0.254" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="J2" library="connector-jqi" package="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" value="JOHNSON_SMA_EDGE_LAUNCH_142-0701-851" x="105.41" y="0" rot="R270">
+<attribute name="PARTNO" value="142-0701-851" x="105.41" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C4" library="jqi_passives" package="C_MLCC_0603" value="1u" x="98.552" y="20.32" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="CL10B105KA8NNNC" x="98.552" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3512,7 +3512,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <signal name="N$31">
 <contactref element="C24" pad="P$2"/>
 <contactref element="J2" pad="P$1"/>
-<wire x1="105.41" y1="4.584" x2="105.41" y2="1.016" width="0.381" layer="1"/>
+<wire x1="105.41" y1="4.584" x2="105.41" y2="1.27" width="0.381" layer="1"/>
 </signal>
 <signal name="N$33">
 <contactref element="L1" pad="P$2"/>

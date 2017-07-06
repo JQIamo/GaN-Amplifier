@@ -4523,11 +4523,11 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="R29" library="rlc-jqi" deviceset="RES_KELVIN" device="" value="0.05">
 <attribute name="PARTNO" value="LVK12R050DER"/>
 </part>
-<part name="C23" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n">
-<attribute name="PARTNO" value="CL10B103KB8NCNC"/>
+<part name="C23" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="100n">
+<attribute name="PARTNO" value="0402BB104"/>
 </part>
-<part name="C24" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="10n">
-<attribute name="PARTNO" value="CL10B103KB8NCNC"/>
+<part name="C24" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="100n">
+<attribute name="PARTNO" value="0402BB104"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="3.3p">

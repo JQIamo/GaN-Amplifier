@@ -2828,16 +2828,16 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="104.3686" y="35.4838" extent="1-16" drill="0.3048"/>
 <via x="106.2482" y="36.8808" extent="1-16" drill="0.3048"/>
 <via x="104.5718" y="36.8808" extent="1-16" drill="0.3048"/>
-<via x="104.5464" y="38.4048" extent="1-16" drill="0.3048"/>
-<via x="106.2482" y="38.4048" extent="1-16" drill="0.3048"/>
-<via x="106.2482" y="39.9034" extent="1-16" drill="0.3048"/>
-<via x="104.5718" y="39.9288" extent="1-16" drill="0.3048"/>
-<via x="106.2482" y="41.4528" extent="1-16" drill="0.3048"/>
-<via x="104.5464" y="41.4528" extent="1-16" drill="0.3048"/>
-<via x="106.2482" y="42.9514" extent="1-16" drill="0.3048"/>
-<via x="104.5718" y="42.9768" extent="1-16" drill="0.3048"/>
-<via x="106.2736" y="44.5008" extent="1-16" drill="0.3048"/>
-<via x="104.521" y="44.5262" extent="1-16" drill="0.3048"/>
+<via x="104.5718" y="39.5224" extent="1-16" drill="0.3048"/>
+<via x="106.2482" y="39.5224" extent="1-16" drill="0.3048"/>
+<via x="106.2482" y="41.0718" extent="1-16" drill="0.3048"/>
+<via x="104.5718" y="41.0464" extent="1-16" drill="0.3048"/>
+<via x="106.2482" y="42.3418" extent="1-16" drill="0.3048"/>
+<via x="104.5718" y="42.3418" extent="1-16" drill="0.3048"/>
+<via x="106.2482" y="43.6118" extent="1-16" drill="0.3048"/>
+<via x="104.5718" y="43.6118" extent="1-16" drill="0.3048"/>
+<via x="106.299" y="44.8056" extent="1-16" drill="0.3048"/>
+<via x="104.521" y="44.8056" extent="1-16" drill="0.3048"/>
 <via x="104.4956" y="46.0248" extent="1-16" drill="0.3048"/>
 <via x="106.299" y="46.0756" extent="1-16" drill="0.3048"/>
 <via x="106.2228" y="47.2948" extent="1-16" drill="0.3048"/>
@@ -3145,6 +3145,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="117.602" y="6.858" extent="1-16" drill="0.3048"/>
 <via x="119.126" y="45.466" extent="1-16" drill="0.3048"/>
 <via x="116.332" y="8.89" extent="1-16" drill="0.3048"/>
+<via x="104.5718" y="38.1508" extent="1-16" drill="0.3048"/>
+<via x="106.2482" y="38.1508" extent="1-16" drill="0.3048"/>
+<via x="109.728" y="26.416" extent="1-16" drill="0.3048"/>
+<via x="111.252" y="27.178" extent="1-16" drill="0.3048"/>
+<via x="112.776" y="24.384" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$15">
 <contactref element="C11" pad="P$2"/>
